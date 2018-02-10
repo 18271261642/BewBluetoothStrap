@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#4dddff">
+
+    <ImageView
+        android:id="@+id/image_back"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/backs"
+        android:layout_marginLeft="@dimen/size_5"
+        android:padding="@dimen/size_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/bar_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="title"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/size_20" />
+
+
+</RelativeLayout>

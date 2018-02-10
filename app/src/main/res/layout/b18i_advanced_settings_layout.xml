@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/b18i_titil_bar" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/advanced_sedentary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_15"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/Sedentaryreminder"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_17" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@mipmap/my_arrow_right" />
+
+    </LinearLayout>
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/xiantiao"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/help_button_view" />
+
+    <LinearLayout
+        android:id="@+id/advanced_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_15"
+            android:padding="@dimen/size_5"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/preset_sleep"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_17" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@mipmap/my_arrow_right" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/help_button_view" />
+
+</LinearLayout>

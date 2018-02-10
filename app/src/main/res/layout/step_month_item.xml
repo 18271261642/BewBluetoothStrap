@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/itemtvDate"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center"
+        android:textSize="17sp"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/itemtvStep"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textStyle="bold"
+        android:drawableRight="@mipmap/item_step_small"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/itemtvKcal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center"
+        android:textSize="17sp"
+        android:padding="3dp"
+        android:drawableRight="@mipmap/item_kcal_smal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/itemtvDisc"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:gravity="center"
+        android:textSize="17sp"
+        android:padding="3dp"
+        android:drawableRight="@mipmap/item_dis_small"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

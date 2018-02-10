@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/appbar_toolbar" android:id="@+id/tool_bar"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool_bar"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/modify_password_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:background="@drawable/square_white_btn_change">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:text="@string/modify_password"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/lanage"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/size_15"
+                android:background="@color/linear_border" />
+
+            <RelativeLayout
+                android:id="@+id/abour_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:background="@drawable/square_white_btn_change"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:text="@string/abour"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:src="@mipmap/lanage" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/size_15"
+                android:background="@color/linear_border" />
+
+            <RelativeLayout
+                android:id="@+id/help_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:visibility="gone"
+                android:background="@drawable/square_white_btn_change">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:text="@string/help"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/lanage"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/size_15"
+                android:background="@color/linear_border" />
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/feedback_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:background="@drawable/square_white_btn_change">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:text="@string/feedback"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/lanage"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/exit_login"
+       android:background="@drawable/login_selector"
+        android:layout_marginLeft="@dimen/size_20"
+        android:layout_marginRight="@dimen/size_20"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="@dimen/size_10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_150"
+        android:text="@string/exit_login" />
+
+</RelativeLayout>

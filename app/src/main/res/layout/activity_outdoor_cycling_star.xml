@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/new_colorAccent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/qixingshuwaipaobustar"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:src="@mipmap/backs" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shuwaipaobuhuwai"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/outdoor_cycling"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/huwaiqixingbubao_fengxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:src="@mipmap/fenxiang"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/huwaiqixing_rent_map_pop"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/qixinggoogle_map"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.amap.api.maps.MapView
+                android:id="@+id/qixing_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></com.amap.api.maps.MapView>
+
+            <ImageView
+                android:id="@+id/qixingfugai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:scaleType="fitCenter"
+                android:visibility="gone"></ImageView>
+
+            <RelativeLayout
+                android:id="@+id/huwaiqi_xingbiaoyu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#00000000"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/yuanjiaojuxing"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="2dp"
+                        android:gravity="top|right"
+                        android:src="@mipmap/logohuwai" />
+
+                    <TextView
+                        android:id="@+id/huwaiqixing_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:text="2016-12-24"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/qichemypm"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/android_pm"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="PM2.5"
+                            android:textColor="#ffffff"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/qichekongqizhiliang"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text=""
+                            android:textColor="#fff000"
+                            android:textSize="8sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/qichemypmwww"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/android_pm"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:id="@+id/qichekongqiyu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="PM2.5"
+                            android:textColor="#ffffff"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/qichewendu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|bottom"
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="1"
+                            android:singleLine="true"
+                            android:text="20℃/15℃"
+                            android:textColor="#fff000"
+                            android:textSize="8sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.MySinkingView
+                android:id="@+id/sinking"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:visibility="gone"></com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.MySinkingView>
+
+            <RelativeLayout
+                android:id="@+id/huwaiqixing_ditut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+
+                android:background="@drawable/yundong_didu"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:src="@mipmap/xiangshang" />
+
+                <Chronometer
+                    android:id="@+id/chronometer_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:format="00:00:00"
+                    android:gravity="center|left"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/chronometer_time"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="@string/total_time"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/total_time"
+                    android:layout_below="@+id/chronometer_time"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/jishile" />
+
+                <TextView
+                    android:id="@+id/full_kilometer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center|right"
+                    android:text="00'00'"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/full_kilometer_ziti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/full_kilometer"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="@string/distance"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/xian"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/full_kilometer_ziti"
+                    android:layout_marginTop="5dp"
+                    android:background="#6bdcf8"
+                    android:orientation="horizontal"></View>
+
+                <TextView
+                    android:id="@+id/peisu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xian"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text="@string/Pace"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/xiaohao_kclal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/xian"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right"
+                    android:text="@string/xiaohao"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+
+    <RelativeLayout
+        android:id="@+id/huwaiqixing_huwaibuju"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#1b1b1b"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:src="@mipmap/xiangxia" />
+
+        <Chronometer
+            android:id="@+id/qixing_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:format="00:00:00"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/my_gongli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qixing_timer"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:text="0.00"
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/gongli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/my_gongli"
+            android:layout_toEndOf="@+id/my_gongli"
+            android:text="KM"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_gongli"
+            android:layout_gravity="center"
+            android:layout_toLeftOf="@+id/my_gongli"
+            android:gravity="right"
+            android:text="00'00"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_gongli"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/speed"
+            android:src="@mipmap/sudu" />
+
+        <ImageView
+            android:id="@+id/immage_kaluli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_gongli"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/my_gongli"
+            android:src="@mipmap/kalulibai" />
+
+        <TextView
+            android:id="@+id/qixingvelocity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_gongli"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/immage_kaluli"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0 kcal"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/qixingvelocity"
+            android:layout_marginTop="-10dp"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/huwaiqixing_buttonjixuting"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/jixu_style"
+                android:padding="0dp"
+                android:text="@string/continues"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/DiffuseView_buji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.example.bozhilun.android.activity.wylactivity.wyl_util.DiffuseView
+                    android:id="@+id/huwaiqixing_changanzhantinghuwai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/huwaiqixing_button4jiwshuting"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/jieshu_style"
+                android:padding="0dp"
+                android:text="@string/stop"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

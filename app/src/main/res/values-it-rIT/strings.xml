@@ -1,0 +1,585 @@
+<resources>
+    //意大利（意大利）
+
+    <string name="findwatch">Trova l\'orologio</string>
+    <string name="watchtime">Guarda il tempo</string>
+    <string name="systemtime">Ora di sistema</string>
+    <string name="notif_explain">Descrizione</string>
+    <string name="notif_messge">Messaggio per ricordare la necessità di aprire la notifica o la funzione ausiliaria</string>
+    <string name="open_notif">Apri la notifica</string>
+    <string name="open_function">Aprire la funzione ausiliaria</string>
+
+    <string name="device_times">Dispositivo di Tempo</string>
+    <string name="now_times">Attualmente Il Tempo</string>
+    <string name="get_device_times">L\'acquisizione di attrezzature di Tempo</string>
+    <string name="correct_pointer_times">L\'indicatore per la correzione, no?</string>
+    <string name="thousand">thousand steps</string>
+    <string name="sporttimes">Numero di volte</string>
+    <string name="grandtotalstep">Passi accumulati</string>
+    <string name="grandtotal">Durata cumulativa</string>
+    <string name="sportdata">Dati di movimento</string>
+    <string name="avg_speed">Avg speed</string>
+    <string name="long_onclick">Lungo La Stampa "+" E "-" può essere organizzato dal Punto di Vista</string>
+    <string name="add_sharpe">Sintesi e condivisione</string>
+    <string name="syncy_data">Sincronizzare i dati</string>
+    <string name="connted">collegato</string>
+    <string name="disconnted">scollegato</string>
+    <string name="nodata">Nessun dato</string>
+    <string name="age">età</string>
+    <string name="alarm_eat">A Cena</string>
+    <string name="alarm_medicine">Le Medicine</string>
+    <string name="alarm_dring">Bere l\'Acqua</string>
+    <string name="alarm_sp">A letto</string>
+    <string name="alarm_awakes">Alzati</string>
+    <string name="alarm_spr">La proposta di</string>
+    <string name="alarm_metting">La Conferenza</string>
+    <string name="alarm_custom">Usanza</string>
+    <string name="history_times">La storia di Tempo</string>
+    <string name="search_alert">Attrezzature di ricerca, per favore, Apri il cellulare e il GPS</string>
+    <string name="sleep_deep">Sonno Profondo</string>
+    <string name="sleep_light">Sonno Profondo</string>
+    <string name="long_when">Lunghezza</string>
+    <string name="sleep_asleep">Il Tempo di dormire</string>
+    <string name="recovery_count">I Tempi di recupero</string>
+    <string name="recovery_time">Il Tempo di recupero</string>
+    <string name="mine_equipment">IL Mio dispositivo</string>
+    <string name="low_voltage">LIMITE DI Bassa pressione</string>
+    <string name="high_voltage">LIMITE DI Alta pressione</string>
+    <string name="year">Anni</string>
+    <string name="news">IL messaggio</string>
+    <string name="messages">Dopo Aver ricevuto un nuovo messaggio</string>
+    <string name="system_settings">La configuration du système</string>
+    <string name="device_manager">Gestion de dispositif</string>
+    <string name="guide">Quando la scuola Guida</string>
+    <string name="step_one">1.\t Negli orologi da polso e App normale condizione collegata, in Primo Luogo, clicca sul pulsante di Zero</string>
+    <string name="step_two">2.\t Rispettivamente in Senso orario, La scelta di un minuto, di premi + E - A mezzanotte di tutta la regolamentazione Dell \'ago</string>
+    <string name="step_three">3.\t Premi il pulsante di Fatto automaticamente a recuperare La Scuola Quando l\'ago</string>
+    <string name="manualsleep">Manuale di sonno</string>
+    <string name="automaticsleep">- dormire</string>
+    <string name="dlog">IL carico...</string>
+    <string name="minezhen">Minuto mano</string>
+    <string name="hourzhen">Ora della mano</string>
+    <string name="zero">Ritorna a zero</string>
+    <string name="setmi">Sistema imperiale</string>
+    <string name="setkm">sistema metrico</string>
+    <string name="jiaozhen">Pin della scuola</string>
+    <string name="unit">unità</string>
+    <string name="hearting">rivelazione</string>
+    <string name="heartcheck">Test di frequenza cardiaca</string>
+    <string name="auxiliary_function">Si vous ouvrez la notification ou ne reçoit pas de rappel de message, vous pouvez essayer d\'ouvrir des fonctions auxiliaires.
+    \n Si vous pouvez le message de notification reçu, alors vous pouvez ignorer son existence, peut également être informé de la fonction auxiliaire de limitation ou d\'ouvrir une.
+    \n (cette fonction afin de résoudre la partie machine ne reçoit pas de message qui est placée, un message peut être reçu d\'ouvrir cette fonction par rappel de message de répétition)</string>
+    <string name="siren_str">Classement</string>
+    <string name="personal_str">Données personnelles</string>
+    <string name="function_str">De réglage de fonction</string>
+    <string name="find_str">Trouver des amis</string>
+    <string name="waking_state">L’état de veille</string>
+    <string name="shallow_sleep">Sommeil léger</string>
+    <string name="deep_sleep">La profondeur du sommeil</string>
+    <string name="mileage_km">Kilométrage/km</string>
+    <string name="ranking">Classement</string>
+    <string name="daily_distancia">Jour de la distance de mouvement</string>
+    <string name="notice_str">Notification</string>
+    <string name="shock_str">Vibration</string>
+    <string name="time_forma">Format d’heure</string>
+    <string name="advanced_setting">Paramètres avancés</string>
+    <string name="add_frendes">Ajouter des amis</string>
+    <string name="scan_frend">De recherche</string>
+    <string name="reset_device">Dispositif de remise à zéro</string>
+    <string name="heart_rate_test">Test de rythme cardiaque</string>
+    <string name="heart_rate_warning_range">La plage de fréquence cardiaque d’alerte</string>
+    <string name="close_str">Fermer</string>
+    <string name="weak_str">Faible</string>
+    <string name="standard_str">Standard</string>
+    <string name="strong_str">Fort</string>
+    <string name="preset_sleep">Sommeil prédéfini</string>
+    <string name="missed_calls">Appels manqués</string>
+    <string name="sms_reminder">SMS de rappel</string>
+    <string name="mailbox_reminder">Boîte aux lettres de rappel</string>
+    <string name="social_reminder">Rappel de réseautage social</string>
+    <string name="calendar_alarm">Un calendrier de rappel</string>
+    <string name="today_step">Il ritmo di oggi</string>
+    <string name="goal_step">scopo</string>
+    <string name="str_one">Chaque jour, vous pouvez définir de multiples types de rappel</string>
+    <string name="str_two">Sélectionner le type d’alerte</string>
+    <string name="str_three">Le long de la presse peut supprimer l’alarme</string>
+    <string name="str_four">Le choix de la date et de l’heure de rappel</string>
+    <string name="str_five">Une fois au point de rappeler le dispositif va s’agiter et afficher l’icône correspondante de vous rappeler</string>
+
+
+    <string name="noright">Attualmente sei un visitatore e non puoi modificare le informazioni</string>
+    <string name="newversion">Con La Nuova versione, un aggiornamento?</string>
+    <string name="visitor_enter">I visitatori entrano</string>
+    <string name="login_alert">Se entrare come turista?</string>
+    <string name="settarget_steps">Numero di destinazione di passi</string>
+    <string name="operation">istruzione</string>
+    <string name="today_data">I dati odierni</string>
+    <string name="msg_jiange">Messaggio ricordando intervallo</string>
+    <string name="psm">modalità di risparmio energetico</string>
+    <string name="setting_pair">Accedere alla configurazione del sistema, accoppiamento Bluetooth</string>
+    <string name="cancle_pair">Disconnetti Bluetooth salto per le impostazioni di sistema, di abbinamento annullata</string>
+    <string name="gps_alert">Questa necessità di aprire il GPS, è aperto</string>
+    <string name="clocktimes">Hai bisogno di scegliere il numero di ripetizioni, sveglia!</string>
+    <string name="notsportdata">Attuale proposta non premi senza Storia, alla fine.</string>
+    <string name="version">1.1.3</string>
+    <string name="fuwuqi">IL fallimento di Link Server</string>
+    <string name="notdevice">Non è il tuo dispositivo Bluetooth!</string>
+    <string name="zuigaoxinlv">Maximum heart rate</string>
+    <string name="zuidixinlv">Minimum heart rate</string>
+    <string name="pinjunxin">Mean heart rate</string>
+    <string name="shangzhou">Last week</string>
+    <string name="benzhou">This week</string>
+    <string name="shangyue">Last month</string>
+    <string name="benyue">This month</string>
+    <string name="XIAOHAO">Consumo di</string>
+    <string name="paces">Distribuzione di Velocità</string>
+    <string name="xiaoxitixing">Messaggio di ricordare la necessità di pro, l’Apertura, La funzione di aprire i Servizi Ausiliari, La Prego di aprire l’interruttore, Grazie</string>
+    <string name="xuanzeshijian">Per favore, La scelta di Tempo</string>
+    <string name="minute">M</string>
+    <string name="Bind_failed">Non vincolante</string>
+    <string name="Binding_success">Lega successo</string>
+    <string name="bluetooth_disconnected">IL Bluetooth Staccato</string>
+    <string name="bangdinged">è vincolante</string>
+    <string name="sports_history">Movimento della Storia</string>
+    <string name="good">Liang</string>
+    <string name="mild_pollution">Inquinamento Lieve</string>
+    <string name="moderate_pollution">Moderata, Inquinamento atmosferico</string>
+    <string name="heavy_pollution">Inquinamento Grave</string>
+    <string name="serious_pollution">Grave Inquinamento</string>
+    <string name="save_record">Se vuoi salvare il Movimento Record</string>
+    <string name="upgrade">Aggiornamento>></string>
+    <string name="latest_version">è già La Nuova versione</string>
+    <string name="upgrade_completed">Aggiornamento completato</string>
+    <string name="auto_upgrade">Aggiornamento Automatico....</string>
+    <string name="deleda">Sicuro di voler cancellare?</string>
+    <string name="zerostep">0 Step</string>
+    <string name="zeroday">0 Day</string>
+    <string name="zerokm">0 KM</string>
+    <string name="wechat_home_page">4. Il ritorno di Micro - Lettera Home Page in Movimento, La classifica Vede, in questo momento di attrezzature per sincronizzare I Dati già in Movimento di Micro - la Lettera, se non anche la sincronizzazione, per favore, aggiorna la Lista di pagine, un PAIO di Volte</string>
+    <string name="openwhchat">3. Di Micro - Micro - Lettera Lettera APERTA, EnTra nel Movimento di Micro - Lettera Home Page, clicca il pulsante destro sull’angolo in Alto A destra, di trovare "la circolazione dei dati di registrazione" Bar ", La scelta di aggiungere le Fonti dei dati, SI cerca di" Al tuo pubblico acquisto, I Fabbricanti di attrezzature, per favore, di aggiungere questo Numero di pubblico come Fonte di dati</string>
+    <string name="please_disconnect">Dopo il successo di. Vincolante, per favore, prima di staccare la Corrente</string>
+    <string name="first_use">1. Il Primo uso di attrezzature, per favore, prima di impegnare</string>
+    <string name="operation_method">Metodo di funzionamento</string>
+    <string name="bangding">Vincolante</string>
+    <string name="wechat_sports">Movimento di Micro - Lettera di accesso, E Amico di condividere il gioco!</string>
+    <string name="stop">Alla fine</string>
+    <string name="continues">Continuare</string>
+    <string name="xiaohao">Consumo di  0kcal</string>
+    <string name="Pace">Distribuzione di Velocità 00"00</string>
+    <string name="distance">Insieme a distanza: km</string>
+    <string name="total_time">Tempo totale</string>
+    <string name="history_record">La storia di registrazione</string>
+    <string name="third_party_login">Terzo Registro</string>
+    <string name="evening">La Sera 11:59</string>
+    <string name="before_dawn">Mattino 12:00</string>
+    <string name="measurement_results">Questa Volta I Risultati di misurazione</string>
+    <string name="call_reminder">Chiamata per ricordare</string>
+    <string name="mywechat">Lettera</string>
+    <string name="turn_off_the_phone">Se la chiusura della funzione di ricerca cellulare?</string>
+    <string name="leiji">L’esercizio</string>
+    <string name="cishu">Volta</string>
+    <string name="bluetooth_not_supported">Non supporto Bluetooth</string>
+    <string name="user_name_format">Nome utente sbagliato formato</string>
+    <string name="try_again">Per favore, indossando il braccialetto, E prova Di Nuovo.</string>
+    <string name="resend">Inviare Di Nuovo</string>
+    <string name="mailbox_format_error">Errore di formattazione E - Mail</string>
+    <string name="not_b_less">La Password non inferiore a 6 bit</string>
+    <string name="format_is_wrong">Numero di telefono di formato sbagliato</string>
+    <string name="change_password">Successo di modificare la Password</string>
+    <string name="shouhuan">Braccialetto</string>
+    <string name="my">Mio</string>
+    <string name="measurement_record">Se vuoi salvare questa Volta I Risultati di misurazione</string>
+    <string name="prompt">Indizio</string>
+    <string name="data_upload">Dati di caricare il successo</string>
+    <string name="data_upload_fail">Non e’riuscito a caricare I Dati</string>
+    <string name="input_email">Inserisci la cassetta della posta</string>
+    <string name="shouquancg">Autorizzazione di successo</string>
+    <string name="shouquanshib">Autorizzazione ha fallito</string>
+    <string name="shouquanqu">Autorizzazione di annullare</string>
+    <string name="detectionresult">I Risultati DEI TEST</string>
+    <string name="Allgemeiner">Lo Schema Generale</string>
+    <string name="Privater">Modalità di Privati</string>
+    <string name="wangluo">IL segnale di differenza Reti</string>
+    <string name="BPM">BPM</string>
+    <string name="suspend">Smettila di</string>
+    <string name="measure">La misurazione</string>
+
+    <string name="zhengzaiceshi">Non può cambiare Le modalità di prova</string>
+    <string name="jiancewangchen">Test completato</string>
+    <string name="lixiangxieya">Pressione ideale</string>
+    <string name="xieyagaoxian">Alta pressione normale Limite</string>
+    <string name="zhongdugaoya">Ipertensione da Lieve a Moderata</string>
+    <string name="zhongdugaoxuieya">Ipertensione Grave</string>
+    <string name="niedriger">Ipotensione</string>
+    <string name="xieyang">Ossigenazione del sangue</string>
+    <string name="heartrooate">Battito cardiaco</string>
+    <string name="bloodpressure">Pressione del sangue</string>
+    <string name="minsystoli">Pressione sistolica</string>
+    <string name="maxdiastol">Pressione diastolica</string>
+    <string name="jiance">Inizio Rilevamento</string>
+    <string name="allgemeiner">Schema Generale</string>
+    <string name="privater">Modalità di Privati</string>
+    <string name="healthtesting">La Salute di prova</string>
+    <string name="blood">La pressione del sangue</string>
+
+
+
+    <string name="app_name">RaceFit Pro</string>
+    <string name="input_password">Inserisci la Password</string>
+    <string name="input_code">Per favore, inserisci il Codice</string>
+    <string name="input_nickname">Inserisci il soprannome</string>
+    <string name="input_name">Inserisci il numero di cellulare</string>
+    <string name="user_login">Login</string>
+    <string name="search_strap">Braccialetto di Ricerca</string>
+    <string name="unbind_strap">Sciogliere</string>
+    <string name="confirm_unbind_strap">Determinare l’attuale contesto di sciogliere il braccialetto di attrezzature?</string>
+    <string name="exit_login">Registro di uscita</string>
+    <string name="user_regsiter">La registrazione</string>
+    <string name="confirm_compelte">Completato</string>
+    <string name="mine_data">I miei Dati</string>
+    <string name="next">Skip</string>
+    <string name="save">La conservazione</string>
+    <string name="complete">Completato</string>
+    <string name="modify_success">La modifica è successo</string>
+    <string name="share_to">Grazie alla condivisione...</string>
+
+    <string name="nick_name">Soprannome:</string>
+    <string name="select_photo">Per favore, scegliere la Foto</string>
+    <string name="take_camera">La telecamera</string>
+    <string name="take_Album">Album</string>
+    <string name="cancle">Annullare</string>
+    <string name="confirm">Determinare</string>
+
+    <string name="kongjian">QQ</string>
+    <string name="wechat_freinds">Lettera,amico</string>
+    <string name="wechat_quan">La Lettera di un Circolo di Amici</string>
+    <string name="fack_book">Facebook</string>
+
+
+    <string name="goalfinish">Numero di Giorni</string>
+    <string name="totaldistance">Il numero totale di km</string>
+    <string name="Totalnumberofsteps">Il numero giornaliero di Passo</string>
+    <string name="submit_success">Presentato con successo</string>
+    <string name="submit_fail">La presentazione dei dati.</string>
+    <string name="write_nickname">Per favore, compilare il soprannome di Utenti</string>
+    <string name="new_dif_confirm">Conferma Password non coerente Con La Nuova Password</string>
+    <string name="forget_password">Ho dimenticato la Password</string>
+    <string name="fast_register">La prima registrazione</string>
+    <string name="send_code">Manda il Codice di verifica</string>
+    <string name="user_prprotocol">Protocollo d’accordo con la Privacy degli Utenti</string>
+
+    <string name="yonghuzdffhej">Convalida di errore.</string>
+    <string name="yonghuzhej">Numero è stata registrata la sostituzione, per favore!</string>
+    <string name="tijiao">La presentazione dei dati</string>
+    <string name="yanzhengmakong">IL Codice di verifica non può essere Vuoto</string>
+    <string name="tianxie">IL nome utente riempire di errore</string>
+    <string name="miamacuo">Password sbagliata</string>
+    <string name="regsiter_fail">La registrazione è fallito</string>
+
+    <string name="yanzhengma">IL Codice di verifica Hanno già Inviato</string>
+    <string name="guojia">Lista di paesi per ottenere il successo</string>
+    <string name="get_code_fail">IL fallimento di ottenere il Codice di verifica</string>
+
+    <string-array name="banner_txt_one">
+        <item>La proposta di una nuova definizione del</item>
+        <item>La Salute di Cloud Storage di dati</item>
+        <item>La navigazione in Tempo Reale Sport all’Aperto</item>
+    </string-array>
+
+    <string-array name="banner_txt_two">
+        <item>IL Progresso di precisione, di fronte alla sfida</item>
+        <item>Elaborazione dei dati forniti solo</item>
+        <item>I Registri di ogni sforzo.</item>
+    </string-array>
+
+    <string-array name="select_sex">
+        <item>Maschio</item>
+        <item>Donna</item>
+    </string-array>
+
+    <string name="select_running_mode">Per favore, modalità DI SELEZIONE</string>
+    <string-array name="select_running_mode">
+        <item>Correre all’Aria Aperta</item>
+        <item>Cavalcare all’Aperto.</item>
+    </string-array>
+
+    <string-array name="select_alarm_repeat">
+        <item>Solo per ricordare una Volta</item>
+        <item>Ogni giorno</item>
+        <item>Dal lunedì al venerdì</item>
+        <item>Usanza</item>
+    </string-array>
+
+    <string-array name="select_week">
+        <item>Lunedi</item>
+        <item>Martedi</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdi</item>
+        <item>Sabato</item>
+        <item>La Domenica</item>
+    </string-array>
+
+    <string name="week">Settimana</string>
+    <string name="just_remind_once">Solo per ricordare una Volta</string>
+    <string name="select_repeat_week">Per favore, La scelta di ripetere la settimana</string>
+    <string name="select_default_week">Per favore, La scelta di modalità di allarme</string>
+    <string name="select_alarm_time">Per favore, La scelta di Tempo sveglia sveglia</string>
+
+    <string name="select_brithday">Per favore, La scelta di compleanno.</string>
+    <string name="select_height">Per favore, La scelta di Altezza</string>
+    <string name="select_weight">Per favore, La scelta di Peso</string>
+
+    <string name="Sedentaryreminder">Sedentario ricordare</string>
+    <string name="entryintoforcetime">L’entrata in vigore del Tempo</string>
+    <string name="alarmclock">La sveglia</string>
+    <string name="Messagealert">Messaggio di ricordare</string>
+    <string name="Raisethebrightscreen">Lo schermo di alzare la mano</string>
+    <string name="Intelligentalost">Perso intelligente</string>
+    <string name="Automaticheartrate">La frequenza cardiaca di Rilevamento Automatico</string>
+    <string name="yaoyiyaoPhotograph">Agitare le Foto</string>
+    <string name="chaozhaishouji">Trovare cellulare</string>
+    <string name="weixinpaizhao">la Lettera</string>
+    <string name="add_alarm">Aggiungere la sveglia</string>
+
+    <string name="weather">AQI</string>
+    <string name="mine">IL Mio</string>
+    <string name="device">Attrezzature</string>
+    <string name="running">A Correre</string>
+    <string name="star">Ha iniziato a</string>
+    <string name="long_stop">Premere "Pausa Lunga</string>
+    <string name="data">I Dati</string>
+    <string name="Targetsetting">La fissazione di obiettivi</string>
+    <string name="siren">Modalità di Privati</string>
+    <string name="search_device">La ricerca di attrezzature</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="settings_success">Impostazioni di successo</string>
+    <string name="settings_fail">La Creazione di un fallimento</string>
+    <string name="get_fail">Acquisizione di Fallimento</string>
+    <string name="common_mode">Lo Schema Generale</string>
+    <string name="activity_time">Quando la Lunga Attività</string>
+    <string name="hour">H</string>
+    <string name="km">KM</string>
+    <string name="km_cal">Kcal</string>
+    <string name="steps">Step</string>
+    <string name="calories">Calorie</string>
+    <string name="mileage">IL chilometraggio</string>
+    <string name="time">Il Tempo</string>
+    <string name="step">Passo Numero</string>
+    <string name="recording">La registrazione</string>
+    <string name="target_step">Bersaglio Numero di Passi 10000</string>
+
+    <string name="indoor_sports">All’interno del Movimento</string>
+    <string name="outdoor_running">Correre all’Aria Aperta</string>
+    <string name="outdoor_cycling">In bicicletta all’Aperto</string>
+    <string name="sleep">IL sonno</string>
+    <string name="move_ment">La proposta di</string>
+
+    <string name="data_report_day">Giorni</string>
+    <string name="data_report_week">Settimana</string>
+    <string name="data_report_month">Mese</string>
+
+    <string name="allday_sleep">Tutto il giorno a dormire</string>
+    <string name="allday_deepsleep">Tutto il giorno di sonno Profondo</string>
+    <string name="allday_shallowsleep">Tutto il giorno a dormire</string>
+
+    <string name="heartbeats_per_minute">IL battito cardiaco</string>
+    <string name="sleep_monitoring">IL Monitoraggio del sonno</string>
+    <string name="jiankangceshi">La Salute di prova</string>
+
+    <string name="data_repor">La segnalazione dei dati</string>
+    <string name="activity_repor">Relazione d’Attività</string>
+    <string name="sleep_repor">La Relazione del sonno</string>
+    <string name="heart_repor">IL battito cardiaco, Relazione</string>
+    <string name="bloodpressure_repor">La pressione del sangue, Relazione</string>
+    <string name="bloodoxygen_repor">La Relazione di ossigeno nel sangue</string>
+
+    <string name="personal_info">Informazioni Personali</string>
+    <string name="modify_nickname">Modificare il soprannome</string>
+    <string name="personal_avatar">Avatar</string>
+    <string name="sex">IL genere</string>
+    <string name="weight">Peso corporeo</string>
+    <string name="height">Altezza</string>
+    <string name="birthday">IL compleanno di</string>
+
+    <string name="select_sex">Per favore, scegliere il Sesso</string>
+    <string name="select">La scelta di</string>
+    <string name="sex_nan">Maschio</string>
+    <string name="sex_nv">Donna</string>
+
+    <string name="app_version">app La versione di</string>
+    <string name="modify_password">Modificare la Password</string>
+    <string name="help">Aiuto</string>
+    <string name="abour">Una Pagina di</string>
+    <string name="yesterday">Ieri</string>
+    <string name="today">Oggi</string>
+    <string name="cumulative_number_of_movements">La proposta di un totale di 0 Volte</string>
+    <string name="agree_agreement">Clicca sul pulsante "registrate", il che significa che sei d’accordo</string>
+    <string name="register_agreement">I relativi protocolli</string>
+    <string name="feedback">Commenti</string>
+    <string name="confrim_exit">Determinare l’uscita Di Conti correnti?</string>
+
+    <string name="input_old_password">Inserisci La Vecchia Password</string>
+    <string name="input_new_password">Per favore, 6 - 20 Bit di Input La Nuova Password</string>
+    <string name="input_confirm_password">Per favore confermare la Password</string>
+    <string name="question_detail">I problemi di</string>
+    <string name="contact_info">IL MoDo di contattare</string>
+    <string name="describe_problem">Per favore, Puoi descrivere problemi</string>
+    <string name="leave_phone">VI Prego di lasciare un telefono o e - Mail, pratico E VI abbiamo contattato</string>
+
+    <string name="notempty_feedback">IL Feedback non può essere Vuoto</string>
+    <string name="leave_contact">IL MoDo di contattare o e - Mail non è vuota</string>
+
+    <string name="daily_numberofsteps">Proposta Numero di Passi al giorno</string>
+    <string name="daily_sleepduration">Quando ogni giorno lungo sonno</string>
+    <string name="daily_consunergy">IL consumo di energia al giorno</string>
+
+    <string name="daily_numberofsteps_default">Step</string>
+    <string name="daily_sleepduration_default">8H</string>
+    <string name="daily_consunergy_defaultcalorie">173Kcal</string>
+
+    <string name="my_strap">IL Mio braccialetto</string>
+    <string name="sedentary_reminder">Sedentario ricordare</string>
+    <string name="firmware_upgrade">Aggiornamento Firmware</string>
+    <string name="unbind">Sciogliere</string>
+
+    <string name="effective_time">L’entrata in vigore del Tempo</string>
+    <string name="end_time">La fine del Tempo</string>
+    <string name="start_time">Ha iniziato a Tempo</string>
+
+    <string name="diastolic_pressure">La pressione diastolica</string>
+    <string name="systolic_set">La pressione sistolica</string>
+    <string name="heart_rate">IL battito cardiaco</string>
+    <string name="blood_oxygen">Ossigenazione del sangue</string>
+    <string name="health_test">La misurazione della Salute</string>
+
+
+    <string name="time_set">Ora</string>
+    <string name="repeat">La ripetizione</string>
+    <string name="alarm_name">IL nome di compilare la sveglia</string>
+
+    <string name="private_mode">Modalità di Privati</string>
+    <string name="minimumsystolic_bloodpressure">UN minimo di pressione sistolica</string>
+    <string name="maximumdiastolic_bloodpressure">La Massima pressione diastolica</string>
+    <string name="private_mode_bloodpressure">Privato della pressione sanguigna</string>
+    <string name="bloodpressure_msg">Impostazioni di pressione sanguigna modello privato, Al Fine di ottenere Dati più precisi, qui non Hai bisogno di un ’efficace dei Valori di pressione arteriosa di assumere il farmaco per la pressione..</string>
+
+    <string name="stop_clock">Nel corso delle vibrazioni Mano CESSA di essere sveglia, clic</string>
+    <string name="getup">Alzati</string>
+    <string name="other">Altri</string>
+    <string name="alarm_clock">La sveglia</string>
+    <string name="every_time">Ogni giorno</string>
+    <string name="every_once">Suona Solo una Volta</string>
+    <string name="monday_to_friday">Dal lunedì al venerdì</string>
+    <string name="search_bracelet">IL braccialetto di Ricerca</string>
+
+    <string name="select_star_time">Per favore, ha scelto di iniziare Il Tempo</string>
+    <string name="select_end_time">Per favore, scegliere la fine del Tempo</string>
+
+    <string name="weibo_oauth_regiseter">La DOMANDA DI autorizzazione</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="weibo_upload_content">Condividere una Foto</string>
+    <string name="wechat_client_inavailable">Attualmente la tua versione di Micro - la Lettera è troppo Bassa o non l’installazione di Micro - Micro - lettera per Lettera, La necessità di installare l’USO</string>
+    <string name="google_plus_client_inavailable">La versione di Google + è troppo Bassa o non ha bisogno di installazione, aggiornamento o l’installazione può usare Google +！</string>
+    <string name="qq_client_inavailable">Versione di livello troppo Basso o senza bisogno di installare il livello di installazione, aggiornamento o per l’USO！</string>
+    <string name="pinterest_client_inavailable">La versione Pinterest è troppo Bassa o non ha bisogno di installazione, aggiornamento o l’installazione di Pinterest può usare!</string>
+    <string name="instagram_client_inavailable">I Instagram versione è troppo Bassa o non ha bisogno di installazione, aggiornamento o per usare l’installazione - Instagram!</string>
+    <string name="yixin_client_inavailable">Attualmente la tua Lettera la versione è troppo Bassa o non è FACILE, La necessità di installare facilmente può usare la Lettera</string>
+    <string name="line_client_inavailable">Attualmente La Linea è troppo Bassa o la sua versione non è installato, La necessità di installare La Linea per l’USO</string>
+    <string name="kakaotalk_client_inavailable">Attualmente la sua versione è troppo Bassa o kakaotalk non può usare l’installazione, La necessità di installare kakaotalk</string>
+    <string name="kakaostory_client_inavailable">Attualmente il tuo KakaoStory versione è troppo Bassa o non può utilizzare linstallazione, La necessità di installare KakaoStory</string>
+    <string name="whatsapp_client_inavailable">Attualmente la sua versione è troppo Bassa o l’installazione di whatsapp non richiede l’installazione di whatsapp può usare,</string>
+    <string name="baidutieba_client_inavailable">Attualmente la sua versione è troppo Bassa o l’installazione di Baidu non richiede l’installazione di Baidu, possono essere utilizzati</string>
+    <string name="laiwang_client_inavailable">Il suo attuale con la versione è troppo Bassa o non può utilizzare l’installazione, La necessità di installare I</string>
+
+    <string name="sinaweibo">Sina weibo</string>
+    <string name="tencentweibo">Tencent weibo</string>
+    <string name="qzone">QQ</string>
+    <string name="wechat">la Lettera,amico</string>
+    <string name="wechatmoments">La Lettera di un Circolo di Amici </string>
+    <string name="wechatfavorite">la Lettera</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="renren">Tutti in Rete</string>
+    <string name="kaixin">Felice di Rete</string>
+    <string name="email">E - Mail</string>
+    <string name="shortmessage">Informazioni</string>
+    <string name="sohumicroblog">Sohu Microblogging</string>
+    <string name="sohusuishenkan">Sohu a vedere</string>
+    <string name="neteasemicroblog">Twitter</string>
+    <string name="douban">IL crescione</string>
+    <string name="evernote">Limpressione di Note</string>
+    <string name="linkedin">IL Regno Unito</string>
+    <string name="googleplus">Google+</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="qq">QQ</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="flickr">Flickr</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="vkontakte">VK</string>
+    <string name="instagram">Instagram</string>
+    <string name="press_again_exit">E POI, una Volta uscita</string>
+    <!-- Tab界面 -->
+    <string name="alarm_clocks">La sveglia</string>
+    <!-- 闹铃界面 -->
+    <string name="press_right_top">Secondo sulla Destra  </string>
+    <string name="add_alarm_clock">  Aggiungere la sveglia  </string>
+    <string name="retrieve_alarm_clock_success">La sveglia è riuscito a recuperare da cancellare</string>
+    <!-- 新建编辑闹钟界面 -->
+    <string name="new_alarm_clock">Di Nuovo sveglia</string>
+    <string name="edit_alarm_clock">IL montaggio sveglia</string>
+    <string name="repeats">La ripetizione</string>
+    <string name="tag">L’etichetta</string>
+    <string name="default_ring">Default?</string>
+    <string name="volume">IL Volume</string>
+    <string name="vibrate">Le vibrazioni</string>
+    <string name="countdown_day_hour_minute">Suona l’allarme, c’e ’la distanza%1$dGiorni%2$dOre%3$dPunti</string>
+    <string name="countdown_hour_minute">Suona l’allarme, c’e ’la distanza%1$dOre%2$dPunti</string>
+    <string name="countdown_minute">Suona l’allarme, c’e ’la distanza%1$dPunti</string>
+    <string name="monday">Lunedi</string>
+    <string name="tuesday">Martedi</string>
+    <string name="wednesday">Mercoledì</string>
+    <string name="thursday">Gioved</string>
+    <string name="friday">Venerdi</string>
+    <string name="saturday">Sabato</string>
+    <string name="sunday">La Domenica</string>
+    <string name="repeat_once">Suona Solo una Volta</string>
+    <string name="one_h">UN</string>
+    <string name="two_h">Secondo</string>
+    <string name="three_h">Tre</string>
+    <string name="four_h">Quattro</string>
+    <string name="five_h">Cinque</string>
+    <string name="six_h">Sei</string>
+    <string name="day">Giorno</string>
+    <string name="every_day">Ogni giorno</string>
+    <string name="week_day">Nei Giorni feriali</string>
+    <string name="week_end">Il fine settimana</string>
+    <string name="weeks">Settimana</string>
+    <string name="caesura">、</string>
+
+    <!-- 铃声选择界面 -->
+
+    <!-- 闹钟响起界面 -->
+
+    <!-- 小睡编辑界面 -->
+
+    <!-- 录音 -->
+    <string name="record_fail">Registrazione non</string>
+    <string name="record_fail_confirm">IL nastro è fallito, per favore, controlla se i diritti di registrazione la registrazione di apertura è stato occupato o altre Applicazioni.</string>
+    <!-- 录音操作 -->
+    <!-- 录音详情画面 -->
+
+    <!-- 录音重命名画面 -->
+    <!-- 录音删除画面 -->
+    <!-- 录音批量删除画面 -->
+    <!-- 音频播放 -->
+    <string name="play_fail">Non e ’riuscito a giocare</string>
+
+    <!-- 天气 -->
+    <string name="turn">%1$sRotazione%2$s</string>
+
+
+    <!-- 城市管理，添加城市 -->
+    <string name="city_weather_update_time">%1$sTempo di aggiornamento</string>
+</resources>

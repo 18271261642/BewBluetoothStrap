@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/wristband_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:foreground="?attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_45">
+
+                    <TextView
+                        android:id="@+id/mywristband_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:text="@string/my_strap"
+                        android:textSize="15sp" />
+
+          <!--          <TextView
+                        android:id="@+id/electricity_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/dianliang_iv"
+                        android:gravity="center"
+                        android:padding="0dp"
+                        android:text="0%"
+                        android:textSize="14sp" />-->
+
+                    <ImageView
+                        android:id="@+id/dianliang_iv"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/size_18"
+                        android:src="@mipmap/lanage" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/movement_control_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_45">
+
+                    <ImageView
+                        android:id="@+id/img_tag_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:src="@mipmap/xianshi" />
+
+                    <TextView
+                        android:id="@+id/viscontrol_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:layout_toRightOf="@+id/img_tag_two"
+                        android:text="显示与控制"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/sedentary_reminder_relayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_45"
+                        android:background="@drawable/square_white_btn_change">
+
+                        <ImageView
+                            android:id="@+id/img_tag_three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:src="@mipmap/jiuzuo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:layout_toRightOf="@+id/img_tag_three"
+                            android:text="@string/Sedentaryreminder"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/linear_border" />
+
+                    <RelativeLayout
+                        android:id="@+id/alarmclock_relayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_45"
+                        android:background="@drawable/square_white_btn_change">
+
+                        <ImageView
+                            android:id="@+id/img_tag_four"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:src="@mipmap/naozhong" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:layout_toRightOf="@+id/img_tag_four"
+                            android:text="@string/alarmclock"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/linear_border" />
+
+                    <RelativeLayout
+                        android:id="@+id/message_notification_relayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_45"
+                        android:background="@drawable/square_white_btn_change">
+
+                        <ImageView
+                            android:id="@+id/img_tag_five"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:src="@mipmap/xingxi" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:layout_toRightOf="@+id/img_tag_five"
+                            android:text="@string/Messagealert"
+                            android:textSize="15sp" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_45">
+
+                        <ImageView
+                            android:id="@+id/img_tag_six"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:src="@mipmap/taishouliangpin" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:layout_toRightOf="@+id/img_tag_six"
+                            android:text="@string/Raisethebrightscreen"
+                            android:textSize="15sp" />
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/raisethebrightscreen_switch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_15"
+                            android:checked="false" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/linear_border" />
+
+                    <RelativeLayout
+                        android:id="@+id/vis_control_relayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_45">
+
+                        <ImageView
+                            android:id="@+id/img_tag_senven"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:src="@mipmap/fangdiu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:layout_toRightOf="@+id/img_tag_senven"
+                            android:text="@string/Intelligentalost"
+                            android:textSize="15sp" />
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/fangdu_swicth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_15"
+                            android:checked="false" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/linear_border" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_45">
+
+                        <ImageView
+                            android:id="@+id/img_tag_eight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:src="@mipmap/xinlvqita" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_15"
+                            android:layout_toRightOf="@+id/img_tag_eight"
+                            android:text="@string/Automaticheartrate"
+                            android:textSize="15sp" />
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/autoxinlv_swicth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_15"
+                            android:checked="false" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/shake_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:foreground="?attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_45">
+
+                    <ImageView
+                        android:id="@+id/img_tag_ten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:src="@mipmap/paizhao" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:layout_toRightOf="@+id/img_tag_ten"
+                        android:text="@string/yaoyiyaoPhotograph"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/search_wristband_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:foreground="?attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_45">
+
+                    <ImageView
+                        android:id="@+id/img_tag_nine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:src="@mipmap/laidian" />
+
+                    <TextView
+                        android:id="@+id/search_phoneorshouhuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:layout_toRightOf="@+id/img_tag_nine"
+                        android:text="@string/chaozhaishouji"
+                        android:textSize="15sp" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/wechat_movement_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:foreground="?attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_45">
+
+                    <ImageView
+                        android:id="@+id/img_tag_evelen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:src="@mipmap/weixin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:layout_toRightOf="@+id/img_tag_evelen"
+                        android:text="@string/weixinpaizhao"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_60" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

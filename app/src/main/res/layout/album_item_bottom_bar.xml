@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    android:background="#aa111213"
+
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+
+        android:id="@+id/edit"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@color/new_colorAccent"
+        android:gravity="center"
+        android:text="@string/common_edit"
+        android:visibility="gone"
+        android:textColor="@drawable/color_white_yellow"
+        android:textSize="@dimen/album_rooter_bar_text_size" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@color/new_colorAccent"
+        android:gravity="center"
+        android:text="@string/common_delete"
+        android:textColor="@drawable/color_white_yellow"
+        android:textSize="@dimen/album_rooter_bar_text_size" />
+
+</LinearLayout>

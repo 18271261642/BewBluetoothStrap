@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/appbar_toolbar" />
+
+    <ImageView
+        android:id="@+id/top_relayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/size_40"
+        android:src="@mipmap/race_fit_pro" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_relayout"
+        android:layout_marginLeft="@dimen/btn_max"
+        android:layout_marginRight="@dimen/btn_max"
+        android:layout_marginTop="@dimen/size_30"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/username_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/username_regsiter"
+                style="@style/MyEditText"
+                android:drawableLeft="@mipmap/yonghuming_dianji"
+                android:drawablePadding="@dimen/size_10"
+                android:hint="@string/input_name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColorHint="@color/colorAccent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textinput_password_regster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password_logonregigter"
+                style="@style/MyEditText"
+                android:drawableLeft="@mipmap/suo_dianji"
+                android:drawablePadding="@dimen/size_10"
+                android:hint="@string/input_password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textinput_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true">
+
+                <EditText
+                    android:id="@+id/code_et_regieg"
+                    style="@style/MyEditText"
+                    android:drawableLeft="@mipmap/yanzhengma_dianji"
+                    android:drawablePadding="@dimen/size_10"
+                    android:hint="@string/input_code"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/send_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_40"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/size_5"
+                android:layout_marginRight="@dimen/size_5"
+                android:background="@drawable/blue_border_btn_selector"
+                android:padding="@dimen/size_5"
+                android:text="@string/send_code"
+                android:textColor="@color/colorAccent" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login_btn_reger"
+            style="@style/match_btn"
+            android:layout_below="@+id/email_login_form"
+            android:layout_marginTop="@dimen/size_30"
+            android:background="@drawable/blue_btn_selector"
+            android:text="@string/user_regsiter" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/register_agreement_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+           />
+    </LinearLayout>
+
+
+</RelativeLayout>

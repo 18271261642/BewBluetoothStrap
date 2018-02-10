@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/record_bottomsheet_my"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgoundhtest"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/appbar_hata_toolbar" />
+
+        <com.example.bozhilun.android.widget.NavigationTabStrip
+            android:id="@+id/nts_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_56"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/size_30"
+            android:layout_marginLeft="@dimen/size_30"
+            android:layout_marginRight="@dimen/size_30"
+            android:layout_marginStart="@dimen/size_30"
+            app:nts_active_color="@color/white"
+            app:nts_color="@color/white"
+            app:nts_corners_radius="5dp"
+            app:nts_factor="0.8"
+            app:nts_gravity="bottom"
+            app:nts_inactive_color="#81ffffff"
+            app:nts_titles="@array/titles"
+            app:nts_type="point"
+            app:nts_typeface="fonts/moon.otf"
+            app:nts_weight="10dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/stepitem_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_15"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>

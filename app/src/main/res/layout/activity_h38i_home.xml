@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/record_h18ibottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/myCoordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <com.example.bozhilun.android.widget.NoScrollViewPager
+            android:id="@+id/h18i_view_pager"
+            android:layout_width="match_parent"
+            android:overScrollMode="never"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/h18i_bottomBar"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <com.roughike.bottombar.BottomBar
+            android:id="@+id/h18i_bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            app:bb_activeTabColor="@color/new_colorAccent"
+            app:bb_tabXmlResource="@xml/my_bottombar_tabs_three" />
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</com.flipboard.bottomsheet.BottomSheetLayout>

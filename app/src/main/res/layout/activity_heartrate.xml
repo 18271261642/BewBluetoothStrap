@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/xinlv_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#D0593B" >
+
+        <LinearLayout
+            android:id="@+id/heart_back"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_width="50dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+               android:layout_gravity="center"
+                android:onClick="onClick"
+                android:src="@mipmap/backs"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="@string/heartrooate"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/heart_fengxiangsfg"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:background="@mipmap/fenxiang"
+            android:layout_marginRight="20dp"
+            android:textSize="16sp"
+            android:onClick="onClick"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:id="@+id/xinlv_FrameLayout"
+            android:background="#D0593B"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+            <RelativeLayout
+                android:id="@+id/notest_state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/xinlv_value"
+                    android:textColor="#ffffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="60dp"
+                    android:text="0"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/xinlv_value"
+                    android:layout_alignBaseline="@+id/xinlv_value"
+                    android:text="bpm"
+                    android:textColor="#ffffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/xinlv_celang"
+                    android:layout_below="@+id/xinlv_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffffff"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15dp"
+                    android:text="@string/measurement_results"/>
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/heartest_button_backgrond"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp" />
+
+            </RelativeLayout>
+            <Button
+                android:id="@+id/daojishi"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffffff"
+                android:visibility="gone"
+                android:background="@drawable/heartest_button_backgrond"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.example.bozhilun.android.view.ChartView
+                    android:layout_gravity="bottom"
+                    android:id="@+id/test_state"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_below="@+id/xinlv_FrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <com.example.bozhilun.android.coverflow.ListViewForScrollView
+               android:id="@+id/xinlvtest_ListView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </com.example.bozhilun.android.coverflow.ListViewForScrollView>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="50dp"/>
+       </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/celiang_xinlv"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#d4d4d4"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="#D0593B"
+                android:text="@string/measure"
+                android:textSize="20dp"
+                android:background="@drawable/heartest_button"
+                android:id="@+id/hate_test" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

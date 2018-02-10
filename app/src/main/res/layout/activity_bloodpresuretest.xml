@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/xinlv_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#46b4b7" >
+
+        <LinearLayout
+            android:id="@+id/heart_backxieya"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_width="50dp"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+               android:layout_gravity="center"
+                android:onClick="onClick"
+                android:src="@mipmap/backs"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="@string/blood"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/heart_fengxiangsfgxieya"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFFFFF"
+            android:background="@mipmap/fenxiang"
+            android:layout_marginRight="20dp"
+            android:textSize="16sp"
+            android:onClick="onClick"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#46b4b7"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tongyongmoshi_xieya"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/jiankang"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="@string/Allgemeiner"
+            android:textColor="#46b4b7"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sirenmoshianniu_xieya"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/jiankanga"
+            android:gravity="center"
+            android:text="@string/Privater"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:id="@+id/xinlv_FrameLayout"
+            android:background="#46b4b7"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+            <RelativeLayout
+                android:id="@+id/notest_statexieya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/xinlv_valuexieya"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/xinlv_mmhg"
+                    android:textColor="#ffffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="26dp"
+                    android:text="--/--"/>
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/xinlv_mmhg"
+                    android:textColor="#ffffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:text="mmhg"/>
+
+
+                <TextView
+                    android:id="@+id/xieyaceliangsss"
+                    android:layout_below="@+id/xinlv_mmhg"
+                    android:layout_marginTop="@dimen/size_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffffff"
+                    android:textSize="15dp"
+                    android:text="@string/measurement_results"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.ArcProgress
+                    android:id="@+id/myprogress_axieya"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:radius="100dp"
+                    app:degree="0"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    app:progressStyle="tick"
+                    app:progressColor="@color/backgounds"
+                    app:tickDensity="1" />
+            </RelativeLayout>
+
+
+        </FrameLayout>
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_below="@+id/xinlv_FrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <com.example.bozhilun.android.coverflow.ListViewForScrollView
+               android:id="@+id/xinlvtest_ListViewxieya"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </com.example.bozhilun.android.coverflow.ListViewForScrollView>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:id="@+id/view" />
+       </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/celiang_xinlv"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#d4d4d4"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="#46b4b7"
+                android:text="@string/measure"
+                android:textSize="20dp"
+                android:background="@drawable/heartest_button_xieya"
+                android:id="@+id/hate_testxieya" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

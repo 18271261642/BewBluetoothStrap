@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ScrollView
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:visibility="invisible"
+            android:id="@+id/chart_step_shuimia_xieya"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs_dtarepot_shuimianone_xieya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/xieyarorort"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/xieyarorort"
+                app:tabTextColor="@color/txt_black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+
+
+
+
+
+
+            <com.example.bozhilun.android.coverflow.ListViewForScrollView
+                android:id="@+id/xieya_ListView_report"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </com.example.bozhilun.android.coverflow.ListViewForScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>

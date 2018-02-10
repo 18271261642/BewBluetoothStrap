@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/appbar_toolbar" />
+   <ScrollView
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <FrameLayout
+               android:layout_marginTop="10dp"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="140dp"
+               android:layout_gravity="center_horizontal">
+
+               <ImageView
+
+                   android:id="@+id/xitongshenji"
+                   android:layout_gravity="center"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_centerHorizontal="true"
+                   android:contentDescription="@string/app_name"
+                   android:src="@mipmap/shengjis"/>
+               <com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.ArcProgress
+                   android:id="@+id/myprogress_arcprogress"
+                   android:layout_width="150dp"
+                   android:layout_height="150dp"
+                   android:layout_gravity="center"
+                   app:radius="75dp"
+                   app:degree="0"
+                   app:progressStyle="tick"
+                   app:progressColor="@color/new_colorAccent"
+                   app:tickDensity="5" />
+           </FrameLayout>
+           <LinearLayout
+               android:layout_marginTop="8dp"
+               android:gravity="center_horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:layout_centerHorizontal="true"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="V"
+                   android:gravity="center_horizontal"
+                   android:textColor="#1B1B1B"
+                   android:textSize="18sp"
+                   />
+               <TextView
+                   android:layout_centerHorizontal="true"
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=""
+                   android:textColor="#1B1B1B"
+                   android:textSize="18sp"
+                   android:id="@+id/xitongbanben" />
+
+           </LinearLayout>
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:layout_marginTop="5dp"
+                   android:orientation="horizontal"
+                   android:gravity="center_horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_gravity="center_horizontal">
+
+                   <ProgressBar
+                       android:visibility="invisible"
+                       android:id="@+id/download_progress"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:indeterminate="false"
+                       android:indeterminateOnly="false"
+                       android:maxHeight="20dp"
+                       android:minHeight="20dp"
+                       android:layout_marginStart="20dp"
+                       android:layout_marginRight="20dp"
+                       android:paddingLeft="0dp"
+                       android:paddingRight="0dp"
+                       android:progress="0"
+                       android:background="@drawable/progresspatch_blue"
+                       style="@style/mProgress_horizontal"
+                       android:secondaryProgress="0" />
+
+                   <TextView
+                       android:visibility="gone"
+                       android:id="@+id/download_message"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/new_colorAccent"
+                       android:gravity="center"
+                       android:text="下载进度:0%" />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_marginTop="50dp"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <TextView
+                       android:textSize="16dp"
+                       android:lineSpacingExtra="8dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:textColor="#c0c0c0"
+                       android:text="版本说明：升级过程中请不要操作手机，如果升级失败，设备的名字会变成DfuLang，请重新连接设备，再次升级（Upgrade process please do not operate the phone,if the upgrade fails,the device name will become DfuLang,please reconnect the device,upgrade again）"/>
+               </LinearLayout>
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/new_colorAccent"
+                   android:layout_gravity="center_horizontal"
+                   android:gravity="center"
+                   android:textSize="30dp"
+                   android:id="@+id/jindu_xianshi"/>
+
+
+
+           </FrameLayout>
+
+               <TextView
+                   android:layout_marginTop="40dp"
+                   android:layout_alignParentBottom="true"
+                   android:id="@+id/shengji_dianji"
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginBottom="20dp"
+                   android:layout_marginLeft="40dp"
+                   android:layout_marginRight="40dp"
+                   android:background="@drawable/sms_verification"
+                   android:gravity="center"
+                   android:onClick="onClick"
+                   android:text="@string/firmware_upgrade"
+                   android:padding="14dp"
+                   android:textColor="#2D3037"
+                   android:textSize="18sp" />
+
+
+
+       </LinearLayout>
+   </ScrollView>
+
+
+</LinearLayout>

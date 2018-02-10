@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/h8_data_title" />
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/my_btn_selector"
+        android:orientation="horizontal">
+        &lt;!&ndash;android:background="@drawable/newh9data_top_shap"&ndash;&gt;
+
+        <TextView
+            android:id="@+id/newH9DataWeekTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/weeks"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_17" />
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/chang_white" />
+
+        <TextView
+            android:id="@+id/newH9DataMonthTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/data_report_month"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_17" />
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/chang_white" />
+
+        <TextView
+            android:id="@+id/newH9DataYearTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/year"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_17" />
+
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_15"
+            android:layout_marginRight="@dimen/size_15"
+            android:background="@drawable/my_btn_selector"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+            <!--android:background="@drawable/newh9data_top_shap"-->
+
+            <TextView
+                android:id="@+id/newH9DataWeekTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/weeks"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_17" />
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/chang_white" />
+
+            <TextView
+                android:id="@+id/newH9DataMonthTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/data_report_month"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_17" />
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/chang_white" />
+
+            <TextView
+                android:id="@+id/newH9DataYearTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/year"
+                android:textColor="#333333"
+                android:textSize="@dimen/text_size_17" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/newH9DataSwipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size_60">
+        <!--android:layout_marginTop="@dimen/size_20"-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/size_20"
+                android:paddingLeft="@dimen/size_10"
+                android:paddingRight="@dimen/size_10">
+
+                <!--周的步数-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/newh9data_step_shap"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:padding="5dp"
+                            android:text="@string/step"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_15" />
+
+                        <TextView
+                            android:id="@+id/newH9DataStepShowTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_15"
+                            tools:ignore="RelativeOverlap,RtlHardcoded" />
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white" />
+
+
+                    <lecho.lib.hellocharts.view.ColumnChartView
+                        android:id="@+id/newH9DataStepChartView"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_margin="3dp" />
+
+
+                </LinearLayout>
+
+                <!--周的心率-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/newh9data_heart_shap"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:padding="5dp"
+                            android:text="@string/heart_rate"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_15" />
+
+                        <TextView
+                            android:id="@+id/newH9DataHeartShowTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_15"
+                            tools:ignore="RelativeOverlap,RtlHardcoded" />
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white" />
+
+
+                    <lecho.lib.hellocharts.view.ColumnChartView
+                        android:id="@+id/newH9DataHeartChartView"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:layout_margin="3dp" />
+
+
+                </LinearLayout>
+
+                <!--周的睡眠-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="@dimen/size_15"
+                    android:background="@drawable/newh9data_sleep_shap"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:padding="5dp"
+                            android:text="@string/sleep"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_15" />
+
+                        <TextView
+                            android:id="@+id/newH9DataSleepShowTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_15"
+                            tools:ignore="RelativeOverlap,RtlHardcoded" />
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white" />
+
+
+                    <lecho.lib.hellocharts.view.ColumnChartView
+                        android:id="@+id/newH9DataSleepChartView"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_margin="3dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

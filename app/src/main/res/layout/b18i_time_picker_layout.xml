@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#32c0ff">
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size_5"
+            android:padding="@dimen/size_10"
+            android:src="@mipmap/backs" />
+
+
+        <TextView
+            android:id="@+id/bar_titles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="title"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/size_20" />
+
+
+        <ImageView
+            android:id="@+id/image_right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size_5"
+            android:padding="@dimen/size_10"
+            android:src="@mipmap/rtb" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TimePicker
+                android:layout_marginTop="@dimen/size_15"
+                android:id="@+id/timer_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:headerBackground="#32c0ff"
+                android:timePickerMode="spinner" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size_30">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/size_10">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="日"
+                        android:textSize="@dimen/text_size_20" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="一"
+                        android:textSize="@dimen/text_size_20" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="二"
+                        android:textSize="@dimen/text_size_20" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="三"
+                        android:textSize="@dimen/text_size_20" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="四"
+                        android:textSize="@dimen/text_size_20" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="五"
+                        android:textSize="@dimen/text_size_20" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_six"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="六"
+                        android:textSize="@dimen/text_size_20" />
+
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/size_10">
+
+                    <TextView
+                        android:id="@+id/weeks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="日"
+                        android:textColor="#000"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/weeks1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="一"
+                        android:textColor="#000"
+                        android:textSize="@dimen/text_size_15" />
+
+
+                    <TextView
+                        android:id="@+id/weeks2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="二"
+                        android:textColor="#000"
+                        android:textSize="@dimen/text_size_15" />
+
+
+                    <TextView
+                        android:id="@+id/weeks3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="三"
+                        android:textColor="#000"
+                        android:textSize="@dimen/text_size_15" />
+
+
+                    <TextView
+                        android:id="@+id/weeks4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="四"
+                        android:textColor="#000"
+                        android:textSize="@dimen/text_size_15" />
+
+
+                    <TextView
+                        android:id="@+id/weeks5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="五"
+                        android:textColor="#000"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/weeks6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/size_5"
+                        android:layout_weight="1"
+                        android:background="@drawable/b18i_text_unselect"
+                        android:gravity="center"
+                        android:padding="@dimen/size_5"
+                        android:text="六"
+                        android:textColor="#000"
+                        android:textSize="@dimen/text_size_15" />
+
+
+                </LinearLayout>-->
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

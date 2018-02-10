@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/size_10">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_40">
+
+        <ImageView
+            android:id="@+id/shineiyundong_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/shineiyundong" />
+
+        <TextView
+            android:id="@+id/indoor_sports_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shineiyundong_iv"
+            android:layout_marginTop="@dimen/size_10"
+            android:text="@string/indoor_sports" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_40">
+
+        <ImageView
+            android:id="@+id/outdoor_running_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/huwaipaobu" />
+
+        <TextView
+            android:id="@+id/outdoor_running_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/outdoor_running_iv"
+            android:layout_marginTop="@dimen/size_10"
+            android:text="@string/outdoor_running" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_40">
+
+        <ImageView
+            android:id="@+id/outdoor_cycling_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/huwaiqiche" />
+
+        <TextView
+            android:id="@+id/outdoor_cycling_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/outdoor_cycling_iv"
+            android:layout_marginTop="@dimen/size_10"
+            android:text="@string/outdoor_cycling" />
+
+    </RelativeLayout>
+
+
+    <!--
+     <com.nightonke.boommenu.BoomMenuButton
+         android:id="@+id/boom_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerInParent="true"
+         app:bmb_buttonEnum="textInsideCircle"
+         app:bmb_buttonPlaceEnum="buttonPlace_sc_9_1"
+         app:bmb_hideMoveEaseEnum="inExpo"
+         app:bmb_hideRotateEaseEnum="inExpo"
+         app:bmb_hideScaleEaseEnum="inExpo"
+         app:bmb_highlightedColor="@android:color/holo_blue_dark"
+         app:bmb_normalColor="@android:color/holo_blue_bright"
+         app:bmb_piecePlaceEnum="piecePlace_share"
+         app:bmb_showMoveEaseEnum="outExpo"
+         app:bmb_showRotateEaseEnum="outExpo"
+         app:bmb_showScaleEaseEnum="outExpo" />-->
+
+    <ImageView
+        android:id="@+id/close_iv"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_40"
+        android:src="@mipmap/quxiao" />
+</RelativeLayout>

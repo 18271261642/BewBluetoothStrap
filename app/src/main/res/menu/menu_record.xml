@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_share">
+    <!--   <item
+           android:id="@+id/data_iv"
+           android:icon="@mipmap/nav_btn_data"
+           android:orderInCategory="90"
+           android:title=""
+           app:showAsAction="always" />-->
+    <item
+        android:id="@+id/share_iv"
+        android:icon="@mipmap/fenxiang"
+        android:orderInCategory="90"
+        android:title="分享"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ScrollView
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/chart_step_shuimianone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_200" >
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/size_10"
+                    android:id="@+id/start_time"
+                    android:text="开始时间"
+                    android:textSize="@dimen/size_10"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/end_time"
+                    android:layout_alignParentBottom="true"
+                    android:text="结束时间"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/size_10"
+                    android:layout_marginBottom="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />S
+
+            </LinearLayout>
+
+      </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs_dtarepot_shuimianone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/colorPrimary"
+                app:tabTextColor="@color/txt_black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/step_tag_shuimianone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_30"
+                        android:text="@string/allday_sleep" />
+
+                    <TextView
+                        android:id="@+id/stepval_tv_shuimianone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/step_tag_shuimianone"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_10"
+                        android:text="- -"
+                        android:textSize="@dimen/size_15" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:background="@color/linear_border" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/activity_tag_shuimianone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_30"
+                        android:text="@string/allday_deepsleep" />
+
+                    <TextView
+                        android:id="@+id/activityval_tv_shuimianone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/activity_tag_shuimianone"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_10"
+                        android:text="- -"
+                        android:textSize="@dimen/size_15" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:background="@color/linear_border" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/licheng_tag_shuimianone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_30"
+                        android:text="@string/allday_shallowsleep" />
+
+                    <TextView
+                        android:id="@+id/lichengval_tv_shuimianone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/licheng_tag_shuimianone"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_10"
+                        android:text="- -"
+                        android:textSize="@dimen/size_15" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>

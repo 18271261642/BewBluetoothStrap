@@ -1,0 +1,25 @@
+<resources>
+    //葡萄牙
+    <string name="app_name">RaceFit Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 存储文件文件夹 -->
+    <string name="Files">Files</string>
+    <!-- 图像文件夹 -->
+    <string name="Image">Image</string>
+    <!-- 缩略图文件夹 -->
+    <string name="Thumbnail">Thumbnail</string>
+    <!-- 视频文件夹 -->
+    <string name="Video">Video</string>
+    <string name="album_enter_select">Escolher</string>
+    <string name="api_cancel">Cancelar</string>
+    <string name="album_photo_select_tip">Item</string>
+    <string name="album_phoot_select_all">Select</string>
+    <string name="album_phoot_unselect_all">Deseleccionar tudo</string>
+    <string name="album_title">MEU album de fotos</string>
+    <string name="pgcommon_share">Compartilhar</string>
+    <string name="common_cut">Mobile</string>
+    <string name="common_delete">Del</string>
+    <string name="common_edit">Editar</string>
+    <string name="album_message">Fotos&amp;Video</string>
+</resources>

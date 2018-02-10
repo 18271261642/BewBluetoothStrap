@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_takepictures">
+
+    <item
+        android:id="@+id/take_camera"
+        android:icon="@mipmap/camera"
+        android:title="@string/take_camera" />
+    <item
+        android:id="@+id/take_Album"
+        android:icon="@mipmap/gallery"
+        android:title="@string/take_Album" />
+    <group android:id="@+id/canclegroup">
+        <item
+            android:id="@+id/cancle"
+            android:title="@string/cancle" />
+    </group>
+
+</menu>

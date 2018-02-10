@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/avtor_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_70"
+                android:background="@drawable/square_white_btn_change">
+
+                <!--      <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/mine_logo_ivbbb"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:src="@mipmap/touxiang"
+                    app:civ_border_color="@color/colorAccent"
+                    app:civ_border_width="2dp" />-->
+                <com.example.bozhilun.android.view.MyImageviews
+                    android:id="@+id/mine_logo_ivbbb"
+                    android:layout_width="63dp"
+                    android:layout_height="63dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/myclicle"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/nick_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/mine_logo_ivbbb"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_toRightOf="@+id/mine_logo_ivbbb"
+                    android:text="@string/nick_name"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/name_tv_my"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/nick_tag"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/nick_tag"
+                    android:text="name"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/dayaverage_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/Totalnumberofsteps"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/dayaveragestep_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dayaverage_tv"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:text="@string/zerostep"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="72dp"
+                    android:background="@color/linear_border" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/standardays_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/goalfinish"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/standardaysnum_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/standardays_tv"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:text="@string/zeroday"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="72dp"
+                    android:background="@color/linear_border" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/totalkilometers_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/totaldistance"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/stepgongli_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/totalkilometers_tv"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:text="@string/zerokm"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/mobiao_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_45">
+
+            <ImageView
+                android:id="@+id/img_tag_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_15"
+                android:src="@mipmap/mubiao" />
+
+            <TextView
+                android:id="@+id/mobiao_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_15"
+                android:layout_toRightOf="@+id/img_tag_one"
+                android:text="@string/Targetsetting"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/lanage"
+                android:layout_marginRight="@dimen/size_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/privatemode_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_45">
+
+            <ImageView
+                android:id="@+id/img_tag_two_my"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_15"
+                android:src="@mipmap/siren" />
+
+            <TextView
+                android:id="@+id/siren_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_15"
+                android:layout_toRightOf="@+id/img_tag_two_my"
+                android:text="@string/siren"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/lanage"
+                android:layout_marginRight="@dimen/size_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/set_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_45">
+
+            <ImageView
+                android:id="@+id/img_tag_three_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_15"
+                android:src="@mipmap/shezhibai" />
+
+            <TextView
+                android:id="@+id/steop_shezhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_15"
+                android:layout_toRightOf="@+id/img_tag_three_mine"
+                android:text="@string/menu_settings"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/lanage"
+                android:layout_marginRight="@dimen/size_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

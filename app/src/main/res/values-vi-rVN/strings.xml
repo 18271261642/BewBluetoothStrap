@@ -1,0 +1,589 @@
+<resources>
+
+    //越南
+    <string name="findwatch">Thời gian hệ thống</string>
+    <string name="watchtime">Xem thời gian</string>
+    <string name="systemtime">Tìm đồng hồ</string>
+    <string name="notif_explain">Giải thích</string>
+    <string name="notif_messge">Thông tin cảnh báo cần mở thông báo hoặc chức năng phụ trợ</string>
+    <string name="open_notif">Mở thông báo</string>
+    <string name="open_function">Bật khả năng hỗ trợ</string>
+
+    <string name="device_times">Thiết bị thời gian.</string>
+    <string name="now_times">Thời gian hiện tại</string>
+    <string name="get_device_times">Thời gian lấy thiết bị</string>
+    <string name="correct_pointer_times">Con trỏ đi sửa chữa không?</string>
+    <string name="thousand">thousand steps</string>
+    <string name="sporttimes">Số lần</string>
+    <string name="grandtotalstep">Các bước tích lũy</string>
+    <string name="grandtotal">Thời gian tích luỹ</string>
+    <string name="sportdata">Dữ liệu chuyển động</string>
+    <string name="avg_speed">Avg speed</string>
+    <string name="long_onclick">Dài theo \'+\' và \'-\' được đặt ở góc độ điều chỉnh lớn</string>
+    <string name="add_sharpe">Tổng hợp và chia sẻ.</string>
+    <string name="syncy_data">Đồng bộ hóa dữ liệu trong</string>
+    <string name="connted">Đã kết nối</string>
+    <string name="disconnted">Đã ngắt kết nốii</string>
+    <string name="nodata">Không có dữ liệu</string>
+    <string name="age">Tuổi</string>
+    <string name="alarm_eat">Ăn tối</string>
+    <string name="alarm_medicine">Uống thuốc</string>
+    <string name="alarm_dring">Uống nước</string>
+    <string name="alarm_sp">Ngủ đi</string>
+    <string name="alarm_awakes">Đứng dậy đi</string>
+    <string name="alarm_spr">Thể thao</string>
+    <string name="alarm_metting">Cuộc họp</string>
+    <string name="alarm_custom">Tùy chỉnh</string>
+    <string name="history_times">Lịch sử thời gian</string>
+    <string name="search_alert">Thiết bị tìm kiếm mở điện thoại bluetooth và GPS</string>
+    <string name="sleep_deep">Ngủ sâu</string>
+    <string name="sleep_light">Ngủ nông</string>
+    <string name="long_when">Thời gian</string>
+    <string name="sleep_asleep">Thời gian ngủ</string>
+    <string name="recovery_count">Số lần tỉnh dậy</string>
+    <string name="recovery_time">Tỉnh lại thời gian</string>
+    <string name="mine_equipment">Thiết bị của tôi</string>
+    <string name="low_voltage">Áp thấp hạn chế</string>
+    <string name="high_voltage">Giới hạn cao áp</string>
+    <string name="year">Năm</string>
+    <string name="news">Tin nhắn</string>
+    <string name="messages">Nhận được tin nhắn mới</string>
+    <string name="system_settings">Thiết lập hệ thống</string>
+    <string name="device_manager">Quản lý thiết bị</string>
+    <string name="guide">Khi trường hướng dẫn</string>
+    <string name="step_one">1.\t Ở trạng thái bình thường với App kết nối tiếp theo chiếc đồng hồ đầu tiên thuộc về 0, nhấn cái nút</string>
+    <string name="step_two">2.\t Phân biệt chọn lựa theo chiều kim đồng hồ, kim phút, theo + và - chỉnh kim đến 12 giờ cả</string>
+    <string name="step_three">3.\t Nhấn vào nút thực hiện tự động hoàn thành trường kim khi đuổi theo</string>
+    <string name="manualsleep">Giấc ngủ bằng tay.</string>
+    <string name="automaticsleep">Giấc ngủ tự động.</string>
+    <string name="dlog">Đang nạp...</string>
+    <string name="minezhen">Phút tay</string>
+    <string name="hourzhen">Giờ bàn tay</string>
+    <string name="zero">Trở về không</string>
+    <string name="setmi">Hệ thống Imperial</string>
+    <string name="setkm">Hệ thống Imperial</string>
+    <string name="jiaozhen">Trường pin</string>
+    <string name="unit">Đơn vị</string>
+    <string name="hearting">Phát hiện</string>
+    <string name="heartcheck">Thử nghiệm nhịp tim</string>
+    <string name="auxiliary_function">Nếu anh mở thông báo vẫn không nhận được tin báo, ông có thể thử mở ra khả năng hỗ trợ.
+    \n Nếu anh có thể nhận được thông báo tin tức, vậy anh có thể lờ đi sự tồn tại của nó, hoặc cũng có thể thông báo mở một giới hạn chức năng hỗ trợ.
+    \n (tính năng này là để giải quyết phần mô hình không nhận được tin nhắn và thiết lập, có thể nhận được thông tin mở tính năng này sẽ gây ra thông báo nhắc nhở lặp lại)</string>
+    <string name="siren_str">Chart</string>
+    <string name="personal_str">Dữ liệu cá nhân</string>
+    <string name="function_str">Thiết lập chức năng</string>
+    <string name="find_str">Tìm bạn.</string>
+    <string name="waking_state">Trạng thái tỉnh.</string>
+    <string name="shallow_sleep">Nông độ ngủ.</string>
+    <string name="deep_sleep">Giấc ngủ sâu</string>
+    <string name="mileage_km">/km. OK</string>
+    <string name="ranking">Thứ tự</string>
+    <string name="daily_distancia">Mỗi ngày có khoảng cách thể thao</string>
+    <string name="notice_str">Thông báo</string>
+    <string name="shock_str">Rúng động</string>
+    <string name="time_forma">Thời gian định dạng</string>
+    <string name="advanced_setting">Thiết lập cấp cao</string>
+    <string name="add_frendes">Thêm bạn</string>
+    <string name="scan_frend">Tìm kiếm</string>
+    <string name="reset_device">Thiết bị khởi động lại</string>
+    <string name="heart_rate_test">Nhịp tim, kiểm tra</string>
+    <string name="heart_rate_warning_range">Nhịp tim tăng phạm vi cảnh báo</string>
+    <string name="close_str">Đóng</string>
+    <string name="weak_str">Yếu</string>
+    <string name="standard_str">Tiêu chuẩn</string>
+    <string name="strong_str">Mạnh.</string>
+    <string name="preset_sleep">Mặc định ngủ.</string>
+    <string name="missed_calls">Cuộc gọi.</string>
+    <string name="sms_reminder">Tin báo động</string>
+    <string name="mailbox_reminder">Hộp thư nhắc nhở</string>
+    <string name="social_reminder">Xã Giao nhắc nhở</string>
+    <string name="calendar_alarm">Lịch nhắc nhở</string>
+    <string name="today_step">Tốc độ ngày hôm nay</string>
+    <string name="goal_step">Mục tiêu</string>
+    <string name="str_one">Anh có thể thiết lập nhiều loại mỗi nhắc nhở</string>
+    <string name="str_two">Chọn kiểu nhắc nhở</string>
+    <string name="str_three">Dài theo thể xóa cái đồng hồ báo thức</string>
+    <string name="str_four">Chọn thời gian và ngày cảnh báo</string>
+    <string name="str_five">Một khi được nhắc nhở. Thiết bị này sẽ nhẹ nhàng nhắc nhở anh rung và hiển thị biểu tượng tương ứng</string>
+    <!--//************************-->
+
+
+    <string name="noright">Bạn hiện là khách truy cập và không thể sửa đổi thông tin</string>
+    <string name="newversion">Có một phiên bản mới, cho dù nó được cập nhật</string>
+    <string name="visitor_enter">Khách truy cập vào</string>
+    <string name="login_alert">Có nên nhập như một khách du lịch?</string>
+    <string name="settarget_steps">Số mục tiêu của bước</string>
+    <string name="operation">hướng dẫn</string>
+    <string name="today_data">dữ liệu ngày nay</string>
+    <string name="msg_jiange">Tin khoảng nhắc nhở</string>
+    <string name="psm">Tiết kiệm năng lượng chế độ</string>
+    <string name="setting_pair">Nhập thiết lập hệ thống, ghép nối Bluetooth</string>
+    <string name="cancle_pair">Ngắt kết nối Bluetooth nhảy để thiết lập hệ thống, cặp đôi hủy</string>
+    <string name="gps_alert">Tính năng này đòi hỏi các hoạt động để mở thẩm quyền GPS, xác nhận cho dù mở</string>
+    <string name="clocktimes">Bạn cần phải chọn cái đồng hồ đếm số lần lặp đi lặp lại! </string>
+    <string name="notsportdata">Hiện tại không có lịch sử quỹ đạo chuyển động, không thể nhấn kết thúc.</string>
+    <string name="version">1.1.3</string>
+    <string name="fuwuqi">Liên kết máy phục vụ thất bại</string>
+    <string name="notdevice">Bên cạnh bạn không có các thiết bị Bluetooth</string>
+    <string name="zuigaoxinlv">Maximum heart rate</string>
+    <string name="zuidixinlv">Minimum heart rate</string>
+    <string name="pinjunxin">Mean heart rate</string>
+    <string name="shangzhou">Tuần trước</string>
+    <string name="benzhou">Trong tuần này</string>
+    <string name="shangyue">Tháng trước rồi</string>
+    <string name="benyue">Trong tuần này</string>
+    <string name="XIAOHAO">Tiêu thụ</string>
+    <string name="paces">Với tốc độ</string>
+    <string name="xiaoxitixing">Hôn, mở thông tin cảnh báo, cần mở dịch vụ hỗ trợ chức năng, làm ơn mở công tắc phụ trợ, cám ơn.</string>
+    <string name="xuanzeshijian">Hãy chọn thời gian</string>
+    <string name="minute">M</string>
+    <string name="Bind_failed">Kết nối thất bại.</string>
+    <string name="Binding_success">Kết nối thành công</string>
+    <string name="bluetooth_disconnected">Đã ngắt kết nối Bluetooth</string>
+    <string name="bangdinged">Đã kết nối</string>
+    <string name="sports_history">Ghi chép lịch sử thể thao</string>
+    <string name="good">Tốt</string>
+    <string name="mild_pollution">Ô nhiễm nhẹ thôi</string>
+    <string name="moderate_pollution">Ô nhiễm vừa phải</string>
+    <string name="heavy_pollution">ô nhiễm</string>
+    <string name="serious_pollution">Ô nhiễm nghiêm trọng</string>
+    <string name="save_record">Có hồ sơ lưu động</string>
+    <string name="upgrade">Nâng cấp các>></string>
+    <string name="latest_version">Đã là phiên bản mới nhất </string>
+    <string name="upgrade_completed">Nâng cấp hoàn thành</string>
+    <string name="auto_upgrade">Tự nâng cấp các....</string>
+    <string name="deleda">Chắc chắn sẽ phải gỡ bỏ ?</string>
+    <string name="zerostep">0 Srep</string>
+    <string name="zeroday">0 Day</string>
+    <string name="zerokm">0 km</string>
+    <string name="wechat_home_page">4. Trở về vi tin trang thể thao, vào Chart, ở thời điểm này có thể thấy thiết bị đồng bộ dữ liệu đã đến vi tin trong thể thao, nếu vẫn không đồng bộ, làm ơn nhiều cập nhật vài lần trên bảng xếp hạng trang </string>
+    <string name="openwhchat"> Mở vi tin vào vi tin thể thao, nhấn vào vi tin trang chủ ngay góc phải của nút thiết lập, tìm được "ghi lại dữ liệu thể thao Thanh", "thêm lựa chọn nguồn dữ liệu", bạn sẽ tìm đến bạn mua thiết bị của nhà máy số công cộng, xin thêm nguồn dữ liệu này với công chúng.</string>
+    <string name="please_disconnect">Hai tổ hợp thành công trước sau, hãy ngắt kết nối hiện thời </string>
+    <string name="first_use">Đầu tiên, lần đầu tiên sử dụng, làm ơn tiên tổ hợp thiết bị </string>
+    <string name="operation_method">Cách thức hoạt động</string>
+    <string name="bangding">Tổ hợp </string>
+    <string name="wechat_sports">Truy cập vào vi tin thể thao, với bạn bè chia sẻ niềm vui của thể thao</string>
+    <string name="stop">Kết thúc</string>
+    <string name="continues">Tiếp tục</string>
+    <string name="xiaohao">Tiêu thụ  0kcal</string>
+    <string name="Pace">Với tốc độ 00"00</string>
+    <string name="distance">Hết cách: km</string>
+    <string name="total_time">Tổng số thời gian</string>
+    <string name="history_record">Lịch sử</string>
+    <string name="third_party_login">Bên thứ 3 đăng nhập</string>
+    <string name="evening">Đêm 11:59</string>
+    <string name="before_dawn">Sáng nay 12:00</string>
+    <string name="measurement_results">Lần này kết quả đo lường</string>
+    <string name="call_reminder">Gọi điện nhắc nhở</string>
+    <string name="mywechat">Vi thư</string>
+    <string name="turn_off_the_phone">Có điện thoại tắt chức năng tìm kiếm?</string>
+    <string name="leiji">Tính gộp thể thao</string>
+    <string name="cishu">Lần</string>
+    <string name="bluetooth_not_supported">Không hỗ trợ Bluetooth</string>
+    <string name="user_name_format">Định dạng người dùng không đúng</string>
+    <string name="try_again">Hãy đeo được vòng, và thử lại lần nữa.</string>
+    <string name="resend">Gửi lại </string>
+    <string name="mailbox_format_error">Hộp thư định dạng sai lầm</string>
+    <string name="not_b_less">Mật mã không nhỏ hơn 6 người</string>
+    <string name="format_is_wrong">Định dạng số điện thoại</string>
+    <string name="change_password">Thay đổi mật khẩu thành công</string>
+    <string name="shouhuan">Vòng tay ra</string>
+    <string name="my">Của tôi</string>
+    <string name="measurement_record">Có lưu kết quả đo này</string>
+    <string name="prompt">Gợi ý</string>
+    <string name="data_upload">Dữ liệu tải lên thành công</string>
+    <string name="data_upload_fail">Dữ liệu tải lên. Thất bại.</string>
+    <string name="input_email">Vui lòng nhập email</string>
+    <string name="shouquancg">Ủy quyền thành công</string>
+    <string name="shouquanshib">Phép thất bại</string>
+    <string name="shouquanqu">Authorization Hủy bỏ</string>
+    <string name="detectionresult">Kết quả phát hiện</string>
+    <string name="Allgemeiner">chế độ thông thường</string>
+    <string name="Privater">chế độ riêng</string>
+    <string name="wangluo">Tín hiệu mạng kém</string>
+    <string name="BPM">BPM</string>
+    <string name="suspend">dừng lại</string>
+    <string name="measure">đo</string>
+
+    <string name="zhengzaiceshi">Chế độ kiểm tra không được chuyển</string>
+    <string name="jiancewangchen">phát hiện xong</string>
+    <string name="lixiangxieya">huyết áp lý tưởng</string>
+    <string name="xieyagaoxian">Giới hạn trên của huyết áp bình thường</string>
+    <string name="zhongdugaoya">tăng huyết áp vừa</string>
+    <string name="zhongdugaoxuieya">Tăng huyết áp nặng</string>
+    <string name="niedriger">hạ huyết áp</string>
+    <string name="xieyang">ôxy</string>
+    <string name="heartrooate">nhịp tim</string>
+    <string name="bloodpressure">huyết áp</string>
+    <string name="minsystoli">huyết áp tâm thu</string>
+    <string name="maxdiastol">huyết áp tâm trương</string>
+    <string name="jiance">Bắt đầu phát hiện</string>
+    <string name="allgemeiner">chế độ thông thường</string>
+    <string name="privater">chế độ riêng</string>
+    <string name="healthtesting">Kiểm tra sức khỏe</string>
+    <string name="blood">huyết áp</string>
+
+
+
+    <string name="app_name">RaceFit Pro</string>
+    <string name="input_password">Vui lòng nhập mật khẩu của bạn</string>
+    <string name="input_code">Vui lòng nhập mã xác nhận</string>
+    <string name="input_nickname">Vui lòng nhập một nickname</string>
+    <string name="input_name">Vui lòng nhập số điện thoại di động của bạn</string>
+    <string name="user_login">Đăng nhập</string>
+    <string name="search_strap">Tìm kiếm vòng tay</string>
+    <string name="unbind_strap">mở ra</string>
+    <string name="confirm_unbind_strap">Xác định vòng tay thiết bị phát hành hiện đang kết nối với ràng buộc?</string>
+    <string name="exit_login">Đăng xuất</string>
+    <string name="user_regsiter">đăng ký doanh nghiệp</string>
+    <string name="confirm_compelte">hoàn toàn</string>
+    <string name="mine_data">Hồ sơ của tôi</string>
+    <string name="next">nhảy</string>
+    <string name="save">Lưu</string>
+    <string name="complete">hoàn toàn</string>
+    <string name="modify_success">Sửa đổi thành công</string>
+    <string name="share_to">cổ phiếu...</string>
+
+    <string name="nick_name">biệt danh:</string>
+    <string name="select_photo">Vui lòng chọn ảnh</string>
+    <string name="take_camera">máy chụp ảnh</string>
+    <string name="take_Album">Thư viện ảnh</string>
+    <string name="cancle">bị hủy bỏ</string>
+    <string name="confirm">xác định</string>
+
+    <string name="kongjian">QQ không gian</string>
+    <string name="wechat_freinds">Bạn bè thư Micro</string>
+    <string name="wechat_quan">Vòng tròn Micro-kênh của bạn bè</string>
+    <string name="fack_book">Facebook</string>
+
+
+    <string name="goalfinish">Tiêu chuẩn ngày</string>
+    <string name="totaldistance">Tổng số km</string>
+    <string name="Totalnumberofsteps">Số lượng trung bình hàng ngày của bước</string>
+    <string name="submit_success">gửi thành công</string>
+    <string name="submit_fail">Nộp dữ liệu thất bại</string>
+    <string name="write_nickname">Xin vui lòng điền Nickname</string>
+    <string name="new_dif_confirm">Mật khẩu mới và xác nhận là không phù hợp</string>
+    <string name="forget_password">Quên mật khẩu của bạn</string>
+    <string name="fast_register">Đăng ký nhanh</string>
+    <string name="send_code">Gửi mã</string>
+    <string name="user_prprotocol">Người dùng đồng ý với các thỏa thuận riêng tư</string>
+
+    <string name="yonghuzdffhej">Mã lỗi xác minh</string>
+    <string name="yonghuzhej">Số đã được đăng ký, xin vui lòng thay thế!</string>
+    <string name="tijiao">Gửi dữ liệu</string>
+    <string name="yanzhengmakong">Mã không thể để trống</string>
+    <string name="tianxie">Tên người dùng điền vào lỗi</string>
+    <string name="miamacuo">mật khẩu sai</string>
+    <string name="regsiter_fail">đăng ký không thành công</string>
+
+    <string name="yanzhengma">Mã xác minh đã được gửi đi</string>
+    <string name="guojia">Nhận một danh sách các quốc gia thành công</string>
+    <string name="get_code_fail">Thất bại trong việc nhận được một mã xác minh</string>
+
+    <string-array name="banner_txt_one">
+        <item>Định nghĩa mới của phong trào</item>
+        <item>Tình trạng dữ liệu Cloud Storage</item>
+        <item>Thể thao ngoài trời theo thời gian thực chuyển hướng</item>
+    </string-array>
+
+    <string-array name="banner_txt_two">
+        <item>Tiến độ chính xác, để đáp ứng những thách thức</item>
+        <item>Chúng tôi chỉ có thể cung cấp xử lý dữ liệu</item>
+        <item>Mỗi hồ sơ theo dõi của những nỗ lực</item>
+    </string-array>
+
+    <string-array name="select_sex">
+        <item>nam</item>
+        <item>đàn bà</item>
+    </string-array>
+
+    <string name="select_running_mode">Vui lòng chọn chế độ</string>
+    <string-array name="select_running_mode">
+        <item>chạy ngoài trời</item>
+        <item>cưỡi ngoài trời</item>
+    </string-array>
+
+    <string-array name="select_alarm_repeat">
+        <item>Nhắc nhở một lần duy nhất</item>
+        <item>mỗi ngày</item>
+        <item>Thứ Hai đến thứ Sáu</item>
+        <item>phong tục</item>
+    </string-array>
+
+    <string-array name="select_week">
+        <item>thứ hai</item>
+        <item>thứ ba</item>
+        <item>thứ tư</item>
+        <item>thứ năm</item>
+        <item>thứ sáu</item>
+        <item>thứ bảy</item>
+        <item>chủ nhật</item>
+    </string-array>
+
+    <string name="week">tuần</string>
+    <string name="just_remind_once">Nhắc nhở một lần duy nhất</string>
+    <string name="select_repeat_week">Vui lòng chọn tuần lặp lại</string>
+    <string name="select_default_week">Vui lòng chọn một chế độ báo động</string>
+    <string name="select_alarm_time">Thời gian báo Chọn Alarm</string>
+
+    <string name="select_brithday">Vui lòng chọn một sinh nhật</string>
+    <string name="select_height">Vui lòng chọn Chiều cao</string>
+    <string name="select_weight">Vui lòng chọn Trọng lượng</string>
+
+    <string name="Sedentaryreminder">nhắc nhở ít vận động</string>
+    <string name="entryintoforcetime">thời gian hiệu quả</string>
+    <string name="alarmclock">đồng hồ reo</string>
+    <string name="Messagealert">cảnh báo tin nhắn</string>
+    <string name="Raisethebrightscreen">Nâng cao màn hình sáng tay</string>
+    <string name="Intelligentalost">Thông minh chống mất</string>
+    <string name="Automaticheartrate">Phát hiện nhịp tim tự động</string>
+    <string name="yaoyiyaoPhotograph">lắc ảnh</string>
+    <string name="chaozhaishouji">Tìm điện thoại</string>
+    <string name="weixinpaizhao">Thể thao Micro chữ</string>
+    <string name="add_alarm">Add alarm</string>
+
+    <string name="weather">AQI</string>
+    <string name="mine">của tôi</string>
+    <string name="device">thiết bị</string>
+    <string name="running">để bắt đầu chạy</string>
+    <string name="star">bắt đầu</string>
+    <string name="long_stop">Nhấn Pause</string>
+    <string name="data">dữ liệu</string>
+    <string name="Targetsetting">Thiết lập mục tiêu</string>
+    <string name="siren">chế độ riêng</string>
+    <string name="search_device">Tìm kiếm thiết bị</string>
+    <string name="menu_settings">thiết lập</string>
+    <string name="settings_success">thiết Success</string>
+    <string name="settings_fail">đặt cài thất bại</string>
+    <string name="get_fail">thất bại Acquisition</string>
+    <string name="common_mode">chế độ thông thường</string>
+    <string name="activity_time">thời gian hoạt động</string>
+    <string name="hour">H</string>
+    <string name="km">Km</string>
+    <string name="km_cal">Kcal</string>
+    <string name="steps">Step</string>
+    <string name="calories">Calo</string>
+    <string name="mileage">Mileage</string>
+    <string name="time">thời gian</string>
+    <string name="step">Số bước</string>
+    <string name="recording">kỷ lục</string>
+    <string name="target_step">Số mục tiêu của bước 10000</string>
+
+    <string name="indoor_sports">thể thao trong nhà</string>
+    <string name="outdoor_running">chạy ngoài trời</string>
+    <string name="outdoor_cycling">đi xe đạp ngoài trời</string>
+    <string name="sleep">ngủ</string>
+    <string name="move_ment">môn thể thao</string>
+
+    <string name="data_report_day">ngày</string>
+    <string name="data_report_week">Zhou</string>
+    <string name="data_report_month">tháng</string>
+
+    <string name="allday_sleep">Ngủ cả ngày</string>
+    <string name="allday_deepsleep">Giấc ngủ sâu suốt cả ngày</string>
+    <string name="allday_shallowsleep">Giấc ngủ ánh sáng cả ngày</string>
+
+    <string name="heartbeats_per_minute">nhịp tim</string>
+    <string name="sleep_monitoring">PSG</string>
+    <string name="jiankangceshi">Kiểm tra sức khỏe</string>
+
+    <string name="data_repor">Báo cáo số liệu</string>
+    <string name="activity_repor">báo cáo hoạt động</string>
+    <string name="sleep_repor">báo cáo ngủ</string>
+    <string name="heart_repor">báo cáo nhân sự</string>
+    <string name="bloodpressure_repor">báo cáo BP</string>
+    <string name="bloodoxygen_repor">báo cáo oxy</string>
+
+    <string name="personal_info">Thông tin cá nhân</string>
+    <string name="modify_nickname">Sửa đổi nickname</string>
+    <string name="personal_avatar">Trưởng chân dung</string>
+    <string name="sex">tính</string>
+    <string name="weight">trọng lượng</string>
+    <string name="height">chiều cao</string>
+    <string name="birthday">ngày sinh nhật</string>
+
+    <string name="select_sex">Vui lòng chọn giới tính</string>
+    <string name="select">lựa chọn</string>
+    <string name="sex_nan">nam</string>
+    <string name="sex_nv">đàn bà</string>
+
+    <string name="app_version">phiên bản ứng dụng</string>
+    <string name="modify_password">đổi mật khẩu</string>
+    <string name="help">giúp</string>
+    <string name="abour">trên</string>
+    <string name="yesterday">ngày hôm qua</string>
+    <string name="today">ngày nay</string>
+    <string name="cumulative_number_of_movements">Tích lũy phong trào 0</string>
+    <string name="agree_agreement">Click vào nút "Đăng ký", bạn đồng ý</string>
+    <string name="register_agreement">thỏa thuận liên quan</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="confrim_exit">OK để thoát khỏi tài khoản vãng lai?</string>
+
+    <string name="input_old_password">Vui lòng nhập mật khẩu cũ của bạn</string>
+    <string name="input_new_password">Vui lòng nhập mật khẩu mới 6-20</string>
+    <string name="input_confirm_password">Vui lòng nhập mã xác nhận</string>
+    <string name="question_detail">Thông tin chi tiết vấn đề</string>
+    <string name="contact_info">tiếp xúc</string>
+    <string name="describe_problem">Vui lòng mô tả vấn đề của bạn</string>
+    <string name="leave_phone">Hãy để lại điện thoại hoặc email để chúng tôi có thể liên lạc với bạn</string>
+
+    <string name="notempty_feedback">Phản hồi không thể để trống</string>
+    <string name="leave_contact">Liên hoặc email không thể để trống</string>
+
+    <string name="daily_numberofsteps">Số bước tập thể dục hàng ngày</string>
+    <string name="daily_sleepduration">Thời gian ngủ hàng ngày</string>
+    <string name="daily_consunergy">Tiêu thụ năng lượng hàng ngày</string>
+
+    <string name="daily_numberofsteps_default">Step</string>
+    <string name="daily_sleepduration_default">8H</string>
+    <string name="daily_consunergy_defaultcalorie">173Kcal</string>
+
+    <string name="my_strap">Vòng đeo tay của tôi</string>
+    <string name="sedentary_reminder">nhắc nhở ít vận động</string>
+    <string name="firmware_upgrade">Firmware Upgrade</string>
+    <string name="unbind">mở ra</string>
+
+    <string name="effective_time">thời gian hiệu quả</string>
+    <string name="end_time">End Time</string>
+    <string name="start_time">Thời gian bắt đầu</string>
+
+    <string name="diastolic_pressure">huyết áp tâm trương</string>
+    <string name="systolic_set">huyết áp tâm thu</string>
+    <string name="heart_rate">nhịp tim</string>
+    <string name="blood_oxygen">ôxy</string>
+    <string name="health_test">biện pháp sức khỏe</string>
+
+
+    <string name="time_set">Thời gian Cài đặt</string>
+    <string name="repeat">lặp lại</string>
+    <string name="alarm_name">Vui lòng điền vào tên báo thức</string>
+
+    <string name="private_mode">chế độ riêng</string>
+    <string name="minimumsystolic_bloodpressure">Thấp nhất huyết áp tâm thu</string>
+    <string name="maximumdiastolic_bloodpressure">Cao nhất huyết áp tâm trương</string>
+    <string name="private_mode_bloodpressure">huyết áp cá nhân</string>
+    <string name="bloodpressure_msg">Thiết lập chế độ huyết áp cá nhân của bạn, để có được dữ liệu chính xác hơn, bạn cần phải thiết lập ở đây là giá trị huyết áp có giá trị không dùng thuốc hạ huyết áp.</string>
+
+    <string name="stop_clock">Quá trình rung, nhấn vào vòng tay để ngăn chặn sự báo động</string>
+    <string name="getup">đứng dậy</string>
+    <string name="other">khác</string>
+    <string name="alarm_clock">đồng hồ reo</string>
+    <string name="every_time">mỗi ngày</string>
+    <string name="every_once">Chỉ một lần đổ chuông</string>
+    <string name="monday_to_friday">Thứ Hai đến thứ Sáu</string>
+    <string name="search_bracelet">Tìm kiếm vòng tay</string>
+
+    <string name="select_star_time">Vui lòng chọn thời gian bắt đầu</string>
+    <string name="select_end_time">Hãy chọn thời gian cuối</string>
+
+    <string name="weibo_oauth_regiseter">phép ứng dụng</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="weibo_upload_content">Chia sẻ hình ảnh</string>
+    <string name="wechat_client_inavailable">Vi-kênh phiên bản vi-kênh hiện tại của bạn là quá thấp hoặc không được cài đặt, bạn cần phải cài đặt để sử dụng các vi chữ</string>
+    <string name="google_plus_client_inavailable">Phiên bản Google+ là quá thấp hoặc không được cài đặt, bạn cần phải nâng cấp hoặc cài đặt để sử dụng Google+!</string>
+    <string name="qq_client_inavailable">QQ phiên bản là quá thấp hoặc không được cài đặt, bạn cần phải nâng cấp hoặc cài đặt QQ để sử dụng!</string>
+    <string name="pinterest_client_inavailable">Pinterest phiên bản là quá thấp hoặc không được cài đặt, bạn cần phải nâng cấp hoặc cài đặt Pinterest để sử dụng!</string>
+    <string name="instagram_client_inavailable">Instagram phiên bản là quá thấp hoặc không được cài đặt, bạn cần phải nâng cấp hoặc cài đặt để sử dụng Instagram!</string>
+    <string name="yixin_client_inavailable">Phiên bản hiện tại của cả tin của bạn quá thấp hoặc không được cài đặt, bạn cần phải cài đặt và dễ sử dụng thư</string>
+    <string name="line_client_inavailable">Dòng phiên bản hiện tại của bạn là quá thấp hoặc không được cài đặt, bạn cần phải cài đặt để sử dụng dòng</string>
+    <string name="kakaotalk_client_inavailable">Hiện nay phiên bản KakaoTalk của bạn quá thấp hoặc không được cài đặt, bạn cần phải cài đặt để sử dụng KakaoTalk</string>
+    <string name="kakaostory_client_inavailable">KakaoStory phiên bản hiện tại của bạn là quá thấp hoặc không được cài đặt, bạn cần phải cài đặt để sử dụng KakaoStory</string>
+    <string name="whatsapp_client_inavailable">Hiện nay phiên bản WhatsApp của bạn quá thấp hoặc không được cài đặt, bạn cần phải cài đặt để sử dụng WhatsApp</string>
+    <string name="baidutieba_client_inavailable">Baidu Post Bar phiên bản hiện tại của bạn là quá thấp hoặc không được cài đặt, bạn cần phải cài đặt để sử dụng Baidu Post Ba</string>
+    <string name="laiwang_client_inavailable">Và từ phiên bản hiện tại của bạn là quá thấp hoặc không được cài đặt, và từ sự cần thiết phải cài đặt để sử dụng</string>
+
+    <string name="sinaweibo">Sina Weibo</string>
+    <string name="tencentweibo">Tencent microblogging</string>
+    <string name="qzone">QQ không gian</string>
+    <string name="wechat">Bạn bè thư Micro</string>
+    <string name="wechatmoments">Vòng tròn Micro-kênh của bạn bè</string>
+    <string name="wechatfavorite">Bộ sưu tập Micro-Thư</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="renren">Renren</string>
+    <string name="kaixin">Chúc mừng mạng</string>
+    <string name="email">thư</string>
+    <string name="shortmessage">Thông tin</string>
+    <string name="sohumicroblog">Sohu Weibo</string>
+    <string name="sohusuishenkan">Người chơi Sohu tìm</string>
+    <string name="neteasemicroblog">NetEase Weibo</string>
+    <string name="douban">cải xoong</string>
+    <string name="evernote">Evernote</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="googleplus">Google+</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="qq">QQ</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="flickr">Flickr</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="vkontakte">VK</string>
+    <string name="instagram">Instagram</string>
+
+
+
+    <string name="press_again_exit">Theo một lần nữa</string>
+    <!-- Tab界面 -->
+    <string name="alarm_clocks">Đồng hồ báo thức</string>
+    <!-- 闹铃界面 -->
+    <string name="press_right_top">Theo bên phải.  </string>
+    <string name="add_alarm_clock">  Thêm đồng hồ báo thức  </string>
+    <string name="retrieve_alarm_clock_success">Bị xóa bỏ, đồng hồ đã được tìm</string>
+    <!-- 新建编辑闹钟界面 -->
+    <string name="new_alarm_clock">Đồng hồ báo thức mới </string>
+    <string name="edit_alarm_clock">Sửa đồng hồ báo thức</string>
+    <string name="repeats">Lặp lại</string>
+    <string name="tag">Nhãn</string>
+    <string name="default_ring">Chuông mặc định</string>
+    <string name="volume">Âm lượng</string>
+    <string name="vibrate">Rung động</string>
+    <string name="countdown_day_hour_minute">Đồng hồ báo thức vang lên, và khoảng cách%1$dNgày%2$dTiếng %3$dPhút.</string>
+    <string name="countdown_hour_minute">Đồng hồ báo thức vang lên, và khoảng cách%1$dTiếng %2$dPhút.</string>
+    <string name="countdown_minute">Đồng hồ báo thức vang lên, và khoảng cách%1$dPhút.</string>
+    <string name="monday">Thứ hai.</string>
+    <string name="tuesday">Thứ 3</string>
+    <string name="wednesday">Thứ 4.</string>
+    <string name="thursday">Vào thứ năm</string>
+    <string name="friday">Thứ 6.</string>
+    <string name="saturday">Thứ 7</string>
+    <string name="sunday">CN </string>
+    <string name="repeat_once">Chỉ có một lần.</string>
+    <string name="one_h">Một </string>
+    <string name="two_h">2.</string>
+    <string name="three_h">Ba</string>
+    <string name="four_h">4.</string>
+    <string name="five_h">5</string>
+    <string name="six_h">6</string>
+    <string name="day">Ngày</string>
+    <string name="every_day">Mỗi ngày</string>
+    <string name="week_day">Ngày thường</string>
+    <string name="week_end">Cuối tuần này</string>
+    <string name="weeks">Tuần</string>
+    <string name="caesura">、</string>
+
+    <!-- 铃声选择界面 -->
+
+    <!-- 闹钟响起界面 -->
+
+    <!-- 小睡编辑界面 -->
+
+    <!-- 录音 -->
+    <string name="record_fail">Âm thất bại</string>
+    <string name="record_fail_confirm">Cuộn băng ghi âm đã thất bại, làm ơn kiểm tra quyền có mở hoặc ghi âm đã bị chiếm. Các ứng dụng khác.</string>
+    <!-- 录音操作 -->
+    <!-- 录音详情画面 -->
+
+    <!-- 录音重命名画面 -->
+    <!-- 录音删除画面 -->
+    <!-- 录音批量删除画面 -->
+    <!-- 音频播放 -->
+    <string name="play_fail">Lại thất bại.</string>
+
+    <!-- 天气 -->
+    <string name="turn">%1$sQuay%2$s</string>
+
+
+    <!-- 城市管理，添加城市 -->
+    <string name="city_weather_update_time">%1$sCập nhật thời gian</string>
+</resources>

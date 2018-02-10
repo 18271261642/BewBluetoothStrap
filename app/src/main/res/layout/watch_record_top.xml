@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/watch_record_titleLin"
+    android:layout_height="50dp">
+
+    <RelativeLayout
+        android:id="@+id/watch_poorRel"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:gravity="clip_vertical"
+        android:layout_marginLeft="@dimen/size_5"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/shouhuanImg"
+            android:layout_marginRight="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/watch_connectStateTv"
+            android:layout_width="wrap_content"
+            android:textSize="13sp"
+            android:lines="1"
+            android:padding="1dp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@+id/shouhuanImg"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:padding="1dp"
+            android:id="@+id/watch_top_batteryImgView"
+            android:layout_below="@+id/watch_connectStateTv"
+            android:layout_toRightOf="@+id/shouhuanImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/watch_recordtop_dateTv"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:text=""
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_marginRight="@dimen/size_5"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/watchRecordShareImg"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/fenxiang"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.bozhilun.android.coverflow.RefreshableView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ropot_MyListView"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    //下拉刷新
+   <!-- <com.example.bozhilun.android.coverflow.RefreshableView
+        android:id="@+id/ropot_MyListView"
+        android:layout_marginTop="50dp"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dareport_step"
+                android:layout_margin="@dimen/size_10"
+                android:padding="@dimen/size_10">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent" />
+
+                <LinearLayout
+                    android:id="@+id/stepdata_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <ImageView
+                            android:id="@+id/activity_img_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_5"
+                            android:src="@mipmap/huodong5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:layout_toRightOf="@+id/activity_img_tag"
+                            android:text="@string/activity_repor" />
+
+                        <TextView
+                            android:id="@+id/datroport_step"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:layout_toLeftOf="@+id/imgright_tag"
+                            android:text="0 步" />
+
+                        <ImageView
+                            android:id="@+id/imgright_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:src="@mipmap/click_arrow" />
+
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+
+                     <lecho.lib.hellocharts.view.ColumnChartView
+                             android:visibility="invisible"
+                            android:id="@+id/step_chart"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/size_120"
+                            android:padding="5dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <TextView
+                            android:id="@+id/startime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:text="@string/before_dawn" />
+
+                        <TextView
+                            android:id="@+id/endtime_tv_huodong"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:text="@string/evening" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--*****************************************************************************-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dareport_shuimian"
+                android:layout_margin="@dimen/size_10"
+                android:padding="@dimen/size_10">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/deep_sleep" />
+
+                <LinearLayout
+                    android:id="@+id/sleepdata_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/datareport"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <ImageView
+                            android:id="@+id/sleep_img_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_5"
+                            android:src="@mipmap/shuimian5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:layout_toRightOf="@+id/sleep_img_tag"
+                            android:text="@string/sleep_repor" />
+
+                        <TextView
+                            android:id="@+id/sleep_huor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:layout_toLeftOf="@+id/sleepimgright_tag" />
+
+                        <ImageView
+                            android:id="@+id/sleepimgright_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:src="@mipmap/click_arrow" />
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+                    <RelativeLayout
+                        android:id="@+id/Shuimianjilu"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_120"
+                        android:layout_alignParentBottom="true"
+                        android:orientation="vertical"
+                        android:padding="5dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <ImageView
+                            android:id="@+id/shengshui"
+                            android:layout_width="@dimen/size_18"
+                            android:layout_height="@dimen/size_18"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_5"
+                            android:background="#511D82" />
+
+                        <TextView
+                            android:id="@+id/sleepstartime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:layout_toRightOf="@+id/shengshui"
+                            android:text="@string/allday_deepsleep" />
+
+                        <ImageView
+                            android:id="@+id/shengshui_er"
+                            android:layout_width="@dimen/size_18"
+                            android:layout_height="@dimen/size_18"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_5"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:layout_toLeftOf="@+id/sleependtime_tv"
+                            android:background="#6924A9" />
+
+                        <TextView
+                            android:id="@+id/sleependtime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:text="@string/allday_shallowsleep" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--*****************************************************************************-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dareport_xinlv"
+                android:layout_margin="@dimen/size_10"
+                android:padding="@dimen/size_10">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/red_heart" />
+
+                <LinearLayout
+                    android:id="@+id/heartratedata_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <ImageView
+                            android:id="@+id/heartrate_img_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_5"
+                            android:src="@mipmap/xinlv5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:layout_toRightOf="@+id/heartrate_img_tag"
+                            android:text="@string/heart_repor" />
+
+                        <TextView
+                            android:id="@+id/repot_xinlv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:layout_toLeftOf="@+id/heartrate_imgright_tag" />
+
+                        <ImageView
+                            android:id="@+id/heartrate_imgright_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:src="@mipmap/click_arrow" />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+                    <lecho.lib.hellocharts.view.LineChartView
+                        android:visibility="invisible"
+                        android:id="@+id/heart_linechart"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_120"
+                        android:padding="5dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <TextView
+                            android:id="@+id/heartrate_startime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:text="@string/before_dawn" />
+
+                        <TextView
+                            android:id="@+id/heartrate_endtime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:text="@string/evening" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--*****************************************************************************-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dareport_xieya"
+                android:layout_margin="@dimen/size_10"
+                android:padding="@dimen/size_10">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/mpc_start_color" />
+
+                <LinearLayout
+                    android:id="@+id/xieyangdata_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <ImageView
+                            android:id="@+id/xieyangdata_img_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_5"
+                            android:src="@mipmap/xueyaxiao" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:layout_toRightOf="@+id/xieyangdata_img_tag"
+                            android:text="@string/bloodpressure_repor" />
+
+                        <TextView
+                            android:id="@+id/xinlvdatarepot_xinlv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:layout_toLeftOf="@+id/xieyang_imgright_tag" />
+
+                        <ImageView
+                            android:id="@+id/xieyang_imgright_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:src="@mipmap/click_arrow" />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+                    <lecho.lib.hellocharts.view.ColumnChartView
+                        android:visibility="invisible"
+                        android:id="@+id/xieyang_imgright_linechart"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_120"
+                        android:padding="5dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+              <!--      <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <TextView
+                            android:id="@+id/xieyang_imgright_startime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:text="@string/before_dawn" />
+
+                        <TextView
+                            android:id="@+id/xieyang_imgright_endtime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:text="@string/evening" />
+                    </RelativeLayout>-->
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!--**********************************************************************-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dareport_xieyang"
+                android:layout_margin="@dimen/size_10"
+                android:padding="@dimen/size_10">
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/licheng_start_color" />
+
+                <LinearLayout
+                    android:id="@+id/yangqidata_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <ImageView
+                            android:id="@+id/yangqi_img_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_5"
+                            android:src="@mipmap/xueyang" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:layout_toRightOf="@+id/yangqi_img_tag"
+                            android:text="@string/bloodoxygen_repor" />
+
+                        <TextView
+                            android:id="@+id/yangqi_img_tagrepot_xinlv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:layout_toLeftOf="@+id/xyangqi_imgright_tag" />
+
+                        <ImageView
+                            android:id="@+id/xyangqi_imgright_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:src="@mipmap/click_arrow" />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+                    <lecho.lib.hellocharts.view.ColumnChartView
+                        android:visibility="invisible"
+                        android:id="@+id/xyangqi_img_imgright_linechart"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_120"
+                        android:padding="5dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#c4c4c4"
+                        android:layout_height="1dp"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/size_5">
+
+                        <TextView
+                            android:id="@+id/xyangqi__startime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/size_10"
+                            android:text="@string/before_dawn" />
+
+                        <TextView
+                            android:id="@+id/xyangqi__endtime_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/size_10"
+                            android:text="@string/evening" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_80" />
+        </LinearLayout>
+</ScrollView>
+   //<!-- </com.example.bozhilun.android.coverflow.RefreshableView>-->
+
+</com.example.bozhilun.android.coverflow.RefreshableView>

@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+	compileSdkVersion 23
+	buildToolsVersion '25.0.0'
+
+	defaultConfig {
+		minSdkVersion 8
+		targetSdkVersion 21
+	}
+
+	sourceSets {
+		main {
+			jni.srcDirs = []
+			assets.srcDirs = ['src/main/assets']
+		}
+	}
+}
+
+
+task copyExeFile(type: Copy) {
+	from fileTree(dir: file(buildDir.absolutePath + '/ndk/libs/armeabi'), include: '*')
+	into file('src/main/assets')
+}

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Battery">
+        <attr name="batteryOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="batteryColor" format="color"/>
+        <attr name="batteryPower" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="H9CorrectionTimeView">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="circleRoundWidth" format="dimension" />
+        <attr name="circleWidths" format="dimension" />
+        <attr name="circleTextColor" format="color" />
+        <attr name="circleNumber" format="integer" />
+        <attr name="circleTextSize" format="dimension" />
+        <attr name="circleColor1" format="color" />
+        <attr name="circleColor2" format="color" />
+        <attr name="circleColor3" format="color" />
+        <attr name="circleColor4" format="color" />
+        <attr name="circleColor5" format="color" />
+    </declare-styleable>
+
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="speed" format="integer" />
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+
+    <declare-styleable name="DragGridView">
+        <attr name="div_color" format="color" />
+        <attr name="item_background_color" format="color"/>
+        <attr name="columnscount" format="integer"/>
+        <attr name="scale_num" format="float"/>
+        <attr name="fixed_num" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="ArcProgress">
+        <attr name="borderWidth" format="dimension"></attr>
+        <attr name="unprogresColor" format="color"></attr>
+        <attr name="progressColor" format="color"></attr>
+        <attr name="tickWidth" format="dimension"></attr>
+        <attr name="tickDensity" format="integer"></attr>
+        <attr name="bgShow" format="boolean"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="arcbgColor" format="color"></attr>
+        <attr name="degree" format="integer"></attr>
+        <attr name="arcCapRound" format="boolean"></attr>
+        <attr name="progressStyle" format="enum">
+            <enum name="tick" value="1"></enum>
+            <enum name="arc" value="0"></enum>
+        </attr>
+    </declare-styleable>
+
+    <!--b18I自定义添加-->
+    <!--折线图以及柱型图-->
+    <declare-styleable name="AbsLeafChart">
+        <attr name="lc_topPadding" format="dimension"/>
+        <attr name="lc_leftPadding" format="dimension"/>
+        <attr name="lc_bottomPadding" format="dimension"/>
+        <attr name="lc_rightPadding" format="dimension"/>
+        <attr name="lc_startMarginX" format="dimension"/>
+        <attr name="lc_startMarginY" format="dimension"/>
+        <attr name="lc_coordinateMode">
+            <enum name="across" value="1"/>
+            <enum name="intersect" value="2"/>
+            <enum name="x_across" value="3"/>
+            <enum name="y_across" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="OutsideLineChart">
+        <attr name="lc_step" format="dimension"/>
+    </declare-styleable>
+
+    <!--扇形图-->
+    <declare-styleable name="PieChartView">
+        <attr name="gravity">
+            <enum name="top" value="0"></enum>
+            <enum name="centre" value="1"></enum>
+            <enum name="fixXY" value="2"></enum>
+        </attr>
+        <!--扇形的中心空白直径 单位:db-->
+        <attr name="centreRadius" format="dimension"></attr>
+        <!--字体大小-->
+        <attr name="lableTextSize" format="dimension"></attr>
+        <!--第一个扇形的偏移值(突出效果)-->
+        <attr name="firstOffset" format="dimension"></attr>
+    </declare-styleable>
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CircleProgressBar">
+        <attr name="antiAlias" />
+        <attr name="startAngle" />
+        <attr name="sweepAngle" />
+        <attr name="animTime" />
+        <attr name="maxValue" />
+        <attr name="value" />
+        <attr name="precision" />
+        <attr name="valueSize" />
+        <attr name="valueColor" />
+        <attr name="textOffsetPercentInRadius" />
+        <!-- 绘制内容相应的提示语 -->
+        <attr name="hint" />
+        <attr name="hintSize" />
+        <attr name="hintColor" />
+        <!-- 绘制内容的单位 -->
+        <attr name="unit" />
+        <attr name="unitSize" />
+        <attr name="unitColor" />
+        <!-- 圆弧宽度 -->
+        <attr name="arcWidth" />
+        <attr name="arcColors" />
+        <!-- 背景圆弧颜色 -->
+        <attr name="bgArcColor" />
+        <!-- 背景圆弧宽度 -->
+        <attr name="bgArcWidth" format="dimension" />
+    </declare-styleable>
+
+
+
+
+
+    <!--扩散圆颜色-->
+    <attr name="diffuse_color" format="color"/>
+    <!--中心圆颜色-->
+    <attr name="diffuse_coreColor" format="color"/>
+    <!--中心圆图片-->
+    <attr name="diffuse_coreImage" format="reference"/>
+    <!--中心圆半径-->
+    <attr name="diffuse_coreRadius" format="float"/>
+    <!--扩散圆宽度,值越小越宽-->
+    <attr name="diffuse_width" format="integer"/>
+    <!--最大扩散宽度-->
+    <attr name="diffuse_maxWidth" format="integer"/>
+    <declare-styleable name="DiffuseView">
+        <attr name="diffuse_color"/>
+        <attr name="diffuse_coreColor"/>
+        <attr name="diffuse_coreImage"/>
+        <attr name="diffuse_coreRadius"/>
+        <attr name="diffuse_width"/>
+        <attr name="diffuse_maxWidth"/>
+    </declare-styleable>
+
+
+
+
+
+
+    <declare-styleable name="SwitchIconView">
+        <attr name="si_tint_color" format="color" />
+        <attr name="si_animation_duration" format="integer" />
+        <attr name="si_disabled_alpha" format="float" />
+        <attr name="si_disabled_color" format="color" />
+        <attr name="si_enabled" format="boolean" />
+        <attr name="si_no_dash" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MagicProgressCircle">
+        <attr name="mpc_percent" format="float" />
+        <attr name="mpc_stroke_width" format="dimension" />
+        <attr name="mpc_start_color" format="color" />
+        <attr name="mpc_end_color" format="color" />
+        <!-- 背景环的颜色 -->
+        <attr name="mpc_default_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageCoverFlowView">
+        <attr name="visibleImage" format="integer" />
+        <attr name="reflectionHeight" format="fraction" />
+        <attr name="reflectionGap" format="dimension" />
+        <attr name="topImageClickEnable" format="boolean" />
+        <attr name="coverflowGravity" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="center_vertical" value="2" />
+        </attr>
+        <attr name="coverflowLayoutMode" format="enum">
+            <enum name="match_parent" value="0"></enum>
+            <enum name="wrap_content" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="NavigationTabStrip">
+        <attr name="nts_color" format="color"/>
+        <attr name="nts_size" format="dimension"/>
+        <attr name="nts_weight" format="dimension"/>
+        <attr name="nts_factor" format="float"/>
+        <attr name="nts_titles" format="reference"/>
+        <attr name="nts_type" format="enum">
+            <enum name="line" value="0"/>
+            <enum name="point" value="1"/>
+        </attr>
+        <attr name="nts_gravity" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+        <attr name="nts_typeface" format="string"/>
+        <attr name="nts_corners_radius" format="dimension"/>
+        <attr name="nts_animation_duration" format="integer"/>
+        <attr name="nts_inactive_color" format="color"/>
+        <attr name="nts_active_color" format="color"/>
+    </declare-styleable>
+
+</resources>

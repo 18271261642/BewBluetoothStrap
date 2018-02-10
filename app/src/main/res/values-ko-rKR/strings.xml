@@ -1,0 +1,588 @@
+<resources>
+    //韩国小biaozi
+
+    <string name="findwatch">시계 찾기</string>
+    <string name="watchtime">시청 시간</string>
+    <string name="systemtime">시스템 시간</string>
+    <string name="notif_explain">설명</string>
+    <string name="notif_messge">메시지 알림 필요한 알림 또는 보조 기능 열기</string>
+    <string name="open_notif">열 알림</string>
+    <string name="open_function">열 보조 기능</string>
+
+    <string name="device_times">장치 시간</string>
+    <string name="now_times">현재 시간</string>
+    <string name="get_device_times">가져오기 장치 시간</string>
+    <string name="correct_pointer_times">포인터 아니야? 가서 바로잡다</string>
+    <string name="thousand">thousand steps</string>
+    <string name="sporttimes">연습 횟수</string>
+    <string name="grandtotalstep">누계 단계</string>
+    <string name="grandtotal">누적 기간</string>
+    <string name="sportdata">이동 데이터</string>
+    <string name="avg_speed">평균 속도</string>
+    <string name="long_onclick">오랫동안 눌러 ‘\ + \’ 와 \‘ - \’ 설정 조절 가능 큰 각도</string>
+    <string name="add_sharpe">합성 결코 나누다</string>
+    <string name="syncy_data">동기식 데이터 중</string>
+    <string name="connted">연결됨</string>
+    <string name="disconnted">연결 끊김</string>
+
+    <string name="nodata">데이터 없음</string>
+    <string name="age">나이</string>
+    <string name="alarm_eat">밥</string>
+    <string name="alarm_medicine">약</string>
+    <string name="alarm_dring">물</string>
+    <string name="alarm_sp">자다</string>
+    <string name="alarm_awakes">일어나다</string>
+    <string name="alarm_spr">운동</string>
+    <string name="alarm_metting">회의</string>
+    <string name="alarm_custom">사용자 정의</string>
+    <string name="history_times">역사 시간</string>
+    <string name="search_alert">검색 장치 좀 핸드폰 블루투스 및 GPS 열기</string>
+    <string name="sleep_deep">깊이 자다</string>
+    <string name="sleep_light">겉잠</string>
+    <string name="long_when">길이</string>
+    <string name="sleep_asleep">시간이 들다</string>
+    <string name="recovery_count">재생 횟수</string>
+    <string name="recovery_time">재생 시간</string>
+    <string name="mine_equipment">내 장치</string>
+    <string name="low_voltage">저압 제한</string>
+    <string name="high_voltage">고압 제한</string>
+    <string name="year">년</string>
+    <string name="news">소식</string>
+    <string name="messages">새로운 소식을 받은</string>
+    <string name="system_settings">시스템 설정</string>
+    <string name="device_manager">장치 관리</string>
+    <string name="guide">학교 때 안내</string>
+    <string name="step_one">1.\t 이 손목시계는 및 App 정상적인 연결 단추를 누르면 상태에서 우선 돌아가다 제로</string>
+    <string name="step_two">2.\t 각각 선택, 시계, 분, 따라 + 및 - 조사 바늘 ~ 12:00 정리하다</string>
+    <string name="step_three">3.\t 완료 단추를 눌렀을 때 자동으로 쫓아 바늘 학교 실현</string>
+    <string name="manualsleep">수동 수면</string>
+    <string name="automaticsleep">자동 수면</string>
+    <string name="dlog">불러오기...</string>
+    <string name="minezhen">분침</string>
+    <string name="hourzhen">시침</string>
+    <string name="zero">0으로 돌아 가기</string>
+    <string name="setmi">황제 계</string>
+    <string name="setkm">미터법</string>
+    <string name="jiaozhen">학교 핀</string>
+    <string name="unit">단위</string>
+    <string name="hearting">탐지</string>
+    <string name="heartcheck">심박수 검사</string>
+    <string name="auxiliary_function">만약 네가 열었다 알림 아니면 못 받아 메시지 알림, 너 입어봐도 열 보조 기능.
+    \n 만약 네가 받을 수 알림 메시지, 그럼 무시 그것의 존재를 될 수도 알림 또는 보조 기능 제한 음식점을 하나.
+    \n (이 기능을 해결을 위한 부분 모델 못 받아 소식으로 설정을 포착했습니다 열 수 있다. 이 기능을 초래 메시지 알림 반복)</string>
+    <string name="siren_str">순위표</string>
+    <string name="personal_str">개인 정보</string>
+    <string name="function_str">기능 설정</string>
+    <string name="find_str">친구 찾기</string>
+    <string name="waking_state">정신 상태</string>
+    <string name="shallow_sleep">얕은 잠 도</string>
+    <string name="deep_sleep">깊이 수면</string>
+    <string name="mileage_km">이정/km</string>
+    <string name="ranking">석차</string>
+    <string name="daily_distancia">매일 운동을 거리</string>
+    <string name="notice_str">알림</string>
+    <string name="shock_str">진동</string>
+    <string name="time_forma">시간 형식</string>
+    <string name="advanced_setting">고급 설정</string>
+    <string name="add_frendes">친구 추가</string>
+    <string name="scan_frend">검색</string>
+    <string name="reset_device">초기화 장치</string>
+    <string name="heart_rate_test">심장 박동수 테스트</string>
+    <string name="heart_rate_warning_range">심장 박동수 경보 범위</string>
+    <string name="close_str">닫다</string>
+    <string name="weak_str">약하다</string>
+    <string name="standard_str">표준</string>
+    <string name="strong_str">강하다</string>
+    <string name="preset_sleep">미리 설치한 수면</string>
+    <string name="missed_calls">부재중 전화</string>
+    <string name="sms_reminder">sms 알림</string>
+    <string name="mailbox_reminder">메일박스 알림</string>
+    <string name="social_reminder">사교 알림</string>
+    <string name="calendar_alarm">달력 알림</string>
+    <string name="today_step">오늘의 페이스</string>
+    <string name="goal_step">목표</string>
+    <string name="str_one">수 많은 유형의 매일 알람 설정</string>
+    <string name="str_two">알람 형식 선택</string>
+    <string name="str_three">오랫동안 눌러 삭제하려면 자명종</string>
+    <string name="str_four">알림 시간 및 날짜 선택</string>
+    <string name="str_five">일단 가서 좀 해야 될 가볍게 낭창거리다 알림 표시 장치 및 해당 아이콘 충고</string>
+    <!--//************************-->
+
+    <string name="noright">귀하는 현재 방문자이며 정보를 수정할 수 없습니다.</string>
+    <string name="newversion">업데이트 여부에 관계없이 새로운 버전이 있습니다?</string>
+    <string name="visitor_enter">방문객이 입장</string>
+    <string name="login_alert">관광객으로 입장 할 것인가</string>
+    <string name="settarget_steps">단계의 대상 수</string>
+    <string name="operation">명령</string>
+    <string name="today_data">오늘날의 데이터</string>
+    <string name="msg_jiange">메시지 나게 간격</string>
+    <string name="psm">절전 모드를</string>
+    <string name="setting_pair">시스템 설치 프로그램을 시작, 블루투스 페어링</string>
+    <string name="cancle_pair">시스템 설정을 분리 블루투스 점프, 페어링이 취소</string>
+    <string name="gps_alert">이 기능은 개방 여부를 확인의 GPS 권한을 열고 작업을 필요로</string>
+    <string name="clocktimes">당신이 필요한 알람시계 반복 횟수 선택!</string>
+    <string name="notsportdata">현재 역사 운동 궤적 없이 클릭 끝날 수 없습니다</string>
+    <string name="version">1.1.3</string>
+    <string name="fuwuqi">연결된 서버 실패</string>
+    <string name="notdevice">당신 곁에 없는 블루투스 장치!</string>
+    <string name="zuigaoxinlv">최고 맥도</string>
+    <string name="zuidixinlv">최저 맥도</string>
+    <string name="pinjunxin">평균 맥도</string>
+    <string name="shangzhou">지난 주</string>
+    <string name="benzhou">이번 주</string>
+    <string name="shangyue">지난달</string>
+    <string name="benyue">이번 달</string>
+    <string name="XIAOHAO">소모</string>
+    <string name="paces">속히 맞추다</string>
+    <string name="xiaoxitixing">친 켜져 메시지 알림, 필요한 켜기 보조 서비스 기능, 부디 열 보조 스위치, 감사합니다</string>
+    <string name="xuanzeshijian">시간을 선택하십시오.</string>
+    <string name="minute">M</string>
+    <string name="Bind_failed">바인딩 실패</string>
+    <string name="Binding_success">바인딩 성공</string>
+    <string name="bluetooth_disconnected">블루투스 연결 끊김</string>
+    <string name="bangdinged">이미 바인딩</string>
+    <string name="sports_history">운동 기록</string>
+    <string name="good">선량하다</string>
+    <string name="mild_pollution">경미한 오염이</string>
+    <string name="moderate_pollution">중간 오염</string>
+    <string name="heavy_pollution">정중한 오염</string>
+    <string name="serious_pollution">심각한 오염</string>
+    <string name="save_record">저장할 것인지 운동 기록</string>
+    <string name="upgrade">업그레이드 중>></string>
+    <string name="latest_version">이미 최신 버전</string>
+    <string name="upgrade_completed">승급 완료</string>
+    <string name="auto_upgrade">자동 업데이트 중....</string>
+    <string name="deleda">머, 삭제 확인?</string>
+    <string name="zerostep">0 Step</string>
+    <string name="zeroday">0 Day</string>
+    <string name="zerokm">0 KM</string>
+    <string name="wechat_home_page">4. 복귀 마이크로 편지 운동 홈페이지 들어가는 순위, 이때 볼 수 있는 장치 데이터 이미 동기 까지 마이크로 편지 운동 중 만약 아직 못 동기, 좀 많이 새로 고침 몇 번 순위 페이지</string>
+    <string name="openwhchat">3. 열 마이크로 편지 들어가는 마이크로 편지 운동 을 클릭 마이크로 편지 홈페이지 오른쪽 오른쪽 위 설정 단추를 기록을 찾을 운동 데이터 "란 선택" 추가 데이터 원본 "당신의 검색 연결하려면 구매 것이다 장치 업체 공중 번호 좀 이 공중 호 는 데이터 원본 추가</string>
+    <string name="please_disconnect">2. 바인딩 성공 후, 일단 현재 연결 끊기</string>
+    <string name="first_use">1. 처음 사용, 일단 바인딩 장치</string>
+    <string name="operation_method">조작 방법이</string>
+    <string name="bangding">바인딩</string>
+    <string name="wechat_sports">로 마이크로 편지 운동, 친구와 함께 나누다 운동 즐거움!</string>
+    <string name="stop">끝</string>
+    <string name="continues">계속</string>
+    <string name="xiaohao">소모  0kcal</string>
+    <string name="Pace">속히 맞추다00"00</string>
+    <string name="distance">전체 거리: 킬로미터</string>
+    <string name="total_time">합계 시간</string>
+    <string name="history_record">기록</string>
+    <string name="third_party_login">제삼자 로그인</string>
+    <string name="evening">저녁11:59</string>
+    <string name="before_dawn">새벽12:00</string>
+    <string name="measurement_results">이번 측정 결과</string>
+    <string name="call_reminder">전화 알림</string>
+    <string name="mywechat">마이크로 편지</string>
+    <string name="turn_off_the_phone">혹시 핸드폰 닫기 찾기 기능?</string>
+    <string name="leiji">누계 운동</string>
+    <string name="cishu">번</string>
+    <string name="bluetooth_not_supported">지원하지 않는 블루투스</string>
+    <string name="user_name_format">사용자 이름 형식이 잘못되었습니다</string>
+    <string name="try_again">좀 차다 명수 링 을 다시</string>
+    <string name="resend">다시 보내기</string>
+    <string name="mailbox_format_error">메일박스 형식 오류</string>
+    <string name="not_b_less">비밀번호 안 6 분</string>
+    <string name="format_is_wrong">핸드폰 번호 형식 아니야</string>
+    <string name="change_password">비밀번호 변경 성공</string>
+    <string name="shouhuan">팔찌</string>
+    <string name="my">내</string>
+    <string name="measurement_record">저장할 것인지 이번 측정 결과</string>
+    <string name="prompt">팁</string>
+    <string name="data_upload">데이터 업로드 성공</string>
+    <string name="data_upload_fail">데이터 업로드에 실패했습니다</string>
+    <string name="input_email">입력하십시오. 사서함</string>
+    <string name="shouquancg">인증 성공</string>
+    <string name="shouquanshib">인증 실패</string>
+    <string name="shouquanqu">인증 취소</string>
+    <string name="detectionresult">검색 결과</string>
+    <string name="Allgemeiner">공통 모드</string>
+    <string name="Privater">개인 모드</string>
+    <string name="wangluo">네트워크 신호 차이</string>
+    <string name="BPM">BPM</string>
+    <string name="suspend">정지</string>
+    <string name="measure">측정</string>
+
+    <string name="zhengzaiceshi">지금 테스트 모드로 전환 안 된다</string>
+    <string name="jiancewangchen">검사 완료</string>
+    <string name="lixiangxieya">이상 혈압</string>
+    <string name="xieyagaoxian">혈압이 정상이다 높은 제한</string>
+    <string name="zhongdugaoya">중간 고혈압</string>
+    <string name="zhongdugaoxuieya">정중한 고혈압</string>
+    <string name="niedriger">저혈압</string>
+    <string name="xieyang">血氧</string>
+    <string name="heartrooate">심장 박동수</string>
+    <string name="bloodpressure">혈압</string>
+    <string name="minsystoli">수축기압</string>
+    <string name="maxdiastol">이완 누르다</string>
+    <string name="jiance">시작 검색</string>
+    <string name="allgemeiner">공통 모드</string>
+    <string name="privater">개인 모드</string>
+    <string name="healthtesting">건강 테스트</string>
+    <string name="blood">혈압</string>
+
+
+
+    <string name="app_name">RaceFit Pro</string>
+    <string name="input_password">암호를 입력하십시오</string>
+    <string name="input_code">좀 검증 야드</string>
+    <string name="input_nickname">별명 입력하십시오.</string>
+    <string name="input_name">핸드폰 번호를 입력하십시오</string>
+    <string name="user_login">로그인</string>
+    <string name="search_strap">검색 팔찌</string>
+    <string name="unbind_strap">해제 바인딩</string>
+    <string name="confirm_unbind_strap">확실히 해제 바인딩 현재 연결은 팔찌 장치?</string>
+    <string name="exit_login">종료 로그인</string>
+    <string name="user_regsiter">등록</string>
+    <string name="confirm_compelte">완성하다</string>
+    <string name="mine_data">나는 자료를</string>
+    <string name="next">뛰어넘다</string>
+    <string name="save">저장</string>
+    <string name="complete">완성하다</string>
+    <string name="modify_success">수정 성공</string>
+    <string name="share_to">까지...</string>
+
+    <string name="nick_name">별명:</string>
+    <string name="select_photo">사진 선택하십시오</string>
+    <string name="take_camera">카메라</string>
+    <string name="take_Album">앨범</string>
+    <string name="cancle">취소</string>
+    <string name="confirm">확정</string>
+
+    <string name="kongjian">큐큐 공간</string>
+    <string name="wechat_freinds">마이크로 편지 친구</string>
+    <string name="wechat_quan">마이크로 편지 친구 바퀴</string>
+    <string name="fack_book">Facebook</string>
+
+
+    <string name="goalfinish">기준에 달하다 일수</string>
+    <string name="totaldistance">자꾸 킬로미터 세다</string>
+    <string name="Totalnumberofsteps">일본군은 단계</string>
+    <string name="submit_success">제출 성공</string>
+    <string name="submit_fail">데이터 전송 실패</string>
+    <string name="write_nickname">사용자 별명입니다 작성해 주십시오</string>
+    <string name="new_dif_confirm">새 비밀번호 확인 및 암호 불일치</string>
+    <string name="forget_password">비밀번호</string>
+    <string name="fast_register">빨리 등록</string>
+    <string name="send_code">송신 인증 코드</string>
+    <string name="user_prprotocol">개인 프라이버시 협정 동의</string>
+
+    <string name="yonghuzdffhej">인증 코드 오류</string>
+    <string name="yonghuzhej">번호 이미 등록 변경 의해 주세요!</string>
+    <string name="tijiao">제출한 자료</string>
+    <string name="yanzhengmakong">패스워드 못 비어</string>
+    <string name="tianxie">사용자 이름 적어 오류</string>
+    <string name="miamacuo">암호가 잘못되었습니다.</string>
+    <string name="regsiter_fail">등록 실패</string>
+
+    <string name="yanzhengma">패스워드 이미 보내기</string>
+    <string name="guojia">나라 목록 가져오기 성공</string>
+    <string name="get_code_fail">가져오기 실패 인증 코드</string>
+
+    <string-array name="banner_txt_one">
+        <item>새로운 운동 정의</item>
+        <item>건강 데이터 구름 저장소</item>
+        <item>옥외 운동 실시간 탐색</item>
+    </string-array>
+
+    <string-array name="banner_txt_two">
+        <item>정확하다 진보, 도전을 맞다</item>
+        <item>제공 할 데이터 처리</item>
+        <item>레코드 조목조목 열심히 합니다</item>
+    </string-array>
+
+    <string-array name="select_sex">
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+
+    <string name="select_running_mode">선택 모드</string>
+    <string-array name="select_running_mode">
+        <item>야외 달리기</item>
+        <item>야외 타고 가다</item>
+    </string-array>
+
+    <string-array name="select_alarm_repeat">
+        <item>단지 한 번 알림</item>
+        <item>매일</item>
+        <item>월요일부터 금요일까지</item>
+        <item>사용자 정의</item>
+    </string-array>
+
+    <string-array name="select_week">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+        <item>일요일</item>
+    </string-array>
+
+    <string name="week">주</string>
+    <string name="just_remind_once">단지 한 번 알림</string>
+    <string name="select_repeat_week">반복 주 선택하십시오</string>
+    <string name="select_default_week">알람시계 모드를 선택하십시오.</string>
+    <string name="select_alarm_time">시계, 시간 좀 알람시계 선택</string>
+
+    <string name="select_brithday">생일 선택하십시오</string>
+    <string name="select_height">키 선택</string>
+    <string name="select_weight">몸무게 선택하십시오</string>
+
+    <string name="Sedentaryreminder">장시간 그자리 있음한다 알림</string>
+    <string name="entryintoforcetime">발효 시간</string>
+    <string name="alarmclock">알람시계</string>
+    <string name="Messagealert">메시지 알림</string>
+    <string name="Raisethebrightscreen">관대하게 용서하다 밝다 스크린</string>
+    <string name="Intelligentalost">지능 막다 잃어버리다</string>
+    <string name="Automaticheartrate">심장 박동수 자동 검색</string>
+    <string name="yaoyiyaoPhotograph">흔들어 주세요, 사진</string>
+    <string name="chaozhaishouji">찾기 핸드폰</string>
+    <string name="weixinpaizhao">마이크로 편지 운동</string>
+    <string name="add_alarm">알람 추가</string>
+
+    <string name="weather">AQI</string>
+    <string name="mine">내</string>
+    <string name="device">장치</string>
+    <string name="running">달리기 시작한</string>
+    <string name="star">시작</string>
+    <string name="long_stop">오랫동안 눌러 타임</string>
+    <string name="data">데이터</string>
+    <string name="Targetsetting">목표 설정</string>
+    <string name="siren">개인 모드</string>
+    <string name="search_device">검색 장치</string>
+    <string name="menu_settings">설치</string>
+    <string name="settings_success">설치 성공</string>
+    <string name="settings_fail">설치 실패</string>
+    <string name="get_fail">가져오기 실패</string>
+    <string name="common_mode">공통 모드</string>
+    <string name="activity_time">행사 때 길다</string>
+    <string name="hour">시간</string>
+    <string name="km">킬로미터</string>
+    <string name="km_cal">칼로리</string>
+    <string name="steps">걸음</string>
+    <string name="calories">칼로리</string>
+    <string name="mileage">이정</string>
+    <string name="time">시간</string>
+    <string name="step">단계</string>
+    <string name="recording">기록</string>
+    <string name="target_step">목표 단계 10000</string>
+
+    <string name="indoor_sports">옥내 운동</string>
+    <string name="outdoor_running">야외 달리기</string>
+    <string name="outdoor_cycling">야외 자전거를</string>
+    <string name="sleep">수면</string>
+    <string name="move_ment">운동</string>
+
+    <string name="data_report_day">날</string>
+    <string name="data_report_week">주</string>
+    <string name="data_report_month">월</string>
+
+    <string name="allday_sleep">하루 종일 수면</string>
+    <string name="allday_deepsleep">하루 종일 깊이 자다</string>
+    <string name="allday_shallowsleep">하루 종일 겉잠</string>
+
+    <string name="heartbeats_per_minute">심장 박동수</string>
+    <string name="sleep_monitoring">수면 모니터링</string>
+    <string name="jiankangceshi">건강 테스트</string>
+
+    <string name="data_repor">데이터 보고서</string>
+    <string name="activity_repor">활동 보고서</string>
+    <string name="sleep_repor">수면 보고서</string>
+    <string name="heart_repor">심장 박동수 보고서</string>
+    <string name="bloodpressure_repor">혈압 보고서</string>
+    <string name="bloodoxygen_repor"> 보고서</string>
+
+    <string name="personal_info">개인 정보</string>
+    <string name="modify_nickname">별명 변경</string>
+    <string name="personal_avatar">두상</string>
+    <string name="sex">성별</string>
+    <string name="weight">몸무게</string>
+    <string name="height">키</string>
+    <string name="birthday">생일</string>
+
+    <string name="select_sex">선택하십시오. 성별</string>
+    <string name="select">선택</string>
+    <string name="sex_nan">남자</string>
+    <string name="sex_nv">여자</string>
+
+    <string name="app_version">app 버전</string>
+    <string name="modify_password">비밀번호 변경</string>
+    <string name="help">돕다</string>
+    <string name="abour">정보</string>
+    <string name="yesterday">어제</string>
+    <string name="today">오늘</string>
+    <string name="cumulative_number_of_movements">누계 운동 0 번</string>
+    <string name="agree_agreement">등록 "단추를 누르십시오. 너 동의를 뜻한다</string>
+    <string name="register_agreement">관련 프로토콜</string>
+    <string name="feedback">의견이 피드백</string>
+    <string name="confrim_exit">확인 취소 현재 계정?</string>
+
+    <string name="input_old_password">옛 암호를 입력하십시오</string>
+    <string name="input_new_password">6-20 분 새 암호를 입력하십시오.</string>
+    <string name="input_confirm_password">확인 암호를 입력하십시오</string>
+    <string name="question_detail">문제는 정보</string>
+    <string name="contact_info">연락처</string>
+    <string name="describe_problem">좀 설명 질문</string>
+    <string name="leave_phone">남겨 주세요 전화 혹은 메일 편리하다 우리 연락 드리죠.</string>
+
+    <string name="notempty_feedback">피드백 의견을 못 비어</string>
+    <string name="leave_contact">연락처 혹은 편지함 못 비어</string>
+
+    <string name="daily_numberofsteps">매일 운동을 단계</string>
+    <string name="daily_sleepduration">매일 잠을 잘 때 길다</string>
+    <string name="daily_consunergy">매일 에너지를 소모하다.</string>
+
+    <string name="daily_numberofsteps_default">걸음</string>
+    <string name="daily_sleepduration_default">8시간</string>
+    <string name="daily_consunergy_defaultcalorie">173칼로리</string>
+
+    <string name="my_strap">내 팔찌</string>
+    <string name="sedentary_reminder">장시간 그자리 있음한다 알림</string>
+    <string name="firmware_upgrade">펌웨어 업데이트</string>
+    <string name="unbind">해제 바인딩</string>
+
+    <string name="effective_time">발효 시간</string>
+    <string name="end_time">종료 시간</string>
+    <string name="start_time">시작 시간</string>
+
+    <string name="diastolic_pressure">이완 누르다</string>
+    <string name="systolic_set">수축기압</string>
+    <string name="heart_rate">심장 박동수</string>
+    <string name="blood_oxygen">혈액은 산소를</string>
+    <string name="health_test">건강 측정</string>
+
+
+    <string name="time_set">시간 설정</string>
+    <string name="repeat">반복</string>
+    <string name="alarm_name">알람시계 이름 적어 주세요</string>
+
+    <string name="private_mode">개인 모드</string>
+    <string name="minimumsystolic_bloodpressure">최저 수축기압</string>
+    <string name="maximumdiastolic_bloodpressure">최고 이완 누르다</string>
+    <string name="private_mode_bloodpressure">개인 혈압</string>
+    <string name="bloodpressure_msg">당신의 개인 혈압이 모드 설정 을 가져오는 더 정확한 데이터를 설정합니다. 이 너 필요한 것은 아직 복용 강압약 유효 혈압이 값.</string>
+
+    <string name="stop_clock">진동 과정에서 누르십시오. 근데 정지 시계 팔찌</string>
+    <string name="getup">일어나다</string>
+    <string name="other">기타</string>
+    <string name="alarm_clock">알람시계</string>
+    <string name="every_time">매일</string>
+    <string name="every_once">단지 한 번 울렸다</string>
+    <string name="monday_to_friday">월요일부터 금요일까지</string>
+    <string name="search_bracelet">검색 팔찌</string>
+
+    <string name="select_star_time">시작 시간 선택하십시오</string>
+    <string name="select_end_time">끝나는 시간 선택하십시오</string>
+
+    <string name="weibo_oauth_regiseter">응용 프로그램 라이선스</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="weibo_upload_content">사진4</string>
+    <string name="wechat_client_inavailable">현재 이 마이크로 편지 버전 과소 또는 설치되지 마이크로 편지, 일부입니다 마이크로 편지 사용할 수 있다</string>
+    <string name="google_plus_client_inavailable">Google+ 버전 과소 또는 안 설치, 필요한 업그레이드 혹은 설치 Google+ 사용할 수 있다!</string>
+    <string name="qq_client_inavailable">큐큐 버전 과소 또는 안 설치, 필요한 업그레이드 혹은 설치 큐큐 사용할 수 있다!</string>
+    <string name="pinterest_client_inavailable">Pinterest 버전 과소 또는 안 설치, 필요한 업그레이드 혹은 설치 Pinterest 사용할 수 있다!</string>
+    <string name="instagram_client_inavailable">Instagram 버전 과소 또는 안 설치, 필요한 업그레이드 혹은 설치 Instagram 사용할 수 있다! </string>
+    <string name="yixin_client_inavailable">현재 이 쉽게 편지를 버전 과소 또는 설치되지, 일부입니다 쉽게 편지를 사용할 수 있다</string>
+    <string name="line_client_inavailable">현재 이 라인 투어 버전 과소 또는 설치되지 않았습니다. 설치 라인 투어 데 사용할 수 있다</string>
+    <string name="kakaotalk_client_inavailable">현재 당신의 KakaoTalk 버전 과소 또는 설치되지 않았습니다. 설치 KakaoTalk 데 사용할 수 있다</string>
+    <string name="kakaostory_client_inavailable">현재 당신의 KakaoStory 버전 과소 또는 설치되지 않았습니다. 설치 KakaoStory 데 사용할 수 있다</string>
+    <string name="whatsapp_client_inavailable">현재 당신의 WhatsApp 버전 과소 또는 설치되지 않았습니다. 설치 WhatsApp 데 사용할 수 있다</string>
+    <string name="baidutieba_client_inavailable">현재 이 바 이두 贴吧 버전 과소 또는 설치되지 않았습니다. 설치, 필요한 바 이두 贴吧 사용할 수 있다</string>
+    <string name="laiwang_client_inavailable">현재 당신의 왕래가 버전 과소 또는 설치되지 않았습니다. 설치, 필요한 왕래가 사용할 수 있다</string>
+
+    <string name="sinaweibo">신랑 마이크로 블 로그</string>
+    <string name="tencentweibo">텐 센트 미니 블</string>
+    <string name="qzone">큐큐 공간</string>
+    <string name="wechat">마이크로 편지 친구</string>
+    <string name="wechatmoments">마이크로 편지 친구 바퀴</string>
+    <string name="wechatfavorite">마이크로 편지 모음집</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="renren">사람마다 망</string>
+    <string name="kaixin">kakaotalk</string>
+    <string name="email">메일</string>
+    <string name="shortmessage">정보</string>
+    <string name="sohumicroblog">이투데이 웨이보</string>
+    <string name="sohusuishenkan">이투데이 몸에 보다</string>
+    <string name="neteasemicroblog">네트워크 쉽게 웨이보</string>
+    <string name="douban">콩짜개</string>
+    <string name="evernote">인상이 노트</string>
+    <string name="linkedin">칼라 영</string>
+    <string name="googleplus">Google+</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="qq">QQ</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="flickr">Flickr</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="vkontakte">VK</string>
+    <string name="instagram">Instagram</string>
+
+
+    <string name="press_again_exit">다시 한 번 누르면 종료합니다.</string>
+    <!-- Tab界面 -->
+    <string name="alarm_clocks">알람시계</string>
+    <!-- 闹铃界面 -->
+    <string name="press_right_top">따라 오른쪽 위  </string>
+    <string name="add_alarm_clock">  알람 추가  </string>
+    <string name="retrieve_alarm_clock_success">삭제된 알람시계 이미 성공 되찾다</string>
+    <!-- 新建编辑闹钟界面 -->
+    <string name="new_alarm_clock">새 알람</string>
+    <string name="edit_alarm_clock">알람 편집</string>
+    <string name="repeats">반복</string>
+    <string name="tag">탭</string>
+    <string name="default_ring">기본 소리</string>
+    <string name="volume">소리</string>
+    <string name="vibrate">진동</string>
+    <string name="countdown_day_hour_minute">시계, 그리고 거리 울렸다%1$d날%2$d시간%3$d분</string>
+    <string name="countdown_hour_minute">시계, 그리고 거리 울렸다%1$d시간%2$d분</string>
+    <string name="countdown_minute">시계, 그리고 거리 울렸다%1$d분</string>
+    <string name="monday">월요일</string>
+    <string name="tuesday">화요일</string>
+    <string name="wednesday">수요일</string>
+    <string name="thursday">목요일</string>
+    <string name="friday">금요일</string>
+    <string name="saturday">토요일</string>
+    <string name="sunday">일요일</string>
+    <string name="repeat_once">단지 한 번 울렸다</string>
+    <string name="one_h">한</string>
+    <string name="two_h">두</string>
+    <string name="three_h">세</string>
+    <string name="four_h">네</string>
+    <string name="five_h">다섯</string>
+    <string name="six_h">섯</string>
+    <string name="day">일</string>
+    <string name="every_day">매일</string>
+    <string name="week_day">평일</string>
+    <string name="week_end">주말</string>
+    <string name="weeks">주</string>
+    <string name="caesura">、</string>
+
+    <!-- 铃声选择界面 -->
+
+    <!-- 闹钟响起界面 -->
+
+    <!-- 小睡编辑界面 -->
+
+    <!-- 录音 -->
+    <string name="record_fail">녹음 실패</string>
+    <string name="record_fail_confirm">녹음 실패를 권한이 있는지 확인하십시오 녹음 녹음 이미 의해 켜기 또는 다른 응용.</string>
+    <!-- 录音操作 -->
+    <!-- 录音详情画面 -->
+
+    <!-- 录音重命名画面 -->
+    <!-- 录音删除画面 -->
+    <!-- 录音批量删除画面 -->
+    <!-- 音频播放 -->
+    <string name="play_fail">재생 실패</string>
+
+    <!-- 天气 -->
+    <string name="turn">%1$s돌다%2$s</string>
+
+
+    <!-- 城市管理，添加城市 -->
+    <string name="city_weather_update_time">%1$s업데이트 시간</string>
+</resources>

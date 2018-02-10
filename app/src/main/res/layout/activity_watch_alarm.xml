@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/appbar_toolbar"/>
+
+    <TextView
+        android:id="@+id/WatchAlarmDialogTv"
+        android:layout_width="match_parent"
+        android:text="Loading..."
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/alarmSwipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="3dp"
+                android:layout_marginTop="@dimen/size_10"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/watch_alarm_oneLin"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/watch_alarm_oneTv"
+                        android:layout_width="wrap_content"
+                        android:text=""
+                        android:padding="5dp"
+                        android:textColor="@color/black_trans70"
+                        android:textSize="@dimen/size_35"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|left"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/firstalarmRepeatTv"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginLeft="13dp"
+                            android:padding="3dp"
+                            android:textSize="@dimen/size_16"
+                            android:textColor="@color/black_trans70"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/firstalarmWeekShowTv"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:padding="3dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center|left"
+                            android:gravity="center|left"
+                            android:textColor="@color/black_trans70"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/watch_alarm_one_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:checked="false" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="3dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/watch_alarm_twoLin"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/watch_alarm_twoTv"
+                        android:layout_width="wrap_content"
+                        android:text=""
+                        android:padding="5dp"
+                        android:textColor="@color/black_trans70"
+                        android:textSize="@dimen/size_35"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|left"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/secondalarmRepeatTv"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginLeft="13dp"
+                            android:padding="3dp"
+                            android:textSize="@dimen/size_16"
+                            android:textColor="@color/black_trans70"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/secondalarmWeekShowTv"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:padding="3dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center|left"
+                            android:gravity="center|left"
+                            android:textColor="@color/black_trans70"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/watch_alarm_two_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:checked="false" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="3dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/watch_alarm_thirdLin"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/watch_alarm_thirdTv"
+                        android:layout_width="wrap_content"
+                        android:text=""
+                        android:padding="5dp"
+                        android:textColor="@color/black_trans70"
+                        android:textSize="@dimen/size_35"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|left"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/thirdalarmRepeatTv"
+                            android:layout_width="wrap_content"
+                            android:text=""
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginLeft="13dp"
+                            android:padding="3dp"
+                            android:textSize="@dimen/size_16"
+                            android:textColor="@color/black_trans70"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/thirdalarmWeekShowTv"
+                            android:layout_width="match_parent"
+                            android:text=""
+                            android:padding="3dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_gravity="center|left"
+                            android:gravity="center|left"
+                            android:textColor="@color/black_trans70"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/watch_alarm_third_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:checked="false" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <TextView
+        android:id="@+id/watch_test_showView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

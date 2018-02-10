@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ScrollView
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <lecho.lib.hellocharts.view.ColumnChartView
+            android:visibility="invisible"
+            android:id="@+id/chart_shumian_xinlvthere"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs_dtarepot_xinlvthere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/backgoundhtest"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/backgoundhtest"
+                app:tabTextColor="@color/txt_black" />
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/step_tag_xinlvthere"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_30"
+                        android:text="@string/zuigaoxinlv" />
+
+                    <TextView
+                        android:id="@+id/stepval_tv_xinlvthere"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/step_tag_xinlvthere"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_10"
+                        android:text="- -"
+                        android:textSize="@dimen/size_15" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:background="@color/linear_border" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/activity_tag_xinlvthere"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_30"
+                        android:text="@string/pinjunxin" />
+
+                    <TextView
+                        android:id="@+id/activityval_tv_xinlvthere"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/activity_tag_xinlvthere"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_10"
+                        android:text="- -"
+                        android:textSize="@dimen/size_15" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/size_5"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:background="@color/linear_border" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/licheng_tag_xinlvthere"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_30"
+                        android:text="@string/zuidixinlv" />
+
+                    <TextView
+                        android:id="@+id/lichengval_tv__xinlvthere"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/licheng_tag_xinlvthere"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/size_10"
+                        android:text="- -"
+                        android:textSize="@dimen/size_15" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>

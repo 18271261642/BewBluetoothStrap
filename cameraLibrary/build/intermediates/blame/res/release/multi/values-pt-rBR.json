@@ -1,0 +1,874 @@
+[
+    {
+        "outputFile": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 49,
+                        "endOffset": 380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 54,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 54,
+                        "endOffset": 329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 51,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 51,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 53,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endColumn": 53,
+                        "endOffset": 273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endColumn": 48,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 48,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 60,
+                    "endOffset": 371
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 60,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 376,
+                    "endColumn": 50,
+                    "endOffset": 422
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 50,
+                        "endOffset": 432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 427,
+                    "endLine": 13,
+                    "endColumn": 24,
+                    "endOffset": 662
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\attrs.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 181,
+                        "endLine": 9,
+                        "endColumn": 24,
+                        "endOffset": 423
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 667,
+                    "endLine": 16,
+                    "endColumn": 24,
+                    "endOffset": 782
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\attrs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 4,
+                        "endColumn": 24,
+                        "endOffset": 175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 787,
+                    "endColumn": 57,
+                    "endOffset": 840
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 845,
+                    "endColumn": 55,
+                    "endOffset": 896
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 901,
+                    "endColumn": 57,
+                    "endOffset": 954
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 431,
+                        "endColumn": 57,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 959,
+                    "endColumn": 56,
+                    "endOffset": 1011
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 629,
+                        "endColumn": 56,
+                        "endOffset": 681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1016,
+                    "endColumn": 57,
+                    "endOffset": 1069
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 57,
+                        "endOffset": 740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1074,
+                    "endColumn": 59,
+                    "endOffset": 1129
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endColumn": 59,
+                        "endOffset": 801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1134,
+                    "endColumn": 51,
+                    "endOffset": 1181
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 51,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1186,
+                    "endColumn": 53,
+                    "endOffset": 1235
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 376,
+                        "endColumn": 53,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1240,
+                    "endColumn": 58,
+                    "endOffset": 1294
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 58,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1299,
+                    "endColumn": 67,
+                    "endOffset": 1362
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 490,
+                        "endColumn": 67,
+                        "endOffset": 553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1367,
+                    "endColumn": 68,
+                    "endOffset": 1431
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 559,
+                        "endColumn": 68,
+                        "endOffset": 623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1436,
+                    "endColumn": 53,
+                    "endOffset": 1485
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endColumn": 53,
+                        "endOffset": 370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1490,
+                    "endColumn": 57,
+                    "endOffset": 1543
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 866,
+                        "endColumn": 54,
+                        "endOffset": 919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1548,
+                    "endColumn": 60,
+                    "endOffset": 1604
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 807,
+                        "endColumn": 60,
+                        "endOffset": 863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1609,
+                    "endColumn": 39,
+                    "endOffset": 1644
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 39,
+                        "endOffset": 243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1649,
+                    "endColumn": 39,
+                    "endOffset": 1684
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 39,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1689,
+                    "endColumn": 47,
+                    "endOffset": 1732
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 47,
+                        "endOffset": 374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1737,
+                    "endColumn": 39,
+                    "endOffset": 1772
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 400,
+                        "endColumn": 39,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1777,
+                    "endColumn": 52,
+                    "endOffset": 1825
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 78,
+                        "endColumn": 52,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1830,
+                    "endColumn": 55,
+                    "endOffset": 1881
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 441,
+                        "endColumn": 55,
+                        "endOffset": 492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1886,
+                    "endColumn": 57,
+                    "endOffset": 1939
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 995,
+                        "endColumn": 57,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1944,
+                    "endColumn": 57,
+                    "endOffset": 1997
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 604,
+                        "endColumn": 57,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2002,
+                    "endColumn": 71,
+                    "endOffset": 2069
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 71,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2074,
+                    "endColumn": 55,
+                    "endOffset": 2125
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 547,
+                        "endColumn": 55,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2130,
+                    "endColumn": 58,
+                    "endOffset": 2184
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 58,
+                        "endOffset": 790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2189,
+                    "endColumn": 47,
+                    "endOffset": 2232
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 47,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2237,
+                    "endColumn": 48,
+                    "endOffset": 2281
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 28,
+                        "endColumn": 48,
+                        "endOffset": 72
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2286,
+                    "endColumn": 45,
+                    "endOffset": 2327
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 853,
+                        "endColumn": 45,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2332,
+                    "endColumn": 45,
+                    "endOffset": 2373
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 900,
+                        "endColumn": 45,
+                        "endOffset": 941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2378,
+                    "endColumn": 46,
+                    "endOffset": 2420
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 947,
+                        "endColumn": 46,
+                        "endOffset": 989
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2425,
+                    "endColumn": 52,
+                    "endOffset": 2473
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 132,
+                        "endColumn": 52,
+                        "endOffset": 180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2478,
+                    "endColumn": 55,
+                    "endOffset": 2529
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 55,
+                        "endOffset": 847
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2534,
+                    "endLine": 58,
+                    "endColumn": 12,
+                    "endOffset": 2823
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 2828,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 3224
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\styles.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 508,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 3229,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 3400
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\styles.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 1286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 3405,
+                    "endLine": 74,
+                    "endColumn": 12,
+                    "endOffset": 3587
+                },
+                "from": {
+                    "file": "F:\\studioworkplace\\GitProwork\\1127\\BewBluetoothStrap\\cameraLibrary\\src\\main\\res\\values-pt-rBR\\styles.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1104
+                    }
+                }
+            }
+        ]
+    }
+]

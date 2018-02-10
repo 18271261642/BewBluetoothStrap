@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_next">
+
+    <item
+        android:id="@+id/next_iv"
+        android:orderInCategory="90"
+        android:title="@string/next"
+        app:showAsAction="always" />
+</menu>

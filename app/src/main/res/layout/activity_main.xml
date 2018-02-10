@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/record_bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/myCoordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:contentInsetStart="0dp"
+                android:background="@color/new_colorAccent">
+
+                <RelativeLayout
+                    android:id="@+id/toolbar_record_linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/device_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:src="@mipmap/b_15"/>
+
+                    <ImageView
+                        android:id="@+id/duankai_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/device_img"
+                        android:visibility="gone"
+                        android:layout_marginLeft="@dimen/size_10"
+                        android:src="@mipmap/duankai" />
+
+                    <TextView
+                        android:id="@+id/duankai_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/device_img"
+                        android:layout_marginLeft="@dimen/size_10"
+                        android:text="connect" />
+
+                    <ImageView
+                        android:id="@+id/mian_battey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/duankai_tv"
+                        android:layout_alignLeft="@+id/duankai_tv"
+                        android:layout_marginTop="@dimen/size_5"
+                        />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="@dimen/size_5"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <com.example.bozhilun.android.widget.NoScrollViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomBar"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <com.roughike.bottombar.BottomBar
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            app:bb_activeTabColor="@color/new_colorAccent"
+            app:bb_tabXmlResource="@xml/my_bottombar_tabs_three" />
+    </android.support.design.widget.CoordinatorLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>
+

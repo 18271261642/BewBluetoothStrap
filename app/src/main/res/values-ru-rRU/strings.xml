@@ -1,0 +1,590 @@
+<resources>
+
+    //饿语
+    <string name="findwatch">Найти часы</string>
+    <string name="watchtime">Время просмотра</string>
+    <string name="systemtime">Системное время</string>
+    <string name="notif_explain">описание</string>
+    <string name="notif_messge">Сообщение напоминания,  нужно открыть уведомления или вспомогательные функции</string>
+    <string name="open_notif">открыть  уведомления</string>
+    <string name="open_function">открыть  вспомогательные функции</string>
+
+    <string name="device_times">оборудованиевремени</string>
+    <string name="now_times">текущее время</string>
+    <string name="get_device_times">время получения оборудования</string>
+    <string name="correct_pointer_times">указатель, чтобы исправить?</string>
+    <string name="thousand">thousand steps</string>
+    <string name="sporttimes">Количество раз</string>
+    <string name="grandtotalstep">Накопленные шаги</string>
+    <string name="grandtotal">Суммарная длительность</string>
+    <string name="sportdata">Данные упражнений</string>
+    <string name="avg_speed">Avg speed</string>
+    <string name="long_onclick">Длительное нажатие ?+? и ?-? можно настроить для регулировки большего угла</string>
+    <string name="add_sharpe">Синтез и совместное использование</string>
+    <string name="syncy_data">Синхронизация данных</string>
+    <string name="connted">соединенный</string>
+    <string name="disconnted">Отключенные</string>
+
+    <string name="nodata">Нет данных</string>
+    <string name="age">возраст</string>
+    <string name="alarm_eat">ужин</string>
+    <string name="alarm_medicine">принимать лекарство</string>
+    <string name="alarm_dring">пить воду</string>
+    <string name="alarm_sp">спать</string>
+    <string name="alarm_awakes">вставать</string>
+    <string name="alarm_spr">движение</string>
+    <string name="alarm_metting">сессии</string>
+    <string name="alarm_custom">обычай</string>
+    <string name="history_times">исторического времени</string>
+    <string name="search_alert">поиск оборудования,пожалуйста,открыть телефон  Bluetooth  и  GPS</string>
+    <string name="sleep_deep">глубокий сон</string>
+    <string name="sleep_light">мелкий спит</string>
+    <string name="long_when">продолжительность</string>
+    <string name="sleep_asleep">Время спать</string>
+    <string name="recovery_count">время восстановления</string>
+    <string name="recovery_time">время восстановления</string>
+    <string name="mine_equipment">Я  оборудование</string>
+    <string name="low_voltage">низковольтных  ограничения</string>
+    <string name="high_voltage">ограничения высокого давления</string>
+    <string name="year">года</string>
+    <string name="news">сообщение</string>
+    <string name="messages">Получено новое сообщение</string>
+    <string name="system_settings">Настройки системы </string>
+    <string name="device_manager">устройство управления</string>
+    <string name="guide">когда руководства школы</string>
+    <string name="step_one">1.\t в часы и App нормальной связи государства , во - первых,  нажмите  кнопку  под  ноль</string>
+    <string name="step_two">2.\t Соответственно, выбор часовая и минутная,нажмите  +  и  -  корректировки  игла  -  12:00  весь</string>
+    <string name="step_three">3.\t Нажмите кнопку автоматического завершения реализации  после  школы  , когда  игла</string>
+    <string name="manualsleep">ручной сна</string>
+    <string name="automaticsleep">автоматический сна</string>
+    <string name="dlog">загрузка...</string>
+    <string name="minezhen">Минутная рука</string>
+    <string name="hourzhen">Часовая стрелка</string>
+    <string name="zero"> Нуль</string>
+    <string name="setmi">Имперская система</string>
+    <string name="setkm">метрическая система</string>
+    <string name="jiaozhen">Школьный контакт</string>
+    <string name="unit">блок</string>
+    <string name="hearting">обнаружение</string>
+    <string name="heartcheck">Тест сердечного ритма</string>
+    <string name="auxiliary_function">если ты открыл уведомления или не получили сообщение напоминания,вы можете попробовать открыть вспомогательные функции.
+    \n если вы можете получать уведомление,то вы можете игнорировать его существование,уведомления или вспомогательные функции ограничения могут также открыть.
+    \n (эта функция состоит в том, чтобы решить часть моделей не получили сообщений и настройки,может получать новости открыть эту функцию  может вызвать напомнить неоднократные сообщения)</string>
+    <string name="siren_str">в рейтинге</string>
+    <string name="personal_str">личные данные</string>
+    <string name="function_str">функции настройки</string>
+    <string name="find_str">Поиск друзей</string>
+    <string name="waking_state"> сознании </string>
+    <string name="shallow_sleep">мелкий  сна</string>
+    <string name="deep_sleep">глубокий сон</string>
+    <string name="mileage_km">пробег/km</string>
+    <string name="ranking">место</string>
+    <string name="daily_distancia">ежедневное движение расстояние</string>
+    <string name="notice_str">уведомления</string>
+    <string name="shock_str">вибрации</string>
+    <string name="time_forma">формат времени</string>
+    <string name="advanced_setting">Дополнительные настройки</string>
+    <string name="add_frendes">Добавить в друзья</string>
+    <string name="scan_frend">поиск</string>
+    <string name="reset_device">сбросить оборудование</string>
+    <string name="heart_rate_test">пульс испытание</string>
+    <string name="heart_rate_warning_range">пульс диапазон раннего предупреждения</string>
+    <string name="close_str">закрыть</string>
+    <string name="weak_str">слабый</string>
+    <string name="standard_str">стандарт</string>
+    <string name="strong_str">сильный</string>
+    <string name="preset_sleep">заданный сна</string>
+    <string name="missed_calls">Пропущенный звонок</string>
+    <string name="sms_reminder">СМС - напоминания</string>
+    <string name="mailbox_reminder">почтовый ящик напомнил</string>
+    <string name="social_reminder">Социальные напомнить</string>
+    <string name="calendar_alarm">календарь напомнить</string>
+    <string name="today_step">Сегодняшний темп</string>
+    <string name="goal_step">цель</string>
+    <string name="str_one">Вы можете установить различные виды каждый день напоминать</string>
+    <string name="str_two">Выберите ип напоминания</string>
+    <string name="str_three">секретаря по может удалить будильник</string>
+    <string name="str_four">выбор напомнить дату и время</string>
+    <string name="str_five">после того, как до этого оборудования напоминает точка будет слегка  аритмии  и показывать соответствующие значок напомнить вам</string>
+    <!--//************************-->
+
+
+    <string name="noright">Вы в настоящее время посетитель и не можете изменять информацию</string>
+    <string name="newversion">Существует новая версия, обновляется ли она</string>
+    <string name="visitor_enter">Посетители</string>
+    <string name="login_alert">Входить как турист?</string>
+    <string name="settarget_steps">Целевое количество шагов</string>
+    <string name="operation">инструкции</string>
+    <string name="today_data">Сегодняшние данные</string>
+    <string name="msg_jiange">Сообщение напоминания интервал</string>
+    <string name="psm">Энергосберегающий режим</string>
+    <string name="setting_pair">Войдите в программу настройки системы, сопряжение Bluetooth</string>
+    <string name="cancle_pair">Отключение Bluetooth переход к системным настройкам, спаривание отменено</string>
+    <string name="gps_alert">Эта функция требует операции, чтобы открыть полномочия GPS, подтверждают ли открыт</string>
+    <string name="clocktimes">Вам  необходимо выбрать  будильник  повторений  ! </string>
+    <string name="notsportdata">В настоящее время нет  истории  траектории  ,  не  нажмите  закончить</string>
+    <string name="version">1.1.3</string>
+    <string name="fuwuqi">Linked Server  провал</string>
+    <string name="notdevice">с тобой  нет  устройств bluetooth  ! </string>
+    <string name="zuigaoxinlv">максимальный пульс</string>
+    <string name="zuidixinlv">минимальный  пульс</string>
+    <string name="pinjunxin">средний  пульс</string>
+    <string name="shangzhou">Tuần trước</string>
+    <string name="benzhou">Trong tuần này</string>
+    <string name="shangyue">Tháng trước rồi</string>
+    <string name="benyue">Trong tuần này</string>
+    <string name="XIAOHAO">Tiêu thụ</string>
+    <string name="paces">темп</string>
+    <string name="xiaoxitixing">Открыть  сообщение  про  ,  напомнить  ,  нужно  открыть  вспомогательные  службы  ,  пожалуйста,  откройте  вспомогательный выключатель  , спасибо</string>
+    <string name="xuanzeshijian">Пожалуйста,выберите время</string>
+    <string name="minute">M</string>
+    <string name="Bind_failed">Ошибка привязки </string>
+    <string name="Binding_success">связывают  успех</string>
+    <string name="bluetooth_disconnected">Bluetooth  отключен</string>
+    <string name="bangdinged">уже  обязательный</string>
+    <string name="sports_history">движение  истории</string>
+    <string name="good">Хорошо</string>
+    <string name="mild_pollution">незначительное загрязнение</string>
+    <string name="moderate_pollution">умеренным загрязнением</string>
+    <string name="heavy_pollution">суровые  загрязнения </string>
+    <string name="serious_pollution">серьезное загрязнение </string>
+    <string name="save_record">Вы хотите сохранить  движение  записи </string>
+    <string name="upgrade">в модернизации >></string>
+    <string name="latest_version">уже  является последней версии </string>
+    <string name="upgrade_completed">обновление завершено</string>
+    <string name="auto_upgrade">автоматическое обновление  в ....</string>
+    <string name="deleda">уверены, что хотите  удалить?</string>
+    <string name="zerostep">0  шаг</string>
+    <string name="zeroday">0 ден</string>
+    <string name="zerokm">0 км</string>
+    <string name="wechat_home_page">4.  возвращает  страницу  ,  вошел в рейтинг  ,  на данный момент  уже  синхронизации  данных  смогут увидеть  оборудования  на  микро -  Письмо  Движения,  если  не  синхронизации,  пожалуйста,  обновить несколько раз больше  чартов  страницы </string>
+    <string name="openwhchat"> 3.открыть  микро -  письмо  в  микро -  ,  микро -  письмо  письмо  движения  , нажмите кнопку  в правом верхнем углу  страницы  правой  кнопки  "  настройки  ,  найти  записи  данных о движении  " в колонке  ,  выберите "добавить  источник данных  "  ,  вы сможете  купить  поиска  производителями оборудования для  общественности  на ваш  номер  ,  пожалуйста,  добавить этот  номер  в качестве  источников данных  общественности </string>
+    <string name="please_disconnect">2.привязки  ,  пожалуйста,  отключите  текущее соединение </string>
+    <string name="first_use">1.первоначального использования  , пожалуйста, сначала  обязательного  оборудования</string>
+    <string name="operation_method">метод операции</string>
+    <string name="bangding">связывать</string>
+    <string name="wechat_sports">Письмо Движения доступа к микро,поделиться с друзьями движение весело!</string>
+    <string name="stop">конец</string>
+    <string name="continues">продолжать</string>
+    <string name="xiaohao">потребление  0kcal</string>
+    <string name="Pace">темп 00"00</string>
+    <string name="distance">расстояние:км </string>
+    <string name="total_time">Общее время</string>
+    <string name="history_record">исторические  записи </string>
+    <string name="third_party_login">третья сторона  входа</string>
+    <string name="evening">вечером11:59</string>
+    <string name="before_dawn">рано утром12:00</string>
+    <string name="measurement_results">на этот раз  результаты измерений</string>
+    <string name="call_reminder">напоминание</string>
+    <string name="mywechat">микро -  письмо </string>
+    <string name="turn_off_the_phone">ли закрыть  найти  телефон  функции?</string>
+    <string name="leiji">совокупное  предложение</string>
+    <string name="cishu">раз</string>
+    <string name="bluetooth_not_supported">не поддерживает  bluetooth</string>
+    <string name="user_name_format">Имя пользователя  в неверном формате</string>
+    <string name="try_again">Хорошо  , пожалуйста,  носить  браслеты  ,  и попробуйте снова.</string>
+    <string name="resend">переслать</string>
+    <string name="mailbox_format_error">Неверный формат  почтового ящика</string>
+    <string name="not_b_less">Пароль  не  менее  6  бит</string>
+    <string name="format_is_wrong">номер телефона  в неверном формате</string>
+    <string name="change_password">Изменить пароль  успешно</string>
+    <string name="shouhuan">браслет</string>
+    <string name="my">мой </string>
+    <string name="measurement_record">Вы хотите сохранить  этот  результат измерения</string>
+    <string name="prompt">подсказки</string>
+    <string name="data_upload">Загрузка данных  успеха</string>
+    <string name="data_upload_fail">Ошибка загрузки  данных</string>
+    <string name="input_email">Пожалуйста,введите почтовый ящик</string>
+    <string name="shouquancg">Успешное разрешение</string>
+    <string name="shouquanshib">разрешение не </string>
+    <string name="shouquanqu">разрешение  отменить</string>
+    <string name="detectionresult">Результаты испытания </string>
+    <string name="Allgemeiner">универсальный  режим</string>
+    <string name="Privater">частные  режим </string>
+    <string name="wangluo">сигнал сети  разница </string>
+    <string name="BPM">BPM</string>
+    <string name="suspend">прекратить </string>
+    <string name="measure">измерения </string>
+
+    <string name="zhengzaiceshi">В настоящее время  испытания  не  может  переключиться в режим</string>
+    <string name="jiancewangchen">обнаружения  завершения</string>
+    <string name="lixiangxieya">идеал  кровяное давление </string>
+    <string name="xieyagaoxian"> кровяное давление,  высокий предел нормальной </string>
+    <string name="zhongdugaoya">умеренной гипертонией</string>
+    <string name="zhongdugaoxuieya">тяжелой гипертонии</string>
+    <string name="niedriger">гипотония</string>
+    <string name="xieyang">кислородом</string>
+    <string name="heartrooate">пульс</string>
+    <string name="bloodpressure">кровяное давление</string>
+    <string name="minsystoli">Систолическое давление</string>
+    <string name="maxdiastol">верхнее давление</string>
+    <string name="jiance">начало  проверки</string>
+    <string name="allgemeiner">универсальный  режим</string>
+    <string name="privater">частные  режим</string>
+    <string name="healthtesting">здоровья испытание</string>
+    <string name="blood">кровяное давление</string>
+
+
+
+    <string name="app_name">RaceFit Pro</string>
+    <string name="input_password">Пожалуйста, введите  пароль</string>
+    <string name="input_code">Пожалуйста, введите  код проверки</string>
+    <string name="input_nickname">Пожалуйста, введите  прозвище</string>
+    <string name="input_name">Пожалуйста, введите  номер телефона</string>
+    <string name="user_login">Логин</string>
+    <string name="search_strap">поиск  браслет</string>
+    <string name="unbind_strap">развязать</string>
+    <string name="confirm_unbind_strap">отмена  обязательного  определения  нынешней связи  браслет  оборудования?</string>
+    <string name="exit_login">выход</string>
+    <string name="user_regsiter">регистрация</string>
+    <string name="confirm_compelte">завершить</string>
+    <string name="mine_data">мои данные</string>
+    <string name="next">пропустить</string>
+    <string name="save">Сохранить</string>
+    <string name="complete">завершить</string>
+    <string name="modify_success">изменить успех</string>
+    <string name="share_to">обмениваться...</string>
+
+    <string name="nick_name">прозвище:</string>
+    <string name="select_photo">Пожалуйста, выберите  фотографии</string>
+    <string name="take_camera">фотоаппарат</string>
+    <string name="take_Album">альбом</string>
+    <string name="cancle">отменить</string>
+    <string name="confirm">Определения</string>
+
+    <string name="kongjian">Qq пространства</string>
+    <string name="wechat_freinds">микро- Письмо друзей</string>
+    <string name="wechat_quan">круг друзей  микро-письмо</string>
+    <string name="fack_book">Facebook</string>
+
+
+    <string name="goalfinish">число дней  до уровня</string>
+    <string name="totaldistance">Общее  количество километров</string>
+    <string name="Totalnumberofsteps">число  среднесуточных  шаг</string>
+    <string name="submit_success">представлен успех</string>
+    <string name="submit_fail">данные,представленные  провал</string>
+    <string name="write_nickname">Пожалуйста, заполните  пользователей  прозвище</string>
+    <string name="new_dif_confirm">новый пароль  и  подтвердить пароль не  единогласно</string>
+    <string name="forget_password">забыть пароль</string>
+    <string name="fast_register">быстрая регистрация</string>
+    <string name="send_code">отправить  код проверки</string>
+    <string name="user_prprotocol">согласие соглашение о конфиденциальности пользователей</string>
+
+    <string name="yonghuzdffhej">неправильный код подтверждения</string>
+    <string name="yonghuzhej">Заменить  номер уже  зарегистрированы,  пожалуйста!</string>
+    <string name="tijiao">представление данных</string>
+    <string name="yanzhengmakong">код аутентификации  не может быть пустым</string>
+    <string name="tianxie">Имя пользователя,заполните  ошибка</string>
+    <string name="miamacuo">Неверный пароль</string>
+    <string name="regsiter_fail">Ошибка регистрации</string>
+
+    <string name="yanzhengma">код проверки  уже  отправки</string>
+    <string name="guojia">Список стран,  успешно  получает</string>
+    <string name="get_code_fail">Не удалось  получить  код проверки</string>
+
+    <string-array name="banner_txt_one">
+        <item>новые  определения  движения</item>
+        <item>здоровья  облачного хранения  данных</item>
+        <item>спорт на открытом воздухе  в режиме реального времени плавания</item>
+    </string-array>
+
+    <string-array name="banner_txt_two">
+        <item>наукоемкое  прогресса  , решать проблемы</item>
+        <item>предоставлять  только  обработки данных</item>
+        <item>записи  каждой  усилия  траектории</item>
+    </string-array>
+
+    <string-array name="select_sex">
+        <item>мужчина</item>
+        <item>женщина</item>
+    </string-array>
+
+    <string name="select_running_mode">Пожалуйста, выберите  режим</string>
+    <string-array name="select_running_mode">
+        <item>открытый  бег</item>
+        <item>открытый  езда</item>
+    </string-array>
+
+    <string-array name="select_alarm_repeat">
+        <item>только  напомнить  один раз</item>
+        <item>каждый день</item>
+        <item>с понедельника по пятницу</item>
+        <item>обычай</item>
+    </string-array>
+
+    <string-array name="select_week">
+        <item>понедельник</item>
+        <item>Вторник</item>
+        <item>среду</item>
+        <item>четверг</item>
+        <item>В пятницу</item>
+        <item>суббота</item>
+        <item>воскресенье</item>
+    </string-array>
+
+    <string name="week">недель</string>
+    <string name="just_remind_once">только  напомнить  один раз</string>
+    <string name="select_repeat_week">Пожалуйста, выберите  повторить  недели</string>
+    <string name="select_default_week">Пожалуйста, выберите  напоминания  режим</string>
+    <string name="select_alarm_time">Пожалуйста, выберите  будильник  время напоминания</string>
+
+    <string name="select_brithday">Пожалуйста, выберите  день рождения</string>
+    <string name="select_height">Пожалуйста, выберите  высота</string>
+    <string name="select_weight">Пожалуйста, выберите  вес</string>
+
+    <string name="Sedentaryreminder">сидячий  напомнить</string>
+    <string name="entryintoforcetime">время вступления в силу</string>
+    <string name="alarmclock">будильник</string>
+    <string name="Messagealert">Сообщение напоминания</string>
+    <string name="Raisethebrightscreen">поднять руку  яркий  экран</string>
+    <string name="Intelligentalost">интеллектуальные  анти - потерял</string>
+    <string name="Automaticheartrate">автоматическое  обнаружения пульс</string>
+    <string name="yaoyiyaoPhotograph">трясти  фотографировать</string>
+    <string name="chaozhaishouji">Поиск  мобильного телефона</string>
+    <string name="weixinpaizhao">Письмо  Движения  микро</string>
+    <string name="add_alarm">Добавить  будильник</string>
+
+    <string name="weather">AQI</string>
+    <string name="mine">мой</string>
+    <string name="device">оборудование</string>
+    <string name="running">бежать</string>
+    <string name="star">Начало</string>
+    <string name="long_stop">секретаря  по  пауза</string>
+    <string name="data">данные</string>
+    <string name="Targetsetting">Определение целей</string>
+    <string name="siren">частные  режим</string>
+    <string name="search_device">поиск оборудования</string>
+    <string name="menu_settings">Настройки </string>
+    <string name="settings_success">Параметры успеха</string>
+    <string name="settings_fail">Ошибка настройки</string>
+    <string name="get_fail">получить  отказ</string>
+    <string name="common_mode">универсальный  режим</string>
+    <string name="activity_time">деятельности  секретаря</string>
+    <string name="hour">час</string>
+    <string name="km">км</string>
+    <string name="km_cal">ккал</string>
+    <string name="steps">шаг</string>
+    <string name="calories">калорий</string>
+    <string name="mileage">пробег</string>
+    <string name="time">время</string>
+    <string name="step">Шаг номер</string>
+    <string name="recording">записи</string>
+    <string name="target_step">Цели  шаг номер 10000</string>
+
+    <string name="indoor_sports">крытый спортивный</string>
+    <string name="outdoor_running">открытый  бег</string>
+    <string name="outdoor_cycling">открытый  на велосипеде</string>
+    <string name="sleep">спать</string>
+    <string name="move_ment">движение</string>
+
+    <string name="data_report_day">день</string>
+    <string name="data_report_week">недель</string>
+    <string name="data_report_month">месяц</string>
+
+    <string name="allday_sleep">весь день  сна</string>
+    <string name="allday_deepsleep">весь день  глубокий сон</string>
+    <string name="allday_shallowsleep">мелкий  спит  весь день</string>
+
+    <string name="heartbeats_per_minute">пульс</string>
+    <string name="sleep_monitoring">мониторинг  сна</string>
+    <string name="jiankangceshi">здоровья испытание</string>
+
+    <string name="data_repor">Доклад о данных</string>
+    <string name="activity_repor">Доклад о деятельности</string>
+    <string name="sleep_repor">Доклад  сна</string>
+    <string name="heart_repor">пульс  доклад</string>
+    <string name="bloodpressure_repor">кровяное давление  доклад</string>
+    <string name="bloodoxygen_repor">Доклад  кислородом</string>
+
+    <string name="personal_info">личной информации</string>
+    <string name="modify_nickname">Изменить  псевдоним</string>
+    <string name="personal_avatar">портрет</string>
+    <string name="sex">пола</string>
+    <string name="weight">вес</string>
+    <string name="height">высота</string>
+    <string name="birthday">день рождения</string>
+
+    <string name="select_sex">Пожалуйста, выберите  пола</string>
+    <string name="select">выбор</string>
+    <string name="sex_nan">мужчина</string>
+    <string name="sex_nv">женщина</string>
+
+    <string name="app_version">App  версии</string>
+    <string name="modify_password">Изменить пароль</string>
+    <string name="help">помочь</string>
+    <string name="abour">О</string>
+    <string name="yesterday">вчера</string>
+    <string name="today">сегодня</string>
+    <string name="cumulative_number_of_movements">общее  движение  в 0 раза </string>
+    <string name="agree_agreement">Нажмите  кнопку  "зарегистрировать",  означает, что  вы согласны </string>
+    <string name="register_agreement">соответствующие соглашения</string>
+    <string name="feedback">обратной связи</string>
+    <string name="confrim_exit">определения выход  в настоящее время  счета?</string>
+
+    <string name="input_old_password">Пожалуйста, введите  старый  пароль</string>
+    <string name="input_new_password">Пожалуйста, введите  новый пароль  20  бит</string>
+    <string name="input_confirm_password">Пожалуйста, введите  пароль</string>
+    <string name="question_detail">Проблема детали</string>
+    <string name="contact_info">контакты</string>
+    <string name="describe_problem">Пожалуйста, опишите ваши  проблемы</string>
+    <string name="leave_phone">Пожалуйста, оставьте  телефон  или  почтовый ящик  ,  мы  вам  удобно  связаться</string>
+
+    <string name="notempty_feedback">отзывы, мнения  не может быть пустым</string>
+    <string name="leave_contact">контакты  или  почта  не может быть пустым</string>
+
+    <string name="daily_numberofsteps">ежедневное движение  шаг номер</string>
+    <string name="daily_sleepduration">в день  , когда  секретаря  сна</string>
+    <string name="daily_consunergy">ежедневно потребляют  энергии</string>
+
+    <string name="daily_numberofsteps_default">Step</string>
+    <string name="daily_sleepduration_default">8H</string>
+    <string name="daily_consunergy_defaultcalorie">173Kcal</string>
+
+    <string name="my_strap">мой  браслет</string>
+    <string name="sedentary_reminder">сидячий  напомнить</string>
+    <string name="firmware_upgrade">обновление прошивки</string>
+    <string name="unbind">развязать</string>
+
+    <string name="effective_time">время вступления в силу</string>
+    <string name="end_time">время окончания</string>
+    <string name="start_time">время начала</string>
+
+    <string name="diastolic_pressure">верхнее давление</string>
+    <string name="systolic_set">Систолическое давление</string>
+    <string name="heart_rate">пульс</string>
+    <string name="blood_oxygen">кислородом</string>
+    <string name="health_test">здоровье измерения</string>
+
+
+    <string name="time_set">время создания</string>
+    <string name="repeat">повторять</string>
+    <string name="alarm_name">Пожалуйста, заполните  будильник  имя</string>
+
+    <string name="private_mode">частные  режим</string>
+    <string name="minimumsystolic_bloodpressure">минимальный  систолического давления</string>
+    <string name="maximumdiastolic_bloodpressure">Верховный  диастолического давления</string>
+    <string name="private_mode_bloodpressure">частные  кровяное давление</string>
+    <string name="bloodpressure_msg">настроить ваш  режим  частных  кровяное давление  ,  для получения более  точных данных  ,  вам нужно  установить  здесь  не  антигипертензивных препаратов  является  эффективным  кровяное давление.</string>
+
+    <string name="stop_clock">в процессе  вибрации  ,  нажмите  браслеты  может  прекратить  будильник</string>
+    <string name="getup">вставать</string>
+    <string name="other">другие</string>
+    <string name="alarm_clock">будильник</string>
+    <string name="every_time">каждый день</string>
+    <string name="every_once">звонит  только  один раз</string>
+    <string name="monday_to_friday">с понедельника по пятницу</string>
+    <string name="search_bracelet">поиск  браслет</string>
+
+    <string name="select_star_time">Пожалуйста, выберите  время начала</string>
+    <string name="select_end_time">Пожалуйста, выберите  время окончания</string>
+
+    <string name="weibo_oauth_regiseter">применение  разрешения</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="weibo_upload_content">обмениваться фотографиями</string>
+    <string name="wechat_client_inavailable">В настоящее время  вы  микро -  Письмо  версии  слишком низким или  микро -  письмо  не установлен  ,  необходимо установить  , чтобы использовать  микро -  письмо</string>
+    <string name="google_plus_client_inavailable">Google+  версии  слишком низким  или  не установлен  ,  необходимо обновить  или установки  Google+  может  использовать!</string>
+    <string name="qq_client_inavailable">Qq  версия является слишком низким  или  не установлен  ,  необходимо обновить  или установки  qq  , чтобы использовать!</string>
+    <string name="pinterest_client_inavailable">Pinterest  версии  слишком низким  или  не установлен  ,  необходимо обновить  или установки  Pinterest  может  использовать!</string>
+    <string name="instagram_client_inavailable">Instagram  версии  слишком низким  или  не установлен  ,  необходимо обновить  или установки  Instagram  может  использовать!</string>
+    <string name="yixin_client_inavailable">В настоящее время  вы  легко  письмо  версии  слишком низким или  не установлен  ,  необходимо установить  легко  может  использовать  письмо</string>
+    <string name="line_client_inavailable">В настоящее время  ваш  Line  версии  слишком низким или  не установлен  ,  необходимо установить  Line  , чтобы использовать</string>
+    <string name="kakaotalk_client_inavailable">В настоящее время вашего  KakaoTalk  версии  слишком низким или  не установлен  ,  необходимо установить  KakaoTalk  , чтобы использовать</string>
+    <string name="kakaostory_client_inavailable">В настоящее время вашего  KakaoStory  версии  слишком низким или  не установлен  ,  необходимо установить  KakaoStory  , чтобы использовать</string>
+    <string name="whatsapp_client_inavailable">В настоящее время  ваш  whatsapp  версии  слишком низким или  не установлен  ,  необходимо установить  whatsapp  для использования</string>
+    <string name="baidutieba_client_inavailable">В настоящее время  ваш  Baidu  версии  слишком низким или  не установлен  ,  необходимо установить  Baidu  , чтобы использовать</string>
+    <string name="laiwang_client_inavailable">В настоящее время  вы  контактов  версии  слишком низким или  не установлен  ,  необходимо установить  контакты  , чтобы использовать</string>
+
+    <string name="sinaweibo">Сина  Дмитрия медведева</string>
+    <string name="tencentweibo">Tencent  Дмитрия медведева</string>
+    <string name="qzone">Qq пространства</string>
+    <string name="wechat">микро -  Письмо  друзей</string>
+    <string name="wechatmoments">круг друзей  микро -  письмо</string>
+    <string name="wechatfavorite">микро -  письмо</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="renren">Renren</string>
+    <string name="kaixin">нетто</string>
+    <string name="email">почта</string>
+    <string name="shortmessage">информации</string>
+    <string name="sohumicroblog">Прости  Дмитрия медведева</string>
+    <string name="sohusuishenkan">смотреть  это  с тобой</string>
+    <string name="neteasemicroblog">Легко дмитрия медведева сеть </string>
+    <string name="douban">бобами</string>
+    <string name="evernote">Впечатление заметки</string>
+    <string name="linkedin">Воротник британских</string>
+    <string name="googleplus">Google+</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="qq">QQ</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="flickr">Flickr</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="vkontakte">VK</string>
+    <string name="instagram">Instagram</string>
+
+
+
+    <string name="press_again_exit">нажмите  один раз  выход</string>
+    <!-- Tab界面 -->
+    <string name="alarm_clocks">будильник</string>
+    <!-- 闹铃界面 -->
+    <string name="press_right_top">Нажмите  на  правой   </string>
+    <string name="add_alarm_clock">  Добавить  будильник   </string>
+    <string name="retrieve_alarm_clock_success"> Исключить  будильник  успешно  вернуть</string>
+    <!-- 新建编辑闹钟界面 -->
+    <string name="new_alarm_clock">новый  будильник</string>
+    <string name="edit_alarm_clock">редактор  будильник </string>
+    <string name="repeats">повторять</string>
+    <string name="tag">этикетка </string>
+    <string name="default_ring">По умолчанию рингтон</string>
+    <string name="volume">громкость</string>
+    <string name="vibrate">вибрация </string>
+    <string name="countdown_day_hour_minute">будильник звонит  и  расстояние%1$dдень%2$dчас%3$dминут </string>
+    <string name="countdown_hour_minute">будильник звонит  и  расстояние%1$dчас%2$dминут </string>
+    <string name="countdown_minute">будильник звонит  и  расстояние%1$dминут </string>
+    <string name="monday">В понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">В среду</string>
+    <string name="thursday">четверг</string>
+    <string name="friday">В пятницу</string>
+    <string name="saturday">в субботу</string>
+    <string name="sunday">воскресенье</string>
+    <string name="repeat_once">звонит  только  один раз </string>
+    <string name="one_h">один</string>
+    <string name="two_h">второй</string>
+    <string name="three_h">три</string>
+    <string name="four_h">четыре</string>
+    <string name="five_h">пять</string>
+    <string name="six_h">шесть</string>
+    <string name="day">день</string>
+    <string name="every_day">каждый день</string>
+    <string name="week_day">обычно</string>
+    <string name="week_end">выходные</string>
+    <string name="weeks">недель</string>
+    <string name="caesura">、</string>
+
+    <!-- 铃声选择界面 -->
+
+    <!-- 闹钟响起界面 -->
+
+    <!-- 小睡编辑界面 -->
+
+    <!-- 录音 -->
+    <string name="record_fail">Ошибка записи </string>
+    <string name="record_fail_confirm">Ошибка записи  ,  пожалуйста, проверьте  записи  разрешение  открыть или  записи  , были  ли  другие приложения  занимают</string>
+    <!-- 录音操作 -->
+    <!-- 录音详情画面 -->
+
+    <!-- 录音重命名画面 -->
+    <!-- 录音删除画面 -->
+    <!-- 录音批量删除画面 -->
+    <!-- 音频播放 -->
+    <string name="play_fail">не играть</string>
+
+    <!-- 天气 -->
+    <string name="turn">%1$sПерейти%2$s</string>
+
+
+    <!-- 城市管理，添加城市 -->
+    <string name="city_weather_update_time">%1$sВремя обновления</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/size_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.example.bozhilun.android.B18I.b18iview.CircleProgress
+            android:id="@+id/circleprogress"
+            android:layout_width="@dimen/x206"
+            android:layout_height="@dimen/x206"
+            android:padding="3dp"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_weight="2.8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_25">
+
+        <TextView
+            android:id="@+id/l38i_recordKcalTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="102dp"
+            android:drawableTop="@mipmap/h9_kcal_image"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x14"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/l38i_recordMileTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="102dp"
+            android:drawableTop="@mipmap/h9_km_image"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x14"
+            tools:ignore="RelativeOverlap,RtlHardcoded,SpUsage" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

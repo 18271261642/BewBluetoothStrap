@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF4DDCFF">
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size_5"
+            android:padding="@dimen/size_15"
+            android:src="@mipmap/backs" />
+
+        <TextView
+            android:id="@+id/bar_titles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="title"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/size_20" />
+
+        <TextView
+            android:id="@+id/bar_mores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_14"
+            android:background="@mipmap/data_time"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/size_20" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/xinlv_FrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF4DDCFF">
+
+            <RelativeLayout
+                android:id="@+id/notest_state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/xinlv_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_horizontal"
+                    android:text="0"
+                    android:textColor="#ffffffff"
+                    android:textSize="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/xinlv_value"
+                    android:layout_toEndOf="@+id/xinlv_value"
+                    android:text="bpm"
+                    android:textColor="#ffffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/xinlv_celang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xinlv_value"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/measurement_results"
+                    android:textColor="#ffffffff"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/heartest_button_backgrond" />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+
+                <com.example.bozhilun.android.view.ChartView
+                    android:id="@+id/test_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_gravity="bottom"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <ListView
+            android:id="@+id/listheartetest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="@+id/celiang_xinlv"
+            android:layout_below="@+id/xinlv_FrameLayout"/>
+
+        <LinearLayout
+            android:id="@+id/celiang_xinlv"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#d4d4d4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/hate_test"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingLeft="@dimen/size_10"
+                android:paddingRight="@dimen/size_10"
+                android:layout_gravity="center"
+                android:background="@drawable/h9_heartest_button"
+                android:gravity="center"
+                android:text="@string/measure"
+                android:textColor="#FF4DDCFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

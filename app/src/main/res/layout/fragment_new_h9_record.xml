@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_record_bg_picture"
+    tools:context="com.example.bozhilun.android.h9.fragment.pages.NewH9RecordFragment">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="@mipmap/icon_record_bg_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <include layout="@layout/watch_record_top" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/text_stute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff00"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="lianjei"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/text_size_17"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_mypager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_pontion"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/v"
+        android:layout_marginBottom="@dimen/size_80"
+        android:layout_marginTop="@dimen/size_60"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="UnknownIdInLayout" />
+
+</RelativeLayout>

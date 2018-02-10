@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CircleProgress</string>
+    <string name="steps">步</string>
+</resources>

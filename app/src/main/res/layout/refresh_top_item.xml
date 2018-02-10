@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:layout_marginTop="-50.0dip"隐藏 -->
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="100.0dip"
+	android:layout_marginTop="50.0dip" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<ImageView
+			android:id="@+id/indicator"
+			android:layout_width="100dp"
+			android:layout_height="35dp"
+			android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true"
+			android:src="@mipmap/logohuwai" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_centerInParent="true"
+			android:gravity="center"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:orientation="horizontal" >
+
+				<ProgressBar
+					android:visibility="gone"
+					android:id="@+id/progress"
+					style="?android:attr/progressBarStyleSmall"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:indeterminateBehavior="repeat"
+					android:max="10000"
+					/>
+
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+
+
+	</RelativeLayout>
+
+</LinearLayout>

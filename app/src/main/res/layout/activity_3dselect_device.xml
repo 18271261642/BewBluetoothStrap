@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/select_device_bg"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/transparent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:id="@+id/seach_devicename"
+        android:layout_margin="@dimen/size_130"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B15S"/>
+
+    <Button
+        android:id="@+id/search_btn"
+        style="@style/match_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/size_40"
+        android:background="@drawable/blue_btn_selector"
+        android:text="@string/search_strap"
+        android:textColor="@color/white" />
+
+    <com.example.bozhilun.android.coverflow.CoverFlowView
+        android:id="@+id/coverflow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:coverflowGravity="center_vertical"
+        app:coverflowLayoutMode="wrap_content"
+        app:visibleImage="3"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

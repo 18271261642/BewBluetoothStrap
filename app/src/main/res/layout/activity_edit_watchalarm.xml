@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/watch_edit_top_view" />
+
+
+    <TimePicker
+        android:id="@+id/watch_alarmTimePicker"
+        android:layout_width="wrap_content"
+        android:background="#FAFAFA"
+        android:timePickerMode="spinner"
+        style="@style/AppTheme.NoActionBar"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </TimePicker>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_15"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="@string/repeat"
+            android:textColor="@color/black_trans70"
+            android:textSize="@dimen/size_18" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/watch_editRepeatSwit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_15"
+            android:checked="false" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/watch_chooseDateRel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_15"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/select_repeat_week"
+            android:textColor="@color/black_trans70"
+            android:textSize="@dimen/size_18"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size_18"
+            android:src="@mipmap/lanage"
+            android:id="@+id/imageView" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/monday"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:layout_width="wrap_content"
+                    android:id="@+id/watch_CB1"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/tuesday"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/watch_CB2"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/wednesday"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/watch_CB3"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/thursday"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/watch_CB4"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/friday"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/watch_CB5"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/saturday"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/watch_CB6"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/sunday"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/watch_CB7"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

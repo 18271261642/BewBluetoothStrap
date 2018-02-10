@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/Scrollview_my"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/mianbeijing"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/circle_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size_15">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/bushu" />
+
+                    <com.example.bozhilun.android.widget.MagicProgressCircle
+                        android:id="@+id/demo_mpc"
+                        android:layout_width="@dimen/size_150"
+                        android:layout_height="@dimen/size_150"
+                        android:layout_centerHorizontal="true"
+                        app:mpc_stroke_width="5dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/size_5"
+                    android:orientation="horizontal">
+
+                    <com.example.bozhilun.android.widget.AnimTextView
+                        android:id="@+id/step_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="@dimen/btn_max" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_5"
+                        android:text="@string/steps"
+                        android:textSize="@dimen/size_20" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/kmkcal_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_30"
+                    android:layout_marginRight="@dimen/size_30"
+                    android:layout_marginTop="-8dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@mipmap/licheng_min" />
+
+                            <com.example.bozhilun.android.widget.MagicProgressCircle
+                                android:id="@+id/circle_km"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerHorizontal="true"
+                                app:mpc_default_color="@color/mpc_default_color"
+                                app:mpc_end_color="@color/licheng_start_color"
+                                app:mpc_start_color="@color/licheng_start_color"
+                                app:mpc_stroke_width="4dp" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/licheng_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/size_5"
+                            android:text="0.0"
+                            android:textSize="@dimen/size_16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="KM"
+                            android:textSize="@dimen/size_14" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:src="@mipmap/kaluli_min" />
+
+                            <com.example.bozhilun.android.widget.MagicProgressCircle
+                                android:id="@+id/circle_kaluli"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerHorizontal="true"
+                                app:mpc_default_color="@color/mpc_default_color"
+                                app:mpc_end_color="@color/kcal_start_color"
+                                app:mpc_start_color="@color/kcal_start_color"
+                                app:mpc_stroke_width="4dp" />
+                        </RelativeLayout>
+
+                        <com.example.bozhilun.android.widget.AnimTextView
+                            android:id="@+id/kaluli_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/size_5"
+                            android:text="0.0"
+                            android:textSize="@dimen/size_16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Kcal"
+                            android:textSize="@dimen/size_14" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_drag_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:horizontalSpacing="1dp"
+                    android:verticalSpacing="1dp"></android.support.v7.widget.RecyclerView>
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="65dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

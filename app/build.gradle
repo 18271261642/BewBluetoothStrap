@@ -1,0 +1,166 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('F:\\bzkey\\beraceSport.jks')//签名文件路径
+            storePassword "w123456"
+            keyAlias "w123456"
+            keyPassword "w123456"  //签名密码
+            println("====== signingConfigs.debug ======")
+        }
+        release {
+            storeFile file('F:\\bzkey\\beraceSport.jks')//签名文件路径
+            storePassword "w123456"
+            keyAlias "w123456"
+            keyPassword "w123456"  //签名密码
+            println("====== signingConfigs.release ======")
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        ndk {
+            abiFilters "armeabi", "mips", "x86"
+        }
+        multiDexEnabled true
+        applicationId "com.example.bozhilun.android"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 32
+        versionName "3.5.0.5"
+        manifestPlaceholders = [
+                qq_id: "101357650"
+        ]
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            /*     versionNameSuffix*/
+            minifyEnabled false
+            zipAlignEnabled false
+            signingConfig signingConfigs.debug
+            shrinkResources false
+        }
+        release {
+            debuggable false
+            jniDebuggable false
+            zipAlignEnabled true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
+    }
+    greendao {
+        schemaVersion 1
+        daoPackage 'com.afa.tourism.greendao.gen'
+        targetGenDir 'src/main/java'
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+
+    // optional
+    compile name: 'SMSSDK-2.1.3', ext: 'aar'
+    compile name: 'SMSSDKGUI-2.1.3', ext: 'aar'
+    /* compile project(path: ':hellocharts-library')*/
+
+    //引用项目
+    compile project(path: ':wheelpicker')
+    compile project(':h_ble')
+    compile project(':cameraLibrary')
+    //    compile project(':dfu')
+    compile project(':litepals')
+    compile project(':daemons')
+    compile project(':SwipeBackLayouts')
+    compile project(':circleviewprogress')
+    //地图相关
+    compile files('libs/AMap_Services_V2.4.0.jar')
+    compile files('libs/Android_Location_V1.3.2.jar')
+    compile files('libs/ShareSDK-Core-2.7.10.jar')
+    compile files('libs/mframework.jar')
+    compile files('libs/ShareSDK-Facebook-2.7.10.jar')
+    compile files('libs/open_sdk_r5923_lite.jar')
+    compile files('libs/weiboSDKCore_3.1.2.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/android-times-square-1.0.3-sources.jar')
+    compile files('libs/date4j.jar')
+    //不显示试图
+    compile files('libs/hellocharts-library-1.5.8.jar')
+    compile files('libs/commons-lang-2.5.jar')
+    compile files('libs/MobCommons-2016.1201.1839.jar')
+    compile files('libs/MobTools-2016.1201.1839.jar')
+    compile files('libs/BluetoothSDK.jar')
+    compile files('libs/OTA.jar')
+    compile(name: 'bluetooth', ext: 'aar')
+    //    compile 'com.github.mcxtzhang:PathAnimView:V1.0.0'//心率测试图
+    compile files('libs/mpandroidchartlibrary-2-2-4.jar')
+    //compile 'no.nordicsemi.android:dfu:1.1.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:2.0.2'
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile 'org.greenrobot:greendao-generator:3.2.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.afollestad.material-dialogs:core:0.9.2.3'
+    compile 'com.romandanylyk:pageindicatorview:0.1.1'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.roughike:bottom-bar:2.1.2'
+    compile 'com.nightonke:boommenu:2.0.7'
+    compile 'com.yalantis:ucrop:2.2.0'
+    compile 'com.flipboard:bottomsheet-core:1.5.3'
+    compile 'com.flipboard:bottomsheet-commons:1.5.3'
+    compile 'cn.dreamtobe.percentsmoothhandler:library:0.1.1'
+    compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.1.3'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.github.markushi:android-ui:1.2'
+    compile 'com.github.anastr:speedviewlib:1.1.4'
+    compile 'me.tankery.lib:circularSeekBar:1.1.3'
+    compile 'com.google.android.gms:play-services:10.2.6'
+    compile 'com.amap.api:3dmap:5.0.0'
+    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+    compile 'com.jiechic.library:xUtils:2.6.14'
+    compile 'com.alibaba:fastjson:1.2.30'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'com.squareup:otto:1.3.8'
+    compile 'jp.wasabeef:recyclerview-animators:2.2.0'
+    compile 'com.balysv:material-ripple:1.0.2'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'me.everything:overscroll-decor-android:1.0.1'
+    compile 'com.android.support:customtabs:25.2.0'
+    compile 'com.yanzhenjie:permission:1.1.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:25.3.1'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile files('libs/vpprotocol_1.1.2.jar')
+    compile files('libs/vpbluetooth_1.0.3.jar')
+    compile files('libs/vpprotocol_1.0.6.jar')
+}

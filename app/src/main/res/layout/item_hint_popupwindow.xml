@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/size_60"
+    android:paddingLeft="@dimen/size_60"
+    android:paddingRight="@dimen/size_60"
+    android:background="@mipmap/tanchuang"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/huwaipao_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:src="@mipmap/huwaipao" />
+
+    <ImageView
+        android:id="@+id/huwaiqixing_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:src="@mipmap/huwaiqixing" />
+
+
+</LinearLayout>

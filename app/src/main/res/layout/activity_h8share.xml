@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/appbar_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@mipmap/h8_share_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/h8_dataShareHeadImg"
+                    android:layout_width="32dp"
+                    android:layout_gravity="center"
+                    android:layout_height="32dp" />
+
+
+                <TextView
+                    android:id="@+id/h8SharedUserNameTv"
+                    android:layout_width="wrap_content"
+                    android:text="VISITOR"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/h8_share_circle_gb"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                    <com.example.bozhilun.android.siswatch.view.RiseNumberTextView
+                        android:id="@+id/h8ShareTotalTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:elevation="4dp"
+                        android:shadowDx="10"
+                        android:shadowDy="10"
+                        android:shadowRadius="8"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/h8ShareGrandTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text=""
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/h8_share_bot_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@mipmap/h8_share_bozlun" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/h8_share_brace" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/h8ShareBtn"
+        android:layout_width="match_parent"
+        android:text="@string/add_sharpe"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/login_selector"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+       <include layout="@layout/appbar_toolbar"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/size_30"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/touxiang"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_110"
+            android:layout_marginRight="@dimen/size_110"
+            android:layout_marginTop="@dimen/size_5"
+            android:orientation="horizontal">
+
+            <com.example.bozhilun.android.widget.SwitchIconView
+                android:id="@+id/man_iconview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                app:si_animation_duration="500"
+                app:si_disabled_alpha=".3"
+                app:si_disabled_color="#b7b7b7"
+                app:si_enabled="true"
+                app:si_no_dash="true"
+                app:si_tint_color="@color/colorAccent"
+                app:srcCompat="@mipmap/nan_weidianji" />
+
+            <com.example.bozhilun.android.widget.SwitchIconView
+                android:id="@+id/women_iconview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                app:si_animation_duration="500"
+                app:si_disabled_alpha=".3"
+                app:si_disabled_color="#b7b7b7"
+                app:si_enabled="false"
+                app:si_no_dash="true"
+                app:si_tint_color="@color/colorAccent"
+                app:srcCompat="@mipmap/nv_weidianji" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:layout_marginTop="@dimen/size_10"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/code_et"
+                    style="@style/MyEditText"
+                    android:hint="@string/input_nickname"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/selectbirthday_relayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:background="@drawable/black_background_selector"
+            android:paddingBottom="@dimen/size_5"
+            android:paddingTop="@dimen/size_20">
+
+            <TextView
+                style="@style/MyTextView"
+                android:layout_marginLeft="@dimen/size_5"
+                android:text="@string/select_brithday" />
+
+            <TextView
+                android:id="@+id/brithdayval_tv"
+                style="@style/MyTextView"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/size_5" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/selectheight_relayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:background="@drawable/black_background_selector"
+            android:paddingBottom="@dimen/size_5"
+            android:paddingTop="@dimen/size_20">
+
+            <TextView
+                style="@style/MyTextView"
+                android:layout_marginLeft="@dimen/size_5"
+                android:text="@string/select_height" />
+
+            <TextView
+                android:id="@+id/heightval_tv"
+                style="@style/MyTextView"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/size_5" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/selectweight_relayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:background="@drawable/black_background_selector"
+            android:paddingBottom="@dimen/size_5"
+            android:paddingTop="@dimen/size_20">
+
+            <TextView
+                style="@style/MyTextView"
+                android:layout_marginLeft="@dimen/size_5"
+                android:text="@string/select_weight" />
+
+            <TextView
+                android:id="@+id/weightval_tv"
+                style="@style/MyTextView"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/size_5" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:background="@color/white" />
+
+        <Button
+            android:id="@+id/confirmcompelte_btn"
+            style="@style/match_btn"
+            android:layout_marginLeft="@dimen/btn_max"
+            android:layout_marginRight="@dimen/btn_max"
+            android:layout_marginTop="@dimen/size_40"
+            android:background="@drawable/blue_btn_selector"
+            android:text="@string/confirm_compelte" />
+    </LinearLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>

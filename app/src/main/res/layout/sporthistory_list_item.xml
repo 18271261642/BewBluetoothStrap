@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/nickname_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:background="@drawable/square_white_btn_change">
+
+                <TextView
+                    android:id="@+id/my_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:text="2018年 5月"
+                    android:textColor="@color/title_background"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/shuji_zonggongli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_30"
+                    android:text="50.0公里"
+                    android:textColor="#757575"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/size_15"
+                android:background="@color/linear_border" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:background="@drawable/square_white_btn_change">
+
+                <ImageView
+                    android:id="@+id/my_paobu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_14"
+                    android:src="@mipmap/huwaipaohuan" />
+
+                <TextView
+                    android:id="@+id/ri_xiangqing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/my_paobu"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_30"
+                    android:text="25日5：30"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/qixing_my_huwai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/ri_xiangqing"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="140dp"
+                    android:text="户外骑行"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:src="@mipmap/details"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_30"
+                android:layout_gravity="bottom"
+                android:background="@drawable/square_white_btn_change"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chixugongli_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:text="07.0公里"
+                    android:textColor="#757575"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/tubiao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignLeft="@+id/chixugongli_time"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="bottom"
+                        android:src="@mipmap/shijianhei"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/chixu_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignLeft="@+id/tubiao"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_10"
+                        android:gravity="center"
+                        android:text="00:00:00"
+                        android:textColor="#757575"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/tubiao2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/my_gongli"
+                        android:src="@mipmap/kaluliheise" />
+
+                    <TextView
+                        android:id="@+id/my_kacal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/size_20"
+                        android:gravity="center"
+                        android:text="50kcal"
+                        android:textColor="#757575"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

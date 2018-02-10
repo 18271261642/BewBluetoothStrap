@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@mipmap/jilu_icon_sel"
+        id="@+id/tab_home"
+        title="@string/recording" />
+    <tab
+        icon="@mipmap/shuju_icon_sel"
+        id="@+id/tab_data"
+        title="@string/data" />
+    <tab
+        icon="@mipmap/paobu_icon_sel"
+        id="@+id/tab_set"
+        title="@string/running" />
+    <tab
+        icon="@mipmap/wode_icon_sel"
+        id="@+id/tab_my"
+        title="@string/mine" />
+</tabs>

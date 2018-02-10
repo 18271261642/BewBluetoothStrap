@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_toolbar" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/watch_dataRefresh"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/size_70"
+        android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_data_bg_picture"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/step"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content" />
+
+
+                <!--步数图标显示-->
+                <lecho.lib.hellocharts.view.ColumnChartView
+                    android:id="@+id/watchcolumnchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp">
+
+                </lecho.lib.hellocharts.view.ColumnChartView>
+
+            </LinearLayout>
+
+            <!--卡路里图表-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/calories"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content" />
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:layout_width="match_parent"
+                    android:id="@+id/watchlineChatView"
+                    android:visibility="gone"
+                    android:layout_height="300dp" />
+                <lecho.lib.hellocharts.view.ColumnChartView
+                    android:id="@+id/watchkcalchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <!--里程图表-柱状图-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/mileage"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:layout_height="wrap_content" />
+
+                <!--里程图标显示-->
+                <lecho.lib.hellocharts.view.ColumnChartView
+                    android:id="@+id/watchkmchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp">
+
+                </lecho.lib.hellocharts.view.ColumnChartView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/appbar_toolbar" />
+
+    <TextView
+        android:id="@+id/question_detail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_15"
+        android:layout_marginRight="@dimen/size_15"
+        android:text="@string/question_detail"
+        android:textSize="15sp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_150">
+
+        <EditText
+            android:id="@+id/password_feed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_15"
+            android:background="@null"
+            android:hint="@string/describe_problem"
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorAccent" />
+
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/contact_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_15"
+            android:layout_marginRight="@dimen/size_15"
+            android:text="@string/contact_info"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/leave_phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_15"
+            android:background="@null"
+            android:hint="@string/leave_phone"
+            android:inputType="textMultiLine"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/colorAccent" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/guide_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/guide_txt_2"
+        android:layout_marginBottom="@dimen/size_10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_30" />
+
+    <TextView
+        android:id="@+id/guide_txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/go_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/btn_max"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_15" />
+
+    <Button
+        android:id="@+id/go_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size_70"
+        android:layout_marginLeft="@dimen/size_40"
+        android:layout_marginRight="@dimen/size_40"
+        android:background="@drawable/btn_gray_border_background_off"
+        android:text="立即体验"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_15"
+        android:visibility="invisible" />
+
+</RelativeLayout>

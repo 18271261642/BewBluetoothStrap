@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/appbar_toolbar" />
+
+    <TextView
+        android:id="@+id/privatemode_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar"
+        android:layout_margin="@dimen/size_15"
+        android:text="@string/private_mode_bloodpressure"
+        android:textSize="15sp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/privatemode_tag"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/daily_numberofstepsdefault_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:background="@drawable/square_white_btn_change">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:text="@string/minimumsystolic_bloodpressure"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/minimumsystolic_bloodpressure_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:text="115"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/size_15"
+                android:background="@color/linear_border" />
+
+            <RelativeLayout
+                android:id="@+id/daily_sleepdurationdefault_relayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_45"
+                android:background="@drawable/square_white_btn_change">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size_15"
+                    android:text="@string/maximumdiastolic_bloodpressure"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/maximumdiastolic_bloodpressure_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_15"
+                    android:text="80"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/bloodpressure_msg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview_tag"
+        android:layout_marginLeft="@dimen/size_15"
+        android:layout_marginRight="@dimen/size_15"
+        android:layout_marginTop="@dimen/size_30"
+        android:text="@string/bloodpressure_msg" />
+
+    <Button
+        android:id="@+id/save_btn"
+        style="@style/match_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/size_150"
+        android:layout_marginLeft="@dimen/size_40"
+        android:layout_marginRight="@dimen/size_40"
+        android:background="@drawable/yellow_btn_selector"
+        android:text="@string/save" />
+</RelativeLayout>

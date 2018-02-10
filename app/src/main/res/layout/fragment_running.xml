@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/runnint_toolbar_layout"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <at.markushi.ui.RevealColorView
+        android:id="@+id/reveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            //多云
+            <com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.PlusCloudyView
+                android:visibility="gone"
+                android:id="@+id/PlusCloudyView"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+            </com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.PlusCloudyView>
+            //下雪
+            <com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.SnowView
+                android:visibility="gone"
+                android:id="@+id/SnowView"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+            </com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.SnowView>
+            //下雨
+            <com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.RainView
+                android:id="@+id/RainView"
+                android:visibility="gone"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+            </com.example.bozhilun.android.activity.wylactivity.wyl_util.service.library.RainView>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/runningdistance_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_50"
+            android:textColor="#1b1b1b"
+            android:text="0.00"
+            android:textSize="@dimen/size_65" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/runningdistance_tv"
+            android:layout_alignBaseline="@+id/runningdistance_tv"
+            android:text="km"
+            android:textSize="@dimen/size_10" />
+
+        <TextView
+            android:id="@+id/cumulative_number_movements_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/runningdistance_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_10"
+            android:text="@string/cumulative_number_of_movements"
+            android:textSize="@dimen/size_16" />
+        <!-- android:id="@+id/star_circlebtn"-->
+
+        <LinearLayout
+            android:layout_below="@+id/cumulative_number_movements_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+            <com.example.bozhilun.android.activity.wylactivity.wyl_util.DiffuseView
+                android:id="@+id/star_circlebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/my_ralativity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/size_80"
+            android:layout_marginLeft="@dimen/size_20"
+            android:layout_marginRight="@dimen/size_20">
+
+            <TextView
+                android:id="@+id/gsp_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="GPS" />
+
+            <ImageView
+                android:id="@+id/gps_riss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size_10"
+                android:layout_toRightOf="@+id/gsp_tv"
+                android:src="@mipmap/gpsone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_5"
+                android:layout_toLeftOf="@+id/weather_iv3"
+                android:text="@string/weather" />
+            <ImageView
+                android:id="@+id/weather_iv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/weather_iv2"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/kongqizhilaing1" />
+            <ImageView
+                android:id="@+id/weather_iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/weather_iv"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/kongqizhilaing2" />
+            <ImageView
+                android:id="@+id/weather_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/kongqizhilaing2" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

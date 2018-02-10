@@ -1,0 +1,590 @@
+<resources>
+    //日本小狗子
+
+    <string name="findwatch">時計を探す</string>
+    <string name="watchtime">視聴時間</string>
+    <string name="systemtime">システム時刻</string>
+    <string name="notif_explain">説明する</string>
+    <string name="notif_messge">通知や補助機能は、通知または補助機能を開く必要がある</string>
+    <string name="open_notif">お知らせを開く</string>
+    <string name="open_function">補助機能を開く</string>
+
+    <string name="device_times">設備時間</string>
+    <string name="now_times">カレント時間</string>
+    <string name="get_device_times">設備の取得時間</string>
+    <string name="correct_pointer_times">針は間違っている</string>
+    <string name="thousand">thousand steps</string>
+    <string name="sporttimes">エクササイズの回数</string>
+    <string name="grandtotalstep">累積されたステップ</string>
+    <string name="grandtotal">累積期間</string>
+    <string name="sportdata">運動データ</string>
+    <string name="avg_speed">平均速度</string>
+    <string name="long_onclick">長押しの \'+\'と \' - \'を設定すると、より大きな角度を調整できます</string>
+    <string name="add_sharpe">合成と共有</string>
+    <string name="syncy_data">データを同期させる</string>
+    <string name="connted">接続済み</string>
+    <string name="disconnted">切断された</string>
+
+    <string name="nodata">データなし</string>
+    <string name="age">年齢</string>
+    <string name="alarm_eat">食事</string>
+    <string name="alarm_medicine">薬を飲む</string>
+    <string name="alarm_dring">水を飲む</string>
+    <string name="alarm_sp">寝る</string>
+    <string name="alarm_awakes">起きて</string>
+    <string name="alarm_spr">運動</string>
+    <string name="alarm_metting">会議</string>
+    <string name="alarm_custom">カスタマイズ</string>
+    <string name="history_times">歴史時間</string>
+    <string name="search_alert">検索装置は携帯電話のBluetoothとGPSを開けて下さい</string>
+    <string name="sleep_deep">深い眠りに</string>
+    <string name="sleep_light">淺い眠り</string>
+    <string name="long_when">時間が長い</string>
+    <string name="sleep_asleep">寝つく時間</string>
+    <string name="recovery_count">蘇生回数</string>
+    <string name="recovery_time">蘇生時間</string>
+    <string name="mine_equipment">私の設備</string>
+    <string name="low_voltage">低圧制限</string>
+    <string name="high_voltage">高圧制限</string>
+    <string name="year">年</string>
+    <string name="news">ニュース</string>
+    <string name="messages">新しいニュースが届いた</string>
+    <string name="system_settings">システム設定</string>
+    <string name="device_manager">設備管理</string>
+    <string name="guide">学校の時に手引き</string>
+    <string name="step_one">1.\t 腕時計とアプリが正常に接続状態でまずゼロボタンをクリックして</string>
+    <string name="step_two">2.\t それぞれ時計回り、分針、+と-を押して+と調整針～12：00</string>
+    <string name="step_three">3.\t 完成ボタンをクリックして自動追跡針を実現</string>
+    <string name="manualsleep">手動睡眠</string>
+    <string name="automaticsleep">自動睡眠</string>
+    <string name="dlog">ロード...</string>
+    <string name="minezhen">細かい手</string>
+    <string name="hourzhen">時針</string>
+    <string name="zero">ゼロに戻る</string>
+    <string name="setmi">インペリアルシステム</string>
+    <string name="setkm">メートル法</string>
+    <string name="jiaozhen">スクールピン</string>
+    <string name="unit">ユニット</string>
+    <string name="hearting">検出</string>
+    <string name="heartcheck">心拍数テスト</string>
+    <string name="auxiliary_function">君が開いて知らせを開いても情報にはならず、補助機能を。
+    \n もしあなたが受信通知によると、それではあなたはその存在を見落とすことができ、通知又は補助機能制限を開く。
+    \n （この機能は一部機種を解決するために届かないニュースを設置して、この機能を受け取ることができることに注意して繰り返しニュース）</string>
+    <string name="siren_str">ランキング</string>
+    <string name="personal_str">個人資料</string>
+    <string name="function_str">機能設定</string>
+    <string name="find_str">親友を探す</string>
+    <string name="waking_state">覚醒状態</string>
+    <string name="shallow_sleep">淺睡眠</string>
+    <string name="deep_sleep">深度睡眠</string>
+    <string name="mileage_km">マイレージ/km</string>
+    <string name="ranking">順位</string>
+    <string name="daily_distancia">毎日運動距離</string>
+    <string name="notice_str">通知</string>
+    <string name="shock_str">振動</string>
+    <string name="time_forma">タイムフォーマット</string>
+    <string name="advanced_setting">高級設置</string>
+    <string name="add_frendes">親友を追加</string>
+    <string name="scan_frend">検索</string>
+    <string name="reset_device">リセット装置</string>
+    <string name="heart_rate_test">心拍数テスト</string>
+    <string name="heart_rate_warning_range">心拍数早期警戒範囲</string>
+    <string name="close_str">関</string>
+    <string name="weak_str">弱い</string>
+    <string name="standard_str">標準</string>
+    <string name="strong_str">強い</string>
+    <string name="preset_sleep">デザイン睡眠</string>
+    <string name="missed_calls">未応答着信</string>
+    <string name="sms_reminder">メールで注意する</string>
+    <string name="mailbox_reminder">郵便箱</string>
+    <string name="social_reminder">社交的に注意する</string>
+    <string name="calendar_alarm">日めくり</string>
+    <string name="today_step">今日のペース</string>
+    <string name="goal_step">ターゲット</string>
+    <string name="str_one">毎日注意することができます</string>
+    <string name="str_two">選択タイプ</string>
+    <string name="str_three">目覚まし時計を削除しても</string>
+    <string name="str_four">時間と日付を選択する選択</string>
+    <string name="str_five">注意して、この設備がそっと震えていることを注意して、相応のアイコンを表示することを表示します</string>
+
+
+    <string name="noright">あなたは現在訪問者であり、情報を変更することはできません</string>
+    <string name="newversion">更新されるかどうかにかかわらず、新しいバージョンがあります</string>
+    <string name="visitor_enter">訪問者は入力する</string>
+    <string name="login_alert">観光客として参加するかどうか?</string>
+    <string name="settarget_steps">ステップの目標数</string>
+    <string name="operation">説明書</string>
+    <string name="today_data">今日のデータ</string>
+    <string name="msg_jiange">間隔を思い出させるメッセージ</string>
+    <string name="psm">省電力モード</string>
+    <string name="setting_pair">セットアップユーティリティを起動し、Bluetoothのペアリング</string>
+    <string name="cancle_pair">システム設定に切断したBluetoothジャンプ、ペアリングを解除</string>
+    <string name="gps_alert">この機能は、オープンかどうかを確認し、GPS権限を開くための操作が必要です</string>
+    <string name="clocktimes">目覚まし時計の繰り返し回数を選択して！</string>
+    <string name="notsportdata">今は歴史のない運動の軌跡、終わりません。</string>
+    <string name="version">1.1.3</string>
+    <string name="fuwuqi">リンクサーバー失敗</string>
+    <string name="notdevice">あなたの身の回りはBluetoothの設備がありません！</string>
+    <string name="zuigaoxinlv">最高心率</string>
+    <string name="zuidixinlv">最低心率</string>
+    <string name="pinjunxin">平均心率</string>
+    <string name="shangzhou">先週</string>
+    <string name="benzhou">今週</string>
+    <string name="shangyue">先月</string>
+    <string name="benyue">今月</string>
+    <string name="XIAOHAO">消耗</string>
+    <string name="paces">配速</string>
+    <string name="xiaoxitixing">親、情報提供、補助サービス機能、補助スイッチ、ありがとうございます、ありがとうございます</string>
+    <string name="xuanzeshijian">選択時間を選択してください</string>
+    <string name="minute">M</string>
+    <string name="Bind_failed">縫い付け失敗</string>
+    <string name="Binding_success">縫い付け成功</string>
+    <string name="bluetooth_disconnected">Bluetoothが切れている</string>
+    <string name="bangdinged">縫い付け</string>
+    <string name="sports_history">運動歴史記録</string>
+    <string name="good">良</string>
+    <string name="mild_pollution">軽度汚染</string>
+    <string name="moderate_pollution">締まり汚染</string>
+    <string name="heavy_pollution">重度汚染</string>
+    <string name="serious_pollution">深刻汚染</string>
+    <string name="save_record">保存運動記録を保存するかどうか</string>
+    <string name="upgrade">アップグレード中>></string>
+    <string name="latest_version">新しいバージョンはもう新しいバージョンです</string>
+    <string name="upgrade_completed">アップグレードする</string>
+    <string name="auto_upgrade">自動アップグレード中....</string>
+    <string name="deleda">確かな削除を確定して?</string>
+    <string name="zerostep">0 Step</string>
+    <string name="zeroday">0 Day</string>
+    <string name="zerokm">0 km</string>
+    <string name="wechat_home_page">よんしよ.戻るマイクロ手紙運動ホームページがランクインし、この時を見ることができる設備のデータは同期微手紙運動の中で、もしまだ同期、よろしく刷新何度ランキングページ</string>
+    <string name="openwhchat">さんを手紙に入る.マイクロマイクロの手紙をクリックし、運動、マイクロ手紙ホームページ右右上の設定ボタンを見つけ、「記録運動データ」欄には、「足を付けるデータの出所と、検索をご購入機器メーカーの公衆号、どうぞ足を付けるこの公衆号データとして源</string>
+    <string name="please_disconnect">2 .縫い付け成功後は、先に今接続して下さい </string>
+    <string name="first_use">1 .初めて使用する、先に縫い付けして下さい</string>
+    <string name="operation_method">操作方法</string>
+    <string name="bangding">ジャック</string>
+    <string name="wechat_sports">接続のマイクロ手紙運動、友達と運動の楽しみを分かち合う</string>
+    <string name="stop">終瞭</string>
+    <string name="continues">続けて</string>
+    <string name="xiaohao">消耗  0kcal</string>
+    <string name="Pace">配速00"00</string>
+    <string name="distance">全距離：キロ</string>
+    <string name="total_time">延べ時間</string>
+    <string name="history_record">歴史記録</string>
+    <string name="third_party_login">第三者登録</string>
+    <string name="evening">夜11:59</string>
+    <string name="before_dawn">夜明け前12:00</string>
+    <string name="measurement_results">今回の測量結果</string>
+    <string name="call_reminder">着信注意</string>
+    <string name="mywechat">マイクロ手紙</string>
+    <string name="turn_off_the_phone">携帯電話の検索機能を?</string>
+    <string name="leiji">累積運動</string>
+    <string name="cishu">度</string>
+    <string name="bluetooth_not_supported">Bluetoothを支持しない</string>
+    <string name="user_name_format">ユーザー名のフォーマットは間違っている</string>
+    <string name="try_again">どうぞ装着好手環をリトライ.</string>
+    <string name="resend">再送信</string>
+    <string name="mailbox_format_error">メールのフォーマットエラー</string>
+    <string name="not_b_less">パスワードは6位以下にならない</string>
+    <string name="format_is_wrong">携帯号フォーマットは間違っている</string>
+    <string name="change_password">パスワードを改正する成功</string>
+    <string name="shouhuan">ブレスレット</string>
+    <string name="my">私の</string>
+    <string name="measurement_record">本の測定結果を保存するかどうか</string>
+    <string name="prompt">ヒント</string>
+    <string name="data_upload">データアップの成功</string>
+    <string name="data_upload_fail">データをアップロードする</string>
+    <string name="input_email">メールに入力して下さい</string>
+    <string name="shouquancg">授権成功</string>
+    <string name="shouquanshib">授権失敗</string>
+    <string name="shouquanqu">ライセンスキャンセル</string>
+    <string name="detectionresult">検出結果</string>
+    <string name="Allgemeiner">ゼネラルモード</string>
+    <string name="Privater">プライベートモード</string>
+    <string name="wangluo">ネットワーク信号</string>
+    <string name="BPM">BPM</string>
+    <string name="suspend">停止</string>
+    <string name="measure">測定</string>
+
+    <string name="zhengzaiceshi">試験には切り替えることができない</string>
+    <string name="jiancewangchen">検出完成</string>
+    <string name="lixiangxieya">理想血圧</string>
+    <string name="xieyagaoxian">血圧正常高限</string>
+    <string name="zhongdugaoya">締まり高血圧</string>
+    <string name="zhongdugaoxuieya">重度高血圧</string>
+    <string name="niedriger">低血圧症</string>
+    <string name="xieyang">血中酸素</string>
+    <string name="heartrooate">心拍</string>
+    <string name="bloodpressure">血圧</string>
+    <string name="minsystoli">収縮圧</string>
+    <string name="maxdiastol">弛緩圧</string>
+    <string name="jiance">スタートを開始</string>
+    <string name="allgemeiner">ゼネラルモード</string>
+    <string name="privater">プライベートモード</string>
+    <string name="healthtesting">健康テスト</string>
+    <string name="blood">血圧</string>
+
+
+
+    <string name="app_name">RaceFit Pro</string>
+    <string name="input_password">パスワードを入力して下さい</string>
+    <string name="input_code">入力検証コードを入力してください</string>
+    <string name="input_nickname">ニックネームを入力して下さい</string>
+    <string name="input_name">携帯番号を入力してください</string>
+    <string name="user_login">ログイン</string>
+    <string name="search_strap">検索ブレスレット</string>
+    <string name="unbind_strap">縫い付けを解除する</string>
+    <string name="confirm_unbind_strap">確定する接続のブレスレット設備当面解除?</string>
+    <string name="exit_login">ログイン</string>
+    <string name="user_regsiter">登録</string>
+    <string name="confirm_compelte">完成</string>
+    <string name="mine_data">私の資料</string>
+    <string name="next">スキップ</string>
+    <string name="save">保存</string>
+    <string name="complete">完成</string>
+    <string name="modify_success">改正に成功する</string>
+    <string name="share_to">分かち合う...</string>
+
+    <string name="nick_name">ニックネーム:</string>
+    <string name="select_photo">写真を選択してください</string>
+    <string name="take_camera">カメラ</string>
+    <string name="take_Album">アルバム</string>
+    <string name="cancle">キャンセル</string>
+    <string name="confirm">確定</string>
+
+    <string name="kongjian">QQ空間</string>
+    <string name="wechat_freinds">マイクロ手紙の友達</string>
+    <string name="wechat_quan">友達圏</string>
+    <string name="fack_book">Facebook</string>
+
+
+    <string name="goalfinish">基準日数</string>
+    <string name="totaldistance">総キロ数</string>
+    <string name="Totalnumberofsteps">日の平均歩数</string>
+    <string name="submit_success">成功を提出する</string>
+    <string name="submit_fail">データ提出失敗</string>
+    <string name="write_nickname">ユーザーのニックネームを記入してください</string>
+    <string name="new_dif_confirm">新パスワードとパスワードが確認されていません</string>
+    <string name="forget_password">パスワードを忘れて</string>
+    <string name="fast_register">高速登録</string>
+    <string name="send_code">送信確認コード</string>
+    <string name="user_prprotocol">ユーザーのプライバシーに同意する</string>
+
+    <string name="yonghuzdffhej">検証コードエラー</string>
+    <string name="yonghuzhej">番号が登録され、交換してください！</string>
+    <string name="tijiao">データを提出する</string>
+    <string name="yanzhengmakong">検証コードは空っぽにならない</string>
+    <string name="tianxie">ユーザー名は誤りを記入する</string>
+    <string name="miamacuo">パスワードエラー</string>
+    <string name="regsiter_fail">登録失敗</string>
+
+    <string name="yanzhengma">検証コードはすでに発送して</string>
+    <string name="guojia">国家リストの成功を得る</string>
+    <string name="get_code_fail">検証コードの失敗を得る</string>
+
+    <string-array name="banner_txt_one">
+        <item>運動には新しい定義が定義されて</item>
+        <item>健康データ雲記憶</item>
+        <item>屋外運動</item>
+    </string-array>
+
+    <string-array name="banner_txt_two">
+        <item>精度進歩、挑戦を迎えに</item>
+        <item>データ処理しかできない</item>
+        <item>記録には努力の軌跡を記録する</item>
+    </string-array>
+
+    <string-array name="select_sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="select_running_mode">選択モードを選択して下さい</string>
+    <string-array name="select_running_mode">
+        <item>屋外ジョギング</item>
+        <item>アウトドアレーシング</item>
+    </string-array>
+
+    <string-array name="select_alarm_repeat">
+        <item>一度だけ注意する</item>
+        <item>毎日</item>
+        <item>月曜日から金曜日まで</item>
+        <item>カスタマイズ</item>
+    </string-array>
+
+    <string-array name="select_week">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>曜日</item>
+    </string-array>
+
+    <string name="week">週間</string>
+    <string name="just_remind_once">一度だけ注意する</string>
+    <string name="select_repeat_week">繰り返し週間を選択してください</string>
+    <string name="select_default_week">アラームモードを選択して下さい</string>
+    <string name="select_alarm_time">目覚まし時計のアラームタイムを選択してください</string>
+
+    <string name="select_brithday">誕生日を選んでください</string>
+    <string name="select_height">身長を選択してください</string>
+    <string name="select_weight">体重を選んでください</string>
+
+    <string name="Sedentaryreminder">長座注意する</string>
+    <string name="entryintoforcetime">発効時間</string>
+    <string name="alarmclock">目覚まし時計</string>
+    <string name="Messagealert">メッセージが注意する</string>
+    <string name="Raisethebrightscreen">明るい銀幕を上げる</string>
+    <string name="Intelligentalost">知能の防止</string>
+    <string name="Automaticheartrate">自動心拍数検出</string>
+    <string name="yaoyiyaoPhotograph">と揺れて写真を撮る</string>
+    <string name="chaozhaishouji">携帯を検索</string>
+    <string name="weixinpaizhao">マイクロ手紙運動</string>
+    <string name="add_alarm">目覚まし時計を追加</string>
+
+    <string name="weather">AQI</string>
+    <string name="mine">私の</string>
+    <string name="device">設備</string>
+    <string name="running">スタート</string>
+    <string name="star">始め</string>
+    <string name="long_stop">長さが一時停止する</string>
+    <string name="data">データ</string>
+    <string name="Targetsetting">目標設定</string>
+    <string name="siren">プライベートモード</string>
+    <string name="search_device">捜索装置</string>
+    <string name="menu_settings">設置</string>
+    <string name="settings_success">成功を設定する</string>
+    <string name="settings_fail">失敗を設定する</string>
+    <string name="get_fail">失敗を得る</string>
+    <string name="common_mode">ゼネラルモード</string>
+    <string name="activity_time">活動時長</string>
+    <string name="hour">時間</string>
+    <string name="km">キロ</string>
+    <string name="km_cal">千カード</string>
+    <string name="steps">歩</string>
+    <string name="calories">カロリー</string>
+    <string name="mileage">マイレージ</string>
+    <string name="time">時間</string>
+    <string name="step">歩数</string>
+    <string name="recording">記録</string>
+    <string name="target_step">目標歩数 10000</string>
+
+    <string name="indoor_sports">室内運動</string>
+    <string name="outdoor_running">屋外ジョギング</string>
+    <string name="outdoor_cycling">屋外自転車</string>
+    <string name="sleep">睡眠</string>
+    <string name="move_ment">運動</string>
+
+    <string name="data_report_day">日</string>
+    <string name="data_report_week">週間</string>
+    <string name="data_report_month">月</string>
+
+    <string name="allday_sleep">一日中睡眠</string>
+    <string name="allday_deepsleep">全天寝て寝る</string>
+    <string name="allday_shallowsleep">全天寝て寝る</string>
+
+    <string name="heartbeats_per_minute">心拍</string>
+    <string name="sleep_monitoring">睡眠モニタリング</string>
+    <string name="jiankangceshi">健康テスト</string>
+
+    <string name="data_repor">データレポート</string>
+    <string name="activity_repor">活動報告書</string>
+    <string name="sleep_repor">睡眠報告書</string>
+    <string name="heart_repor">心拍数報告書</string>
+    <string name="bloodpressure_repor">血圧レポート</string>
+    <string name="bloodoxygen_repor">酸素酸素の報告書</string>
+
+    <string name="personal_info">個人情報</string>
+    <string name="modify_nickname">ニックネームを改正する</string>
+    <string name="personal_avatar">アバター</string>
+    <string name="sex">性别</string>
+    <string name="weight">体重</string>
+    <string name="height">身長</string>
+    <string name="birthday">誕生日</string>
+
+    <string name="select_sex">性別を選択してください</string>
+    <string name="select">選択</string>
+    <string name="sex_nan">男</string>
+    <string name="sex_nv">女</string>
+
+    <string name="app_version">appバージョン</string>
+    <string name="modify_password">パスワードを改正する</string>
+    <string name="help">助ける</string>
+    <string name="abour">について</string>
+    <string name="yesterday">昨日</string>
+    <string name="today">今日</string>
+    <string name="cumulative_number_of_movements">累計運動0回</string>
+    <string name="agree_agreement">「登録」ボタンをクリックし、あなたが同意することを意味する</string>
+    <string name="register_agreement">相関合意</string>
+    <string name="feedback">意見フィードバック</string>
+    <string name="confrim_exit">現在の口座開設を確定する?</string>
+
+    <string name="input_old_password">古いパスワードを入力してください</string>
+    <string name="input_new_password">新パスワードを入力してください6-20位</string>
+    <string name="input_confirm_password">パスワード入力確認パスワードを入力して下さい</string>
+    <string name="question_detail">問題詳細</string>
+    <string name="contact_info">連絡方式</string>
+    <string name="describe_problem">あなたに出会っての問題を説明して下さい</string>
+    <string name="leave_phone">電話またはメールボックス、便利に私たちはあなたに連絡してください</string>
+
+    <string name="notempty_feedback">フィードバックの意見は暇にならない</string>
+    <string name="leave_contact">連絡方式あるいはメールボックスは空っぽにならない</string>
+
+    <string name="daily_numberofsteps">毎日運動歩数</string>
+    <string name="daily_sleepduration">毎日睡眠時長</string>
+    <string name="daily_consunergy">毎日消費エネルギー</string>
+
+    <string name="daily_numberofsteps_default">歩</string>
+    <string name="daily_sleepduration_default">8時間</string>
+    <string name="daily_consunergy_defaultcalorie">173千カード</string>
+
+    <string name="my_strap">私のブレスレット</string>
+    <string name="sedentary_reminder">長座注意する</string>
+    <string name="firmware_upgrade">ファームウェアアップグレードアップ</string>
+    <string name="unbind">縫い付けを解除する</string>
+
+    <string name="effective_time">発効時間</string>
+    <string name="end_time">瞭時間</string>
+    <string name="start_time">開始時間</string>
+
+    <string name="diastolic_pressure">弛緩圧</string>
+    <string name="systolic_set">収縮圧</string>
+    <string name="heart_rate">心拍</string>
+    <string name="blood_oxygen">血中酸素</string>
+    <string name="health_test">健康測量</string>
+
+
+    <string name="time_set">時間設定</string>
+    <string name="repeat">繰り返し</string>
+    <string name="alarm_name">目覚まし時計を記入してください</string>
+
+    <string name="private_mode">プライベートモード</string>
+    <string name="minimumsystolic_bloodpressure">最低収縮圧</string>
+    <string name="maximumdiastolic_bloodpressure">最高拡張期圧</string>
+    <string name="private_mode_bloodpressure">民間血圧</string>
+    <string name="bloodpressure_msg">あなたのプライベート血圧モード設定を取得し、より正確なデータは、ここにあなたが設置されている未服用降圧薬の有効血圧値.</string>
+
+    <string name="stop_clock">振動の過程の中で、手をクリックして止められ目覚まし時計</string>
+    <string name="getup">起きて</string>
+    <string name="other">其他</string>
+    <string name="alarm_clock">目覚まし時計</string>
+    <string name="every_time">毎日</string>
+    <string name="every_once">一度だけ鳴って</string>
+    <string name="monday_to_friday">月曜日から金曜日まで</string>
+    <string name="search_bracelet">検索ブレスレット</string>
+
+    <string name="select_star_time">開始時間を選択してください</string>
+    <string name="select_end_time">終わり時間を選択してください</string>
+
+    <string name="weibo_oauth_regiseter">応用授権</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="weibo_upload_content">写真を共有する</string>
+    <string name="wechat_client_inavailable">あなたのは目下のところにはあなたのマイクロ信が過少あるいは未インストールのマイクロ信をインストールして、微信を取り付けてようやく使うことができます</string>
+    <string name="google_plus_client_inavailable">Google +バージョンが低いまたはインストールされていないし、または、Google +をインストールする必要があります！</string>
+    <string name="qq_client_inavailable">QQ版は低いあるいはインストールしないで、進級してQQをインストールしてQQ才能をインストールします</string>
+    <string name="pinterest_client_inavailable">Pinterestバージョンをインストールされていない過小や、グレードアップが必要またはインストールPinterest使用できる！</string>
+    <string name="instagram_client_inavailable">Instagramバージョンをインストールされていない過小や、グレードアップが必要またはインストールInstagram使用できる！ </string>
+    <string name="yixin_client_inavailable">今あなたの易信バージョン過小や未インストール、インストールが必要易信使用できる。</string>
+    <string name="line_client_inavailable">今あなたのラインバージョン過小や未インストール、ラインのインストールが必要使用できる。</string>
+    <string name="kakaotalk_client_inavailable">今あなたのKakaoTalkバージョン過小や未インストール、インストールが必要KakaoTalk使用できる。</string>
+    <string name="kakaostory_client_inavailable">今あなたのKakaoStoryバージョン過小や未インストール、インストールが必要KakaoStory使用できる</string>
+    <string name="whatsapp_client_inavailable">今あなたのWhatsAppバージョン過小や未インストール、インストールが必要WhatsApp使用できる。</string>
+    <string name="baidutieba_client_inavailable">今あなたのBaiduのバーバージョンをインストールしない過小や、Baiduのバーのインストールが必要使用できる。</string>
+    <string name="laiwang_client_inavailable">あなたのお付き合いのバージョンは低いまたはインストールして、インストールすることができます</string>
+
+    <string name="sinaweibo">新浪微博</string>
+    <string name="tencentweibo">テンセントミニブログ</string>
+    <string name="qzone">QQ空間</string>
+    <string name="wechat">マイクロ手紙の友達</string>
+    <string name="wechatmoments">友達圏</string>
+    <string name="wechatfavorite">マイクロ手紙のコレクション</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="renren">人人網</string>
+    <string name="kaixin">嬉しいネット</string>
+    <string name="email">メール</string>
+    <string name="shortmessage">情報</string>
+    <string name="sohumicroblog">捜狐マイクロ博</string>
+    <string name="sohusuishenkan">捜狐てみて見る</string>
+    <string name="neteasemicroblog">ZIPの微博</string>
+    <string name="douban">豆瓣</string>
+    <string name="evernote">印象ノート</string>
+    <string name="linkedin">領英</string>
+    <string name="googleplus">Google+</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="qq">QQ</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="flickr">Flickr</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="vkontakte">VK</string>
+    <string name="instagram">Instagram</string>
+
+
+    <string name="press_again_exit">もう1度で退出しても</string>
+    <!-- Tab界面 -->
+    <string name="alarm_clocks">目覚まし時計</string>
+    <!-- 闹铃界面 -->
+    <string name="press_right_top">右の上の  </string>
+    <string name="add_alarm_clock">  目覚まし時計を追加  </string>
+    <string name="retrieve_alarm_clock_success">削除された目覚まし時計が成功していた</string>
+    <!-- 新建编辑闹钟界面 -->
+    <string name="new_alarm_clock">新しい目覚まし時計を新しくする</string>
+    <string name="edit_alarm_clock">目覚まし時計を編集する</string>
+    <string name="repeats">繰り返し</string>
+    <string name="tag">ラベル</string>
+    <string name="default_ring">デフォルトのベル</string>
+    <string name="volume">音量</string>
+    <string name="vibrate">振動</string>
+    <string name="countdown_day_hour_minute">目覚まし時計が鳴るまで%1$d日%2$d時間%3$d分</string>
+    <string name="countdown_hour_minute">目覚まし時計が鳴るまで%1$d時間%2$d分</string>
+    <string name="countdown_minute">目覚まし時計が鳴るまで%1$d分钟</string>
+    <string name="monday">月曜日</string>
+    <string name="tuesday">火曜日</string>
+    <string name="wednesday">水曜日</string>
+    <string name="thursday">木曜日</string>
+    <string name="friday">金曜日</string>
+    <string name="saturday">土</string>
+    <string name="sunday">日曜日</string>
+    <string name="repeat_once">一度だけ鳴って</string>
+    <string name="one_h">一</string>
+    <string name="two_h">二</string>
+    <string name="three_h">三</string>
+    <string name="four_h">四</string>
+    <string name="five_h">五</string>
+    <string name="six_h">六</string>
+    <string name="day">日</string>
+    <string name="every_day">毎日</string>
+    <string name="week_day">平日</string>
+    <string name="week_end">週末</string>
+    <string name="weeks">週間</string>
+    <string name="caesura">、</string>
+
+    <!-- 铃声选择界面 -->
+
+    <!-- 闹钟响起界面 -->
+
+    <!-- 小睡编辑界面 -->
+
+    <!-- 录音 -->
+    <string name="record_fail">レコーディング失败</string>
+    <string name="record_fail_confirm">レコーディングに失敗し、録音の権限をチェックするか、またはレコーディングが他の応用に占用されているかどうかチェックして下さい</string>
+    <!-- 录音操作 -->
+    <!-- 录音详情画面 -->
+
+    <!-- 录音重命名画面 -->
+    <!-- 录音删除画面 -->
+    <!-- 录音批量删除画面 -->
+    <!-- 音频播放 -->
+    <string name="play_fail">失敗を放送する</string>
+
+    <!-- 天气 -->
+    <string name="turn">%1$s転%2$s</string>
+
+
+    <!-- 城市管理，添加城市 -->
+    <string name="city_weather_update_time">%1$s更新時間</string>
+
+
+</resources>

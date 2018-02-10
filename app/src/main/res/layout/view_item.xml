@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gv_one_selector"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_gv">
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/icon_img"
+                    android:layout_width="70dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/xiangshang"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/size_15" />
+
+                <TextView
+                    android:id="@+id/name_tv"
+                    android:layout_gravity="center"
+                    android:textColor="@color/txt_black"
+                    android:textSize="16dp"
+                    android:layout_below="@+id/icon_img"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="dsfdsfs"
+                    android:layout_marginBottom="@dimen/size_20"
+                    android:layout_marginTop="@dimen/size_10" />
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_alignParentRight="true"
+                android:layout_width="3dp"
+                android:background="@drawable/shujianxi"
+                android:layout_height="match_parent"/>
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:background="@drawable/hengjianxi"
+                android:layout_height="3dp"/>
+        </RelativeLayout>
+
+    </FrameLayout>
+</LinearLayout>

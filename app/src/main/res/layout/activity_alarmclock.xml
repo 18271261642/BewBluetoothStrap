@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/appbar_toolbar" />
+
+    <TextView
+        style="@style/MyBlackTextView"
+        android:layout_margin="@dimen/size_15"
+        android:text="@string/stop_clock" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:id="@+id/getup_linear"
+                    android:layout_width="@dimen/size_150"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/square_white_btn_change"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/getup_tag_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:text="@string/getup" />
+
+                    <TextView
+                        android:id="@+id/getuptime_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_10"
+                        android:layout_toRightOf="@+id/getup_tag_tv"
+                        android:text="08:00" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_40"
+                        android:background="@color/linear_border" />
+                </LinearLayout>
+
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/shuimian_ceshi_alsrm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_20"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:id="@+id/alarm_linear"
+                    android:layout_width="@dimen/size_150"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/square_white_btn_change"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/alarm_tag_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:text="@string/alarmclock" />
+
+                    <TextView
+                        android:id="@+id/alarmtime_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/size_10"
+                        android:layout_toRightOf="@+id/alarm_tag_tv"
+                        android:text="08:00" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_40"
+                        android:background="@color/linear_border" />
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/alarm_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_20"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/linear_border" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:id="@+id/other_linear"
+                    android:layout_width="@dimen/size_150"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/square_white_btn_change"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/other_tag_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_15"
+                        android:text="@string/other" />
+
+                    <TextView
+                        android:id="@+id/othertime_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_10"
+                        android:layout_toRightOf="@+id/other_tag_tv"
+                        android:text="08:00" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/size_40"
+                        android:background="@color/linear_border" />
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/other_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size_20"
+                    android:checked="false" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/addalarm_btn"
+        style="@style/match_btn"
+        android:layout_margin="@dimen/size_40"
+        android:background="@drawable/yellow_btn_selector"
+        android:text="@string/save" />
+
+</LinearLayout>

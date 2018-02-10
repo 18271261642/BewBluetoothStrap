@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bozhilun.android.h9.utils.Device_Time_Activity">
+
+    <include layout="@layout/b18i_titil_bar" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/size_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/size_5">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lines="1"
+            android:padding="@dimen/size_15"
+            android:text="@string/now_times"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/text_nowtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="2017-12-15 12:36:32"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/size_5">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lines="1"
+            android:padding="@dimen/size_15"
+            android:text="@string/device_times"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/text_devicetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:lines="1"
+            android:text="2017-12-16 12:36:32"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_get_deviceTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_5"
+        android:background="#4dddff"
+        android:lines="1"
+        android:text="@string/get_device_times"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/text_goto_coorectionTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:lines="1"
+        android:padding="@dimen/size_5"
+        android:text="@string/correct_pointer_times"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_size_14" />
+
+</LinearLayout>

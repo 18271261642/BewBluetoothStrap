@@ -1,0 +1,4 @@
+include ':app', ':wheelpicker', ':h_ble', ':cameraLibrary', ':dfu', ':daemons', ':litepals', ':SwipeBackLayouts', ':circleviewprogress'
+project(':daemons').projectDir = new File('daemon')
+project(':litepals').projectDir = new File('litepal')
+project(':SwipeBackLayouts').projectDir = new File('SwipeBackLayout')

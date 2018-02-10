@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_takepictures">
+
+    <item
+        android:id="@+id/share_kongjian"
+        android:icon="@mipmap/kongjian"
+        android:title="@string/kongjian" />
+    <item
+        android:id="@+id/share_weixin"
+        android:icon="@mipmap/weixin"
+        android:title="@string/wechat_freinds" />
+    <item
+        android:id="@+id/share_qq"
+        android:icon="@mipmap/qq"
+        android:title="@string/qq" />
+
+    <item
+        android:id="@+id/share_pengyouquan"
+        android:icon="@mipmap/pengyouquan"
+        android:title="@string/wechat_quan" />
+
+    <item
+        android:id="@+id/share_fackbook"
+        android:icon="@mipmap/f"
+        android:title="@string/fack_book" />
+
+    <item
+        android:id="@+id/share_twitter"
+        android:icon="@mipmap/t"
+        android:title="@string/twitter" />
+
+</menu>
